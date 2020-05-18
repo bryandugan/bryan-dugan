@@ -2,86 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45769579-07c1-4e2a-a991-b545a046e830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/authors/bryan-dugan.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/3.styles.f696a188.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/files/Bryan-Dugan_Resume.dc598d183e74981ce00b1e3e9629f75b.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-100.191cc9f5.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-100.37031846.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-100italic.bdeaeb79.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-100italic.ecf7d493.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-200.1fc98e12.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-200.85d5ef9d.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-200italic.49095760.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-200italic.fe46cf8b.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-300.7c3daf12.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-300.8dc95fab.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-300italic.3fe16939.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-300italic.f20b178c.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-400.8102c483.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-400.bc3aa95d.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-400italic.5cad6504.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-400italic.d191f22a.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-500.8b763220.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-500.92d16e45.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-500italic.47bfcca6.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-500italic.72c01f75.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-600.6fb1b562.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-600.7c839d15.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-600italic.60789af1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-600italic.f3d4de8d.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-700.39d93cf6.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-700.80f10bd3.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-700italic.8c98142b.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-700italic.ba136d97.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-800.9a9befcf.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-800.b7018be9.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-800italic.540ffdd2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-800italic.897086f9.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-900.26d42c94.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-900.58cd7897.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-900italic.451157bc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/montserrat-latin-900italic.a8ec4957.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/app.0dc82c11.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/app.4c563a2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/app.5b315478.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/page--node-modules--gridsome--app--pages--404-vue.8cd9e5dd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/page--src--pages--index-vue.13261c5f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/page--src--pages--index-vue.ad601886.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/page--src--pages--index-vue.f983b772.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/favicon.1539b60.9b388c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/favicon.62d22cb.9b388c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/favicon.7b22250.9b388c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/favicon.ac8d93a.9b388c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/favicon.b9532cc.9b388c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/favicon.ce0531f.9b388c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/favicon.dc0cdc5.9b388c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/favicon.f22e9f3.9b388c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/static/logo.6db6874.35bbf43.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -148,10 +72,10 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="338" y="160" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1589831197531" />
-    <state x="827" y="392" width="600" height="538" key="find.popup" timestamp="1589832773044">
+    <state x="827" y="392" width="600" height="538" key="find.popup" timestamp="1589833478492">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="827" y="392" width="600" height="538" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1589832773044" />
+    <state x="827" y="392" width="600" height="538" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1589833478492" />
     <state x="513" y="235" key="run.anything.popup" timestamp="1589750558698">
       <screen x="0" y="23" width="1680" height="979" />
     </state>

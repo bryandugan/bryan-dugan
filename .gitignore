@@ -3,6 +3,5 @@
 .vscode
 src/.temp
 node_modules
-dist
 static/feed.xml
 .DS_Store
