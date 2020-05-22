@@ -7,7 +7,7 @@
           <p class="text-gray-700 leading-normal">{{ $page.tag.belongsTo.totalCount }} posts in total</p>
           <h1 class="text-4xl sm:text-5xl md:text-6xl font-sans font-bold mb-2 capitalize">{{ titleCase($page.tag.title)
             }}</h1>
-          <svg class="w-5 sm:w-6 fill-current text-gray-500 mx-auto mb-1" xmlns="http://www.w3.org/2000/svg"
+          <svg class="w-5 sm:w-6 fill-current text-gray-600 mx-auto mb-1" xmlns="http://www.w3.org/2000/svg"
                viewBox="0 0 20 20" role="img" aria-labelledby="tagIcon"><title id="tagIcon">Posts tagged</title>
             <path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
           </svg>
@@ -61,8 +61,8 @@
           {name: "twitter:card", content: "summary_large_image"},
           {name: "twitter:title", content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`},
           {name: "twitter:description", content: `Browse posts tagged "${this.titleCase(this.$page.tag.title)}"`},
-          {name: "twitter:site", content: "@cossssmin"},
-          {name: "twitter:creator", content: "@cossssmin"},
+          {name: "twitter:site", content: "@bryandugan"},
+          {name: "twitter:creator", content: "@bryandugan"},
           {name: "twitter:image", content: this.ogImageUrl},
         ],
       }

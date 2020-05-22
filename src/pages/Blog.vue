@@ -1,21 +1,23 @@
 <template>
-  <Layout class="bg-white">
-    <main>
-      <header>
-        <Header/>
-      </header>
+  <layout class="bg-white flex h-screen flex-col">
+    <header>
+      <Header/>
+    </header>
+    <main class="flex-1">
       <section>
         <post-item v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
       </section>
       <pagination :info="$page.posts.pageInfo" v-if="$page.posts.pageInfo.totalPages > 1"/>
-      <site-footer class="py-8 sm:py-16"/>
     </main>
-  </Layout>
+    <footer>
+      <Footer/>
+    </footer>
+  </layout>
 </template>
 
 <script>
   import config from '~/.temp/config.js'
-  import SiteFooter from '@/components/Footer'
+  import Footer from '@/components/Footer'
   import PostItem from '@/components/PostItem'
   import Pagination from '@/components/Pagination'
   import Header from '@/components/Header'
@@ -25,7 +27,7 @@
     components: {
       PostItem,
       Pagination,
-      SiteFooter,
+      Footer,
       Header
     },
     metaInfo() {

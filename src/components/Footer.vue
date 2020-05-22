@@ -1,9 +1,33 @@
 <template>
   <footer>
-    <div class="bg-white">
+    <div class="bg-black">
+      <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="text-lg mb-3 uppercase text-gray-100">
+          Have a Project in mind?
+        </div>
+        <div>
+          <a class="text-3xl mb-10 font-bold leading-none text-gray-100 hover:text-gray-400"
+             href="mailto:bryan@bryandugan.com?subject=Let's%20build%20something%20together">Let's Build something
+            together.</a>
+        </div>
+      </div>
       <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div class="flex justify-center md:order-2">
-          <a href="https://instagram.com/bryan.dugan" target="_blank" class="ml-6 text-gray-400 hover:text-gray-500">
+          <a href="https://twitter.com/bryandugan" target="_blank" class="ml-6 text-gray-100 hover:text-gray-400">
+            <span class="sr-only">Twitter</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/bryandugan" target="_blank" class="ml-6 text-gray-100 hover:text-gray-400">
+            <span class="sr-only">LinkedIn</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 448 512">
+              <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+            </svg>
+          </a>
+          <a href="https://instagram.com/bryan.dugan" target="_blank" class="ml-6 text-gray-100 hover:text-gray-400">
             <span class="sr-only">Instagram</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
               <path fill-rule="evenodd"
@@ -11,14 +35,7 @@
                     clip-rule="evenodd"/>
             </svg>
           </a>
-          <a href="https://twitter.com/bryandugan" target="_blank" class="ml-6 text-gray-400 hover:text-gray-500">
-            <span class="sr-only">Twitter</span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/>
-            </svg>
-          </a>
-          <a href="https://github.com/bryandugan" target="_blank" class="ml-6 text-gray-400 hover:text-gray-500">
+          <a href="https://github.com/bryandugan" target="_blank" class="ml-6 text-gray-100 hover:text-gray-400">
             <span class="sr-only">GitHub</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
               <path fill-rule="evenodd"
@@ -28,8 +45,10 @@
           </a>
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
-          <p class="text-center text-base leading-6 text-gray-400">
-            &copy;{{ new Date().getFullYear() }} Bryan Dugan. All rights reserved.
+          <p class="text-center text-base leading-6 text-gray-100">
+            &copy;{{ new Date().getFullYear() }}
+            <g-link to="/">Bryan Dugan</g-link>
+            . All rights reserved.
           </p>
         </div>
       </div>

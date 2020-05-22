@@ -7,12 +7,13 @@
       <article class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16"
                :class="{'border-b border-grey-lighter pb-10 mb-16': !$page.post.author}">
 
-        <alert v-if="postIsOlderThanOneYear" class="bg-orange-100 border-l-4 border-orange-500 text-orange-900">
-          This post is over a year old, some of this information may be out of date.
-        </alert>
+<!--        <alert v-if="postIsOlderThanOneYear" class="bg-orange-100 border-l-4 border-orange-500 text-orange-900">-->
+<!--          This post is over a year old, some of this information may be out of date.-->
+<!--        </alert>-->
 
-        <div :class="{'pb-10': $page.post.author || $page.post.tags}"
-             class="markdown text-lg leading-normal text-gray-700" v-html="$page.post.content"/>
+        <div class="markdown text-lg leading-normal text-gray-700" v-html="$page.post.content"/>
+
+        <div :class="{'pb-10': $page.post.author || $page.post.tags}" class="text-sm text-gray-700 font-sm leading-normal"><strong>Note:</strong> Any links leading you to products or services are most likely affiliate links that I will receive compensation from. I only promote products or services that I own/use myself and truly feel will deliver value to you. By purchasing products or service through these links, you will help support me to keep creating awesome ad-free content.</div>
 
         <footer v-if="$page.post.author || $page.post.tags" class="flex flex-wrap pb-10 sm:pb-16">
           <div>
@@ -30,13 +31,13 @@
             <figure class="px-2 mb-1 sm:mb-0 w-full sm:w-1/5 flex justify-center">
               <g-link :to="`${$page.post.author.path}/`">
                 <img :src="avatar" :alt="$page.post.author.title" @error="imageLoadError" width="100"
-                     class="rounded-full p-4 sm:p-0">
+                     class="rounded-full mx-auto p-4 sm:p-0 h-1/3 w-1/3 md:w-full md:w-full object-cover">
               </g-link>
             </figure>
             <div class="px-4 sm:w-4/5 text-center sm:text-left">
               <h4 class="font-sans font-bold text-lg sm:text-xl mb-2 sm:mb-4">
                 <g-link :to="`${$page.post.author.path}/`"
-                        class="text-black hover:text-gray-600 capitalize border-b-2 border-transparent transition-colors duration-300">
+                        class="text-black hover:text-gray-700 capitalize border-b-2 border-transparent transition-colors duration-300">
                   {{ titleCase($page.post.author.title) }}
                 </g-link>
               </h4>
@@ -51,7 +52,7 @@
         </footer>
       </article>
 
-      <site-footer class="pb-8 sm:pb-10"/>
+     <Footer />
     </main>
   </Layout>
 </template>
@@ -61,16 +62,16 @@
   import config from '~/.temp/config.js'
   import Alert from '@/components/Alert'
   import slugify from '@sindresorhus/slugify'
-  import SiteFooter from '@/components/Footer'
-  import PostHeader from '~/components/PostHeader'
   import Header from '@/components/Header'
+  import Footer from '@/components/Footer'
+  import PostHeader from '~/components/PostHeader'
 
   export default {
     components: {
       Alert,
       PostHeader,
       Header,
-      SiteFooter,
+      Footer,
     },
     metaInfo() {
       return {
@@ -90,8 +91,8 @@
           {name: "twitter:card", content: "summary_large_image"},
           {name: "twitter:title", content: this.$page.post.title},
           {name: "twitter:description", content: this.description(this.$page.post)},
-          {name: "twitter:site", content: "@cossssmin"},
-          {name: "twitter:creator", content: "@cossssmin"},
+          {name: "twitter:site", content: "@bryandugan"},
+          {name: "twitter:creator", content: "@bryandugan"},
           {name: "twitter:image", content: this.ogImageUrl},
         ],
       }

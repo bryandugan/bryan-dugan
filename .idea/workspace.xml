@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45769579-07c1-4e2a-a991-b545a046e830" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/VSCode Essentials/VSCode Essentials.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/Vim Cheatsheet/Vim Cheatsheet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bryan-and-kelly.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/books-i-love-on-design-development-and-bettering-yourself.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Books I Love on Design, Development and Bettering yourself/Books I Love on Design, Development and Bettering yourself.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/creating-symlinks-in-osx.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Creating Symlinks in OSX/Creating Symlinks in OSX.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/runcloud-config-for-craft-cms.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Runcloud config for Craft CMS/Runcloud config for Craft CMS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/serverpilot-server-config.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Serverpilot Server Config/Serverpilot Server Config.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/setting-up-a-new-mac-for-development-with-homebrew.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Setting up a new Mac for development with Homebrew/Setting up a new Mac for development with Homebrew.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/update-sourcetree-password-on-osx.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Update Sourcetree password on OSX/Update Sourcetree password on OSX.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/upgrade-php-with-homebrew.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Update PHP with Homebrew/Update PHP with Homebrew.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/uses.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Uses/Uses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/website-launch-checklist.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Website launch checklist/Website launch checklist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/style-guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/markdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/markdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Blog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Blog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/Author.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Author.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/Post.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Post.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/Tag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Tag.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/posts/georgie-cobbs-467924-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/posts/Website_Launch_Checklist.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Website launch checklist/Website_Launch_Checklist.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -34,21 +62,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/content" />
-      <recent name="$PROJECT_DIR$/static/posts" />
-      <recent name="$PROJECT_DIR$/content/posts" />
+      <recent name="$PROJECT_DIR$/content/pages/About" />
+      <recent name="$PROJECT_DIR$/content/pages" />
+      <recent name="$PROJECT_DIR$/content/posts/Runcloud config for Craft CMS" />
+      <recent name="$PROJECT_DIR$/content/posts/Update PHP with Homebrew" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -68,14 +98,19 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="338" y="160" key="SettingsEditor" timestamp="1589831197531">
+    <state x="438" y="244" key="IDE.errors.dialog" timestamp="1589849859585">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="338" y="160" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1589831197531" />
-    <state x="827" y="392" width="600" height="538" key="find.popup" timestamp="1589833478492">
+    <state x="438" y="244" key="IDE.errors.dialog/0.23.1680.979@0.23.1680.979" timestamp="1589849859585" />
+    <state x="434" y="158" key="SettingsEditor" timestamp="1589925036572">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="827" y="392" width="600" height="538" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1589833478492" />
+    <state x="434" y="158" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1589925036572" />
+    <state x="1481" y="634" width="1075" height="891" key="find.popup" timestamp="1590185194204">
+      <screen x="0" y="23" width="3008" height="1621" />
+    </state>
+    <state x="827" y="392" width="600" height="538" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1589918375981" />
+    <state x="1481" y="634" width="1075" height="891" key="find.popup/0.23.3008.1621/3008.507.1440.877@0.23.3008.1621" timestamp="1590185194204" />
     <state x="513" y="235" key="run.anything.popup" timestamp="1589750558698">
       <screen x="0" y="23" width="1680" height="979" />
     </state>

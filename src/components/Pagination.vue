@@ -9,7 +9,7 @@
             &larr; Previous
           </g-link>
         </li>
-        <li class="hidden md:flex w-auto text-center text-gray-600 text-base">Page {{ info.currentPage }} of {{
+        <li class="hidden md:flex w-auto text-center text-gray-700 text-base">Page {{ info.currentPage }} of {{
           info.totalPages }}
         </li>
         <li class="lg:w-1/5 text-right">

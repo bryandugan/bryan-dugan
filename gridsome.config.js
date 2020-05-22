@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: 'UX designer & front-end developer',
-  siteDescription: "UX Designer & front-end web developer that builds professional websites and applications that are both elegant and functional.",
+  siteName: 'Interface designer & front-end developer',
+  siteDescription: "Interface designer & front-end web developer that builds professional websites and applications that are both elegant and functional.",
   siteUrl: 'https://bryandugan.com',
   titleTemplate: `%s | Bryan Dugan`,
   icon: 'src/favicon.png',
@@ -41,12 +41,12 @@ module.exports = {
       options: {
         collections: [
           {
-            typeName: 'Post',
-            indexName: 'Post',
-            fields: ['title', 'handle', 'description']
+            typeName: 'Posts',
+            indexName: 'Posts',
+            fields: ['title']
           }
         ],
-        searchFields: ['title']
+        searchFields: ['title', 'description', 'tags']
       }
     },
     {

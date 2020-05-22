@@ -1,4 +1,4 @@
-.markdown {
+.markdown, .about {
 
     p, ul, ol {
         @apply mb-4;
@@ -51,11 +51,9 @@
     }
 
     a {
-        @apply text-green-500 transition-colors duration-300;
-
-        &
-        :hover {
-            @apply text-green-700;
+        @apply text-green-500;
+        &:hover {
+            @apply underline;
         }
 
     }
@@ -109,6 +107,21 @@
         @apply h-px bg-gray-300 my-8;
     }
 
+    table {
+      @apply table-auto;
+      @apply mb-4;
+      th {
+        @apply px-4 py-2;
+      }
+      td {
+        @apply border px-4 py-2;
+      }
+      tbody {
+        tr:nth-child(even) {
+          @apply bg-gray-100;
+        }
+      }
+    }
 }
 
 @screen sm {
@@ -142,15 +155,13 @@
 
 .post-cover {
 
-    &
-    ::after {
+    &::after {
         @apply absolute w-full h-48 left-0 bottom-0 z-0;
         content: '';
         background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, .5) 100%);
     }
 
-    &
-    .fullscreen::after {
+    &.fullscreen::after {
         @apply h-full;
         background: rgba(0, 0, 0, .15);
     }
