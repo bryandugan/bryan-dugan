@@ -43,7 +43,7 @@ module.exports = {
           {
             typeName: 'Posts',
             indexName: 'Posts',
-            fields: ['title']
+            fields: ['title', 'description', 'tags']
           }
         ],
         searchFields: ['title', 'description', 'tags']
