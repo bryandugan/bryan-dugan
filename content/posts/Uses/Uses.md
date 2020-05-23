@@ -11,7 +11,7 @@ fullscreen: false
 
 Hello! I'm Bryan Dugan, a UI designer and front-end web developer based out of Rochester Hills, Michigan.
 
-This is where I will keep my most up to date setup for anyone that is curious or just getting started in UI Design and/or Web Development and would like to see what tools other designers/developers use.
+This is where I will keep my most up to date setup for anyone curious or just getting started in UI Design and/or Web Development and would like to see what tools other designers/developers use.
 
 ## Design/Development Applications
 
