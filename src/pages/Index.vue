@@ -46,9 +46,8 @@
         </div>
       </div>
       <div class="layout max-w-screen-xl mx-auto pt-12 pb-20 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
-        <div class="content w-full md:w-11/12 lg:w-1/2">
-          <div class="flex mb-4">
-            <div class="w-1/2">
+        <div class="content flex w-full md:w-11/12 lg:w-1/2">
+            <div class="w-1/2 pr-2 md:pr-0">
               <ul class="text-gray-700 leading-loose md:pr-8">
                 <li>Interface Design</li>
                 <li>User Experience (UX)</li>
@@ -59,7 +58,7 @@
                 <li>Presentations</li>
               </ul>
             </div>
-            <div class="w-1/2">
+            <div class="w-1/2 pl-2 md:pr-0">
               <ul class="text-gray-700 leading-loose md:pr-8">
                 <li>Information Architecture</li>
                 <li>Responsive Design</li>
@@ -70,7 +69,6 @@
                 <li>Inbound Marketing</li>
               </ul>
             </div>
-          </div>
         </div>
       </div>
     </main>
