@@ -10,7 +10,7 @@
         </svg>
       </div>
       <input @focusin="isOpen = !isOpen" @focusout="isOpen = false" id="search" v-model="searchTerm"
-             class="input block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg  text-sm leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:border-green-500 focus:shadow-outline-green transition duration-150 ease-in-out"
+             class="input block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:border-green-500 focus:shadow-outline-green transition duration-150 ease-in-out"
              placeholder="Search" type="search"/>
     </div>
     <ul v-if="isOpen" class="absolute w-full pt-2 pb-4 shadow-md text-xs bg-white rounded-lg border-0">

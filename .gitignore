@@ -1,6 +1,7 @@
 *.log
 .cache
 .vscode
+.idea/
 src/.temp
 node_modules
 static/feed.xml

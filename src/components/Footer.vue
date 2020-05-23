@@ -7,7 +7,7 @@
         </div>
         <div>
           <a class="text-3xl mb-10 font-bold leading-none text-gray-100 hover:text-gray-400"
-             href="mailto:bryan@bryandugan.com?subject=Let's%20build%20something%20together">Let's Build something
+             href="mailto:bryan@bryandugan.com?subject=Let's%20build%20something%20together">Let's build something
             together.</a>
         </div>
       </div>
