@@ -9,13 +9,13 @@
                 clip-rule="evenodd"/>
         </svg>
       </div>
-      <input @focusin="isOpen = !isOpen" @focusout="isOpen = false" id="search" v-model="searchTerm"
+      <input @focusin="searchOpen = !searchOpen" @focusout="searchOpen = false" id="search" v-model="searchTerm"
              class="input block w-full pl-10 pr-3 py-2 border bg-gray-200 border-gray-300 rounded-lg leading-5 placeholder-gray-500 text-gray-600 focus:outline-none focus:bg-white focus:placeholder-gray-500 focus:border-green-500 focus:shadow-outline-green transition duration-150 ease-in-out"
-             placeholder="Search" type="search"/>
+             placeholder="Search" type="text"/>
 <!--      Debugger for search results-->
-      {{ searchResults }}
+<!--      {{ searchResults }}-->
     </div>
-    <ul v-if="isOpen" class="absolute w-full pt-2 pb-4 shadow-md text-xs bg-white rounded-b-lg border-0">
+    <ul v-if="searchOpen" class="absolute w-full pt-2 pb-4 shadow-md text-xs bg-white rounded-b-lg border-0">
       <li>
         <g-link
           v-for="result in searchResults"
@@ -33,18 +33,15 @@
     export default {
       name: "Search",
       data: () => ({
-        isOpen: false,
-        searchTerm: ''
+        searchTerm: '',
+        searchOpen: false
       }),
       computed: {
         searchResults () {
           const searchTerm = this.searchTerm
           if (searchTerm.length < 3) return []
           return this.$search.search({ query: searchTerm, limit: 5 })
-        },
-        // isEmpty () {
-        //   return searchResults.count === 0
-        // }
+        }
       }
     }
 </script>

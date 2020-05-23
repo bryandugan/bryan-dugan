@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-white shadow">
-    <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+    <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 py-2">
       <div class="flex justify-between">
         <div class="flex px-2 lg:px-0">
           <div class="flex-shrink-0 flex items-center">
@@ -31,46 +31,17 @@
           </div>
         </div>
         <div class="flex-1 flex px-2 py-4 lg:ml-6 lg:justify-end">
-          <div class="relative max-w-lg w-full lg:max-w-xs">
-            <label for="search" class="sr-only">Search</label>
-            <div class="relative">
-              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <svg class="h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd"
-                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                        clip-rule="evenodd"/>
-                </svg>
-              </div>
-              <input @focusin="isOpen = !isOpen" @focusout="isOpen = false" id="search" v-model="searchTerm"
-                     class="input block w-full pl-10 pr-3 py-2 border bg-gray-200 border-gray-300 rounded-lg leading-5 placeholder-gray-500 text-gray-600 focus:outline-none focus:bg-white focus:placeholder-gray-500 focus:border-green-500 focus:shadow-outline-green transition duration-150 ease-in-out"
-                     placeholder="Search" type="search"/>
-              <!--      Debugger for search results-->
-              {{ searchResults }}
-            </div>
-            <ul v-if="isOpen" class="absolute w-full pt-2 pb-4 shadow-md text-xs bg-white rounded-b-lg border-0">
-              <li>
-                <g-link
-                  v-for="result in searchResults"
-                  :key="result.id"
-                  :to="result.path"
-                  class="block px-4 py-2 text-gray-700 hover:bg-green-800 hover:text-white">
-                  {{ result.title }}
-                </g-link>
-              </li>
-            </ul>
-          </div>
+          <Search />
         </div>
         <div class="flex items-center lg:hidden">
           <!-- Mobile menu button -->
-          <button @click="isOpen = !isOpen"
-                  class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-600 transition duration-150 ease-in-out rounded-lg"
-                  aria-label="Main menu" aria-expanded="false">
-            <svg :class="isOpen ? 'hidden' : 'block'" class="block h-6 w-6" stroke="currentColor" fill="none"
-                 viewBox="0 0 24 24">
+          <button @click="navOpen = !navOpen"
+            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-600 transition duration-150 ease-in-out rounded-lg"
+            aria-label="Main menu" aria-expanded="false">
+            <svg :class="navOpen ? 'hidden' : 'block'" class="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
             </svg>
-            <svg :class="isOpen ? 'block' : 'hidden'" class="h-6 w-6" stroke="currentColor" fill="none"
-                 viewBox="0 0 24 24">
+            <svg :class="navOpen ? 'block' : 'hidden'" class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
             </svg>
           </button>
@@ -78,7 +49,7 @@
       </div>
     </div>
 
-    <div :class="isOpen ? 'block' : 'hidden'" class="lg:hidden border-gray-300 border-t bg-gray-100 shadow-inner">
+    <div :class="navOpen ? 'block' : 'hidden'" class="lg:hidden border-gray-300 border-t bg-gray-100 shadow-inner">
       <div class="pt-2 pb-3">
         <g-link to="/blog/" active-class="border-green-500 hover:border-green-500 text-gray-900 hover:text-gray-900"
                 class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out">
@@ -93,7 +64,7 @@
           Uses
         </g-link>
         <a href="/files/Bryan-Dugan_Resume.pdf" target="_blank"
-           class="mt-1 block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out">
+                class="mt-1 block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out">
           Resume
         </a>
       </div>
@@ -107,12 +78,11 @@
   import Search from "@/components/Search";
 
   export default {
-    name: "Header",
     components: {
       Search
     },
     data: () => ({
-      isOpen: false,
+      navOpen: false,
     })
   }
 </script>

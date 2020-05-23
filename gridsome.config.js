@@ -41,8 +41,8 @@ module.exports = {
       options: {
         collections: [
           {
-            typeName: 'Posts',
-            indexName: 'Posts',
+            typeName: 'Post',
+            indexName: 'Post',
             fields: ['title', 'description', 'tags']
           }
         ],

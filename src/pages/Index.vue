@@ -17,7 +17,7 @@
                                                            target="_blank">Spaceray Creative.</a></p>
 
             <p class="mb-5">I design and build compelling websites and applications that are both elegant and
-              functional. Creator of custom tailored presentations and demonstrations through the means of storytelling,
+              functional. Creator of custom-tailored presentations and demonstrations through the means of storytelling,
               visual design, content, development, information architecture, user research and branding.</p>
           </div>
           <span class="inline-flex rounded-md shadow-sm">
@@ -41,7 +41,7 @@
           <h3 class="text-gray-900 lg:text-3xl md:text-2xl text-xl font-bold leading-none mb-5">What I do:</h3>
           <div class="text-gray-700">
             <p>I am an interface designer with front-end development knowledge that can take a project from pre-sales to
-              production.</p>
+              production and support.</p>
           </div>
         </div>
       </div>
