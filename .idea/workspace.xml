@@ -2,81 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45769579-07c1-4e2a-a991-b545a046e830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/assets/js/page--src--pages--about-vue.57caee2c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/js/page--src--pages--blog-vue.0f2c0567.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/js/page--src--pages--index-vue.98345b07.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/js/page--src--templates--post-vue.0a45903d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/2/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/404/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/404/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/about/2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/about/2/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/about/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/about/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/author/bryan-dugan/2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/author/bryan-dugan/2/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/author/bryan-dugan/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/author/bryan-dugan/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/blog/2/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/blog/2/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/blog/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/blog/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/books-i-love-on-design-development-and-bettering-yourself/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/books-i-love-on-design-development-and-bettering-yourself/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/creating-symlinks-in-osx/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/creating-symlinks-in-osx/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/runcloud-configuration-for-craft-cms/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/runcloud-configuration-for-craft-cms/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/serverpilot-server-configuation/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/serverpilot-server-configuation/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/setting-up-a-new-mac-for-development/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/setting-up-a-new-mac-for-development/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/books/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/books/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/design/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/design/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/development/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/development/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/gear/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/gear/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/mac osx/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/mac osx/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/misc/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/misc/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/self help/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/self help/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/servers/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/servers/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/tag/vim/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/tag/vim/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/update-sourcetree-password-on-osx/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/update-sourcetree-password-on-osx/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/upgrade-php-with-homebrew/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/upgrade-php-with-homebrew/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/uses/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/uses/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/vim-cheatsheet/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/vim-cheatsheet/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/vs-code-essentials/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/vs-code-essentials/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/data/website-launch-checklist/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/data/website-launch-checklist/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.7007b155.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.75e1288d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/page--src--pages--about-vue.da5da19e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/page--src--pages--blog-vue.bb11188d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/page--src--pages--index-vue.1bcd0d75.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/page--src--templates--author-vue.42eb44db.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/page--src--templates--author-vue.e0463dea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/page--src--templates--post-vue.f9e06c0d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/page--src--templates--tag-vue.f9f13b6e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/page--src--templates--tag-vue.04a97d5f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/author/bryan-dugan/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/author/bryan-dugan/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/author/bryan-dugan/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/author/bryan-dugan/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/books-i-love-on-design-development-and-bettering-yourself/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/books-i-love-on-design-development-and-bettering-yourself/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/creating-symlinks-in-osx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/creating-symlinks-in-osx/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runcloud-configuration-for-craft-cms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/runcloud-configuration-for-craft-cms/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/serverpilot-server-configuation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/serverpilot-server-configuation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/setting-up-a-new-mac-for-development/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setting-up-a-new-mac-for-development/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/books/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/design/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/development/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/development/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/gear/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/gear/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/mac osx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/mac osx/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/misc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/misc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/self help/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/self help/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/servers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/servers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/vim/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tag/vim/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/update-sourcetree-password-on-osx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/update-sourcetree-password-on-osx/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/upgrade-php-with-homebrew/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/upgrade-php-with-homebrew/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uses/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uses/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vim-cheatsheet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vim-cheatsheet/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vs-code-essentials/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vs-code-essentials/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/website-launch-checklist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/website-launch-checklist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -29,7 +29,7 @@
 
 <script>
     export default {
-        name: "Search",
+      name: "Search",
       data: () => ({
         isOpen: false,
         searchTerm: ''

@@ -86,7 +86,6 @@
     },
     data: () => ({
       isOpen: false,
-      searchTerm: ''
     })
   }
 </script>
