@@ -1,7 +1,7 @@
 <template>
   <div class="relative max-w-lg w-full lg:max-w-xs">
     <label for="search" class="sr-only">Search</label>
-    <div class="relative">
+    <div @click="searchOpen = !searchOpen" class="relative">
       <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
         <svg class="h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
           <path fill-rule="evenodd"
@@ -9,13 +9,14 @@
                 clip-rule="evenodd"/>
         </svg>
       </div>
-      <input @focusin="searchOpen = !searchOpen" @focusout="searchOpen = false" id="search" v-model="searchTerm"
-             class="input block w-full pl-10 pr-3 py-2 border bg-gray-200 border-gray-300 rounded-lg leading-5 placeholder-gray-500 text-gray-600 focus:outline-none focus:bg-white focus:placeholder-gray-500 focus:border-green-500 focus:shadow-outline-green transition duration-150 ease-in-out"
+      <input id="search" v-model="searchTerm"
+             class="input block w-full pl-10 pr-3 py-2 border bg-gray-200 border-gray-300 rounded-lg leading-5 placeholder-gray-500 text-gray-600 focus:outline-none focus:bg-white focus:placeholder-gray-500 focus:shadow-outline-green focus:rounded-b-none transition duration-150 ease-in-out"
              placeholder="Search" type="text"/>
 <!--      Debugger for search results-->
 <!--      {{ searchResults }}-->
     </div>
-    <ul v-if="searchOpen" class="absolute w-full pt-2 pb-4 shadow-md text-xs bg-white rounded-b-lg border-0">
+    <button v-if="searchOpen && searchResults.length" @click="searchOpen = false" class="fixed top-0 right-0 bottom-0 left-0 bg-transparent w-full h-full cursor-default"></button>
+    <ul v-if="searchOpen && searchResults.length" class="absolute w-full pt-2 pb-4 shadow-md text-xs bg-white rounded-lg border-0">
       <li>
         <g-link
           v-for="result in searchResults"

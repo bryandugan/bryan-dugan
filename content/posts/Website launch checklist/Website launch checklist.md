@@ -4,7 +4,7 @@ description: "The checklist that I personally use each time I launch a new websi
 slug: website-launch-checklist
 date: 2018-05-18
 author: bryan-dugan
-tags: ['development']
+tags: ['business', 'development']
 ---
 
 While building a website, it's extremely easy to overlook small details. Here is the checklist that I personally use each time I launch a new website. Feel free to modify this list to your liking.

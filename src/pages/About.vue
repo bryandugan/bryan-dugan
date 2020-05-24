@@ -34,7 +34,7 @@
             traveling, collecting vinyl records, couch co-op video games, board games, ice hockey, hiking and camping.
           </p>
 
-          <g-image src="/images/bryan-and-kelly.jpg" class="w-auto rounded-lg mt-8" alt="Bryan & Kelly"/>
+          <g-image src="/images/bryan-dugan-and-kelly-halloran.jpg" class="w-auto rounded-lg mt-8" alt="Bryan Dugan & Kelly Halloran"/>
         </div>
       </div>
     </main>
