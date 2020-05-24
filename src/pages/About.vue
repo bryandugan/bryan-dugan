@@ -6,7 +6,7 @@
     <main class="flex-1">
       <div class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16 pb-20">
         <div class="about text-lg leading-normal text-gray-700">
-          <p>Hey, I'm Bryan Dugan</p>
+          <h1>Hey, I'm Bryan Dugan</h1>
 
           <h2>Introduction</h2>
 
@@ -82,7 +82,7 @@
         return config
       },
       ogImageUrl() {
-        return `${this.config.siteUrl}/images/sharing-card.png`
+        return `${this.config.siteUrl}/images/bryan-dugan-and-kelly-halloran.jpg`
       }
     },
   }
