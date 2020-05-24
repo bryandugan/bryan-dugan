@@ -6,6 +6,7 @@
     <main class="flex-1">
       <div class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16 pb-20">
         <div class="about text-lg leading-normal text-gray-700">
+          <g-image src="/images/bryan-dugan-8bit.jpg" class="mx-auto rounded-lg mt-8 w-40" alt="Bryan Dugan"/>
           <h1>Hey, I'm Bryan Dugan</h1>
 
           <h2>Introduction</h2>
@@ -20,6 +21,8 @@
 
           <p>I'm always learning about new technologies and trying out new applications or frameworks for each
             individual project's needs.</p>
+
+          <g-image src="/images/bryan-dugan.jpg" class="rounded-lg mt-8 w-auto" alt="Bryan Dugan"/>
 
           <h2>A little more...</h2>
 
