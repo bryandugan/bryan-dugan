@@ -4,7 +4,7 @@ description: "Need to update PHP for use with your local development stack? This
 slug: upgrade-php-with-homebrew
 date: 2019-08-12
 author: bryan-dugan
-tags: ['']
+tags: ['development']
 ---
 
 Need to update PHP for use with your local development stack? This short guide will run you through how to do just that, as well as upgrading your PHP version in Laravel Valet.
@@ -42,7 +42,7 @@ Zend Engine v3.1.0, Copyright (c) 1998-2018 Zend Technologies
 with Zend OPcache v7.1.30, Copyright (c) 1999-2018, by Zend Technologies`
 ```
 
-Unlink your old PHP version from brew by typing the old PHP version minus the minor update number. (In this example's case we are using PHP 7.1.30, so we would use PHP 7.1)
+Unlink your old PHP version from brew by typing the old PHP version minus the minor update number. (In this example's case we are using PHP `7.1.30`, so we would use PHP `7.1`)
 
 ```bash
 brew unlink php@7.1
@@ -129,8 +129,6 @@ upload_max_filesize = 128M
 ;Sets max size of post data allowed. This setting also affects file upload. To upload large files, this value must be larger than upload_max_filesize
 post_max_size = 128M
 ```
-
----
 
 ## Upgrading Valet
 

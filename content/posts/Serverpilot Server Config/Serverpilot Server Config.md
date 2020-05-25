@@ -10,6 +10,7 @@ tags: ['hosting', 'servers', 'serverpilot']
 This is a list of all the configuration changes I made to my Digital Ocean/ServerPilot server.
 
 ## Installed Applications
+I have installed the Auto MySql Backup, Imagick and Zip/Unzip applications to the server. Refer to the instructions below on how to install them yourself.
 
 ### Auto MySQL Backup
 
@@ -73,7 +74,7 @@ vim /etc/mysql/my.cnf
 
 **Note:** There was two places that need changing in the `my.cnf` file
 
-```
+```text
 max_allowed_packed = 32M
 ```
 

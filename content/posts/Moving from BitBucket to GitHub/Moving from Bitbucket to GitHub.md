@@ -7,7 +7,7 @@ author: bryan-dugan
 tags: ['development']
 ---
 
-Now that GitHub has free private repositories, I have decided to transfer about 30 code repositories from Bitbucket over to GitHub. Moving from Bitbucket to GitHub is a bit of a time consuming task. But once you get the first repository transferred, the process should become quicker each time you do it. It took me about a day to get all my repositories transferred, so if you're looking for a great rainy day project, this would be it.
+Now that GitHub has free private repositories, I have decided to transfer about 30 code repositories from Bitbucket over to GitHub. Moving from Bitbucket to GitHub is a bit of a time-consuming task. But once you get the first repository transferred, the process should become quicker each time you do it. It took me about a day to get all my repositories transferred, so if you're looking for a great rainy day project, this would be it.
 
 ## Getting started
 
@@ -50,7 +50,7 @@ You'll need to generate a personal access token on the GitHub website at `settin
 
 Now that your repository is successfully migrated over to Github, don't forget to remove the old repository from Bitbucket.
 
-In Bitbucket, open your repository, and go to **`Settings > Delete repository` and delete the repository.
+In Bitbucket, open your repository, and go to `Settings > Delete repository` and delete the repository.
 
 While deleting the Bitbucket repository, Bitbucket will ask you if you would like to set up a redirect. If you work with other developers on the project, it's highly recommended that you set up the redirect over to the new GitHub repository.
 
