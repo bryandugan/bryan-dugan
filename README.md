@@ -2,8 +2,18 @@
 
 > The portfolio and blog for Bryan Dugan built with Tailwind.css and Gridsome.
 
+The Blog portion of this website is built off of the [Bleda](https://github.com/cossssmin/gridsome-starter-bleda) theme for Gridsome.
+
 ## Development
 
-Run `gridsome develop` to start a local development server, or `gridsome build` to build the static site into the `dist` folder.
+Local Development
+```bash
+gridsome develop
+```
 
-See the [Gridsome docs](https://gridsome.org/docs) for more information.
+Build static site into `dist` folder
+```bash
+gridsome build
+```
+
+Refer to the [Gridsome docs](https://gridsome.org/docs) for more information.
