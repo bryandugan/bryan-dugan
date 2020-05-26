@@ -7,15 +7,15 @@ author: bryan-dugan
 tags: ['development', 'apps', 'vscode']
 ---
 
-This article is a collection of everything you need to get started with using Microsoft's [Visual Studio Code](https://code.visualstudio.com/) (VSCode). This article also uses all Mac OSX shortcuts and is geared towards a front-end developer's setup.
+This article is a collection of everything you need to get started using Microsoft's [Visual Studio Code](https://code.visualstudio.com/) (VSCode). This article also uses all Mac OSX shortcuts and is geared towards a front-end developer's setup.
 
 ## Why use VSCode?
 
 Over the years as a front-end developer, I have tried and used many different code editors, from Notepad++, TextWrangler, Dreamweaver, Sublime Text, Atom, Brackets, back to Sublime Text, PHPStorm and finally to VSCode. I have been using VSCode as my primary code editor for the past 6 months and have really been enjoying how easy and intuitive it is to use.
 
-VSCode is a free code editor that runs on all major platforms. In that regard, it makes things extremely easily to get started
+VSCode is a free code editor that runs on all major platforms. In that regard, it makes things extremely easy to get started
 
-> It doesn't matter which code editor you use, as long as you're proficient in it and **YOU** enjoy using it. What works for for everyone else might not work for you.
+> It doesn't matter which code editor you use, as long as you're proficient in it and **YOU** enjoy using it. What works for everyone else might not work for you.
 
 ---
 
@@ -104,7 +104,7 @@ Kleber Silva
 
 ## Extensions
 
-One of the things that makes Visual Studio Code so powerful is it's use of extensions. You can customize your editor to have as many extensions as you need. Below is a list of extensions that I have installed and use on a regular basis.
+One of the things that make Visual Studio Code so powerful is its use of extensions. You can customize your editor to have as many extensions as you need. Below is a list of extensions that I have installed and use on a regular basis.
 
 ### Angular Language Service
 

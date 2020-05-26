@@ -7,7 +7,7 @@ author: bryan-dugan
 tags: ['development']
 ---
 
-Normally, I use Bitbucket and Sourcetree for versioning my code. If you've reset your password in Bitbucket or another Git client, you'll get an error or a prompt for your password every single time you try to connect to a project.
+I use Bitbucket and Sourcetree for versioning my code. If you've reset your password in Bitbucket or another Git client, you'll get an error or a prompt for your password every single time you try to connect to a project.
 
 In order to get Sourcetree to remember your password, you will have to delete your user profile, then re-connect to a repository. Below is a quick reference on how to get you back up and running.
 

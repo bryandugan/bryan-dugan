@@ -49,19 +49,19 @@ This is where I will keep my most up to date setup for anyone curious or just ge
 
 - I currently use a 15-inch late-2013 Macbook Pro.
 - I use the [Samsung U32J590UQN 32″ 4k Monitor](https://amzn.to/3ghi98Q) as my primary monitor. It's a wonderful large budget 4k monitor for basic design work and web development.
-- To the right of the primary monitor I keep my Macbook Display opened and use it as a secondary display. I use the [Rain mStand](https://amzn.to/2XpXfMb) in space gray to prop up the laptop.
+- To the right of the primary monitor, I keep my Macbook Display opened and use it as a secondary display. I use the [Rain mStand](https://amzn.to/2XpXfMb) in space gray to prop up the laptop.
 - After using the external Apple Trackpad for about the last five years, I recently switched back to using a mouse. I have the [Logitech g502](https://amzn.to/2LXgZ4C) along with the [Steelseries QcK Medium](https://www.amazon.com/SteelSeries-QcK-Cloth-Gaming-Mouse/dp/B000UEZ36W/ref=sr_1_2?crid=1IN3O6QU2K3JH&keywords=steelseries%2Bqck&qid=1571695695&sprefix=steelseries%2B%2Caps%2C162&sr=8-2&th=1) which is one of my favorite simplistic mousepads of all time.
 - I use an older [Apple Bluetooth Keyboard](https://amzn.to/36yJtes) from 2013 that takes two AA batteries.
-- For file storage and backups I use a [Synology DS213](https://amzn.to/2XlRrTU) with two [6TB Western Digital Red](https://amzn.to/3ghXIIN) hard drives that are mirrored. I have it setup so every night, it backs up whatever new data there is from Google Drive.
+- For file storage and backups I use a [Synology DS213](https://amzn.to/2XlRrTU) with two [6TB Western Digital Red](https://amzn.to/3ghXIIN) hard drives that are mirrored. I have it set up so every night, it backs up whatever new data there is from Google Drive.
 - I absolutely love the [Apple Airpods](https://amzn.to/3ghXIIN). I use them throughout the day for listening to music, while on conference calls and going to the gym.
 
 
 ## Other Gear
 
-- The desk that I currently use is the [Autonomous SmartDesk 2, Business Edition](https://www.autonomous.ai/standing-desks/smartdesk-2-business?option1=1&option2=5&option16=37&option17=41) with the Walnut Top 53"x29" Classic, Black Platform and cable tray. It's a good desk for it's price point, though the top is starting to scuff just after a year of usage. I might look into making a custom top for it in the future.
-- My office chair is an [Autonomous Ergochair](https://www.autonomous.ai/office-chairs/ergonomic-chair). It's a decent chair for it's price point, although I'd love to upgrade to a Herman Miller Aeron in the future.
+- The desk that I currently use is the [Autonomous SmartDesk 2, Business Edition](https://www.autonomous.ai/standing-desks/smartdesk-2-business?option1=1&option2=5&option16=37&option17=41) with the Walnut Top 53"x29" Classic, Black Platform, and cable tray. It's a good desk for its price point, though the top is starting to scuff just after a year of usage. I might look into making a custom top for it in the future.
+- My office chair is an [Autonomous Ergochair](https://www.autonomous.ai/office-chairs/ergonomic-chair). It's a decent chair for its price point, although I'd love to upgrade to a Herman Miller Aeron in the future.
 - The [Canon T5i](https://amzn.to/2Xrgcy8) is the perfect mix of price to performance. The camera is an older model, but perfect for doing any general product photography.
 - The backpack I use is the [OGIO Renegade 17″ Backpack](https://amzn.to/3eeEdiv). Every pocket of the backpack is extremely well thought out. I'm a huge fan of OGIO products and I also use their gym bag, and a golf bag from them as well.
-- I currently use the iPhone XS. I only update my phone if it's completely necessary. Usually a phone will last me 4-5 years before it's time for it to be replaced.
+- I currently use the iPhone XS. I only update my phone if it's completely necessary. Usually, a phone will last me 4-5 years before it's time for it to be replaced.
 - I absolutely love [Baron Fig Notebooks](https://www.baronfig.com/). To me, they are the perfect size for jotting down notes and general usage.
-- I'm not huge into home automation, but I am obsessed with [Phillips Hue Bulbs](https://amzn.to/2LWbq6w), my home/office is decked out with the bulbs, play bars, light strips and wall switches.
+- I'm not huge into home automation, but I am obsessed with [Phillips Hue Bulbs](https://amzn.to/2LWbq6w), my home/office is decked out with the bulbs, play bars, light strips, and wall switches.

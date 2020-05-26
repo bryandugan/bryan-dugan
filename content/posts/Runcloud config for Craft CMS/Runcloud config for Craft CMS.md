@@ -12,7 +12,7 @@ If you're setting up a Craft CMS website on a [RunCloud](https://runcloud.io/r/Z
 
 ## Install Imagick on the server
 
-This is the preferred image rendering library for Craft CMS. It handles transforming images much better than the pre-installed module, GD and is highly recommended for not only Craft, but also WordPress and other popular CMS's. RunCloud offers some documentation on other common PHP modules you can obtain here: [https://runcloud.io/docs/guide/cheat-sheet/php#installing-modules](https://runcloud.io/docs/guide/cheat-sheet/php#installing-modules)
+This is the preferred image rendering library for Craft CMS. It handles transforming images much better than the pre-installed module, GD, and is highly recommended for not only Craft but also WordPress and other popular CMS's. RunCloud offers some documentation on other common PHP modules you can obtain here:[https://runcloud.io/docs/guide/cheat-sheet/php#installing-modules](https://runcloud.io/docs/guide/cheat-sheet/php#installing-modules)
 
 Start by opening up a terminal window and SSH into your server as your root user.
 
@@ -67,6 +67,6 @@ Change default max_execution_time to 300.
 
 After adjusting the settings RunCloud recommends you to rebuild the application. To do this, click on the "More" button on the top right portion of the screen and select "Rebuild web application".
 
-Repeat the Configure PHP Settings process for each application that you want to setup on the server.
+Repeat the Configure PHP Settings process for each application that you want to set up on the server.
 
-Your Runcloud server is now properly setup for use with Craft CMS! If you have any issues or additional input, feel free to leave a comment or get a hold of me on [Twitter](https://twitter.com/bryandugan)
+Your Runcloud server is now properly set up for use with Craft CMS! If you have any issues or additional input, feel free to leave a comment or get a hold of me on [Twitter](https://twitter.com/bryandugan)

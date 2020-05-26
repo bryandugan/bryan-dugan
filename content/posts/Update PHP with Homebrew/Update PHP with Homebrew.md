@@ -78,7 +78,7 @@ export PATH="/usr/local/opt/php@7.3.7/sbin:$PATH"
 
 ## Adding PHP Packages
 
-Homebrew now uses PECL for all PHP packages, you may need to re-install any packages that were previously managed with Homebrew.
+Homebrew now uses PECL for all PHP packages, you may need to reinstall any packages that were previously managed with Homebrew.
 
 To find out if you're already using PECL packages type the following command in your terminal to list out any packages that you may have installed.
 

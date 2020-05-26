@@ -11,7 +11,7 @@ This is the Homebrew Cask setup of my personal development laptop. Feel free to 
 
 ## Installing Homebrew
 
-Homebrew is a command line interface(CLI) package manager for OSX. In order to install Homebrew. Copy and paste the below command into your terminal to get started. If the below command doesn't work, take a look at the [Homebrew documentation](https://brew.sh).
+Homebrew is a command-line interface(CLI) package manager for OSX. In order to install Homebrew. Copy and paste the below command into your terminal to get started. If the below command doesn't work, take a look at the [Homebrew documentation](https://brew.sh).
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -81,6 +81,6 @@ brew install yarn
 
 ## Laravel Valet as a Local Development Server
 
-Laravel Valet is what I use as my local development server. I use it, because it's easy to setup and doesn't require running a Vagrant box or anything else too complicated. It turns your Mac into a development server by running Nginx in the background as you start your computer. My personal favorite feature, is that you can run `valet park` in your local development directory, and any folder in that directory becomes a `.test` domain. So if you have a folder called `my-website`, open your favorite browser and type in `my-website.test` and you'll be directed to your index file in the `my-website` folder.
+Laravel Valet is what I use as my local development server. I use it because it's easy to set up and doesn't require running a Vagrant box or anything else too complicated. It turns your Mac into a development server by running Nginx in the background as you start your computer. My personal favorite feature is that you can run `valet park` in your local development directory, and any folder in that directory becomes a `.test` domain. So if you have a folder called `my-website`, open your favorite browser and type in `my-website.test` and you'll be directed to your index file in the `my-website` folder.
 
 To set up Valet, I highly recommend [Jalen Davenport's absolutely wonderful guide](https://medium.com/@jalendport/running-craft-cms-3-on-laravel-valet-6df61e5193fd) on how to set up Valet. It's geared towards Craft CMS development, but the basic install is all the same for whatever type of web development you'll be doing.

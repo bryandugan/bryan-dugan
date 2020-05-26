@@ -10,7 +10,7 @@ tags: ['hosting', 'servers', 'serverpilot']
 This is a list of all the configuration changes I made to my Digital Ocean/ServerPilot server.
 
 ## Installed Applications
-I have installed the Auto MySql Backup, Imagick and Zip/Unzip applications to the server. Refer to the instructions below on how to install them yourself.
+I have installed the Auto MySql Backup, Imagick, and Zip/Unzip applications to the server. Refer to the instructions below on how to install them yourself.
 
 ### Auto MySQL Backup
 

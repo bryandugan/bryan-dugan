@@ -13,7 +13,7 @@ Now that GitHub has free private repositories, I have decided to transfer about 
 
 Start by creating a new repository on GitHub. Make sure to **NOT** check "Initialize this repository with a README". If you have accidentally created a repository with a README file, you'll have to delete the repository and create it again.
 
-Now that we have our Github repository set up, make sure your local version your Bitbucket repository is completely up to date.
+Now that we have our Github repository set up, make sure your local version of your Bitbucket repository is completely up to date.
 
 In your local bitbucket repository add the new GitHub URL by creating a new remote. In this example, let's name it upstream.
 

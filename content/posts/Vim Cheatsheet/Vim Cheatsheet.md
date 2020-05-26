@@ -9,10 +9,10 @@ tags: ['development', 'vim']
 
 A list of common Vim Shortcuts that you will be using while getting started with Vim.
 
-> **Note:** Vim is case sensitive. For Example if the command is `V` you would type `shift` + `v`.
+> **Note:** Vim is case sensitive. For Example, if the command is `V` you would type `shift` + `v`.
 
 ## The two main modes
-In Vim there are two main modes. Command mode, and insert mode. Command mode lets you modify the text and select text, where insert mode allows you to type new text.
+In Vim there are two main modes. Command mode, and insert mode. Command mode lets you modify and select text, where insert mode allows you to type new text.
 
 | Action | Command |
 | :--- | :--- |
