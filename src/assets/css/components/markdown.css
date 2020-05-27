@@ -1,5 +1,7 @@
 .markdown, .about {
-
+    img {
+      @apply rounded-lg;
+    }
     p, ul, ol {
         @apply mb-4;
     }

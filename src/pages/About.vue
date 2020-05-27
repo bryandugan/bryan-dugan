@@ -22,7 +22,7 @@
           <p>I'm always learning about new technologies and trying out new applications or frameworks for each
             individual project's needs.</p>
 
-          <g-image src="/images/bryan-dugan.jpg" class="rounded-lg mt-8 w-auto" alt="Bryan Dugan"/>
+          <g-image src="/images/bryan-dugan.jpg" class="mt-8 w-auto" alt="Bryan Dugan"/>
 
           <h2>A little more...</h2>
 
