@@ -11,13 +11,15 @@ I enjoy reading a wide variety of books to better myself. Below is a list of bo
 
 ## Design Books
 
-**[Refactoring UI](https://refactoringui.com/book/) —  Adam Wathan & Steve Schoger**
+### Refactoring UI
 
 If you're only to have one book on UI design, this is it. This digital-only book is an absolute must-read if you're a developer that's interested in learning basic UI design principles, or if you're a designer that does any work creating user interfaces. If you're a developer, this book will help you to rely less on a designer for making good design decisions. If you're a designer, this book will help you learn some elegant solutions to common UI problems and how to think a bit like a developer.
 
+Adam Wathan & Steve Schoger — [Digital Download](https://refactoringui.com/book/)
+
 **[Don’t Make Me Think Revisited](https://amzn.to/3gi39ri) — Scott Krug**
 
-An essential read for anyone that is getting started in UX. The revisited version is a must-have, as it also goes over mobile UX. Most of the concepts are simple, but it's great to go over why you make unconscious design decisions. You'll also learn quite a few great new UX concepts through this book!
+An essential read for anyone that is getting started in UX. The revisited version is a must-have, as it also goes over mobile UX. If you're new to UX or even a veteran, you'll learn quite a few great new UX concepts throughout this book!
 
 **[Draplin Design Co. Pretty Much Everything](https://amzn.to/3cZsaWl) — Aaron James Draplin**
 

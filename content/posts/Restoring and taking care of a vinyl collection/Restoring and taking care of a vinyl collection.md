@@ -7,6 +7,8 @@ author: bryan-dugan
 tags: ['vinyl', 'misc']
 ---
 
+![Restoring Vinyl Collection](./vinyl-collection.svg)
+
 Every once in a while, I like to write about something that isn't design, or development-related that I'm passionate about. If you didn't already know, I enjoy stepping away from the digital world and "going analog" any chance I can get. One of the many ways I do that, is I collect and listen to vinyl records.
 
 Recently, I inherited my parent's old vinyl collection which has been sitting in a basement untouched for around 30 years. A lot of them had a thick layer of dust on them since many weren't in sleeves and were left in the open. The collection needed a lot of love to get them restored to their old glory. When posting about the progress on Social Media, I've had a few people ask for pointers and tips. I thought it would be a great idea to write about that process and document for other people restoring their old collections.
