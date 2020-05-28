@@ -24,7 +24,7 @@
       </section>
       <pagination :base="`${$page.author.path}`" :info="$page.author.belongsTo.pageInfo"
                   v-if="$page.author.belongsTo.pageInfo.totalPages > 1"/>
-      <site-footer class="py-8 sm:py-16"/>
+      <site-footer />
     </main>
   </Layout>
 </template>

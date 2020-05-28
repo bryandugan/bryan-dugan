@@ -28,7 +28,7 @@
           </div>
           <div v-if="$page.post.author"
                class="flex flex-wrap items-center justify-center sm:justify-left border-t border-b border-gray-300 w-full mt-10 py-10 sm:px-16">
-            <figure class="px-2 mb-1 sm:mb-0 w-full sm:w-1/5 flex justify-center">
+            <figure class="px-2 mb-1 sm:mb-0 w-full h-full sm:w-1/5 flex justify-center">
               <g-link :to="`${$page.post.author.path}/`">
                 <img :src="avatar" :alt="$page.post.author.title" @error="imageLoadError" width="100"
                      class="rounded-full mx-auto p-4 sm:p-0 h-1/3 w-1/3 md:w-full md:w-full object-cover">
