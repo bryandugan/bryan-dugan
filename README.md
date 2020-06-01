@@ -4,6 +4,13 @@
 
 The Blog portion of this website is built off of the [Bleda](https://github.com/cossssmin/gridsome-starter-bleda) theme for Gridsome.
 
+## Getting Started
+
+Install Dependencies
+```bash
+yarn install
+```
+
 ## Development
 
 Local Development
