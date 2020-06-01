@@ -13,9 +13,9 @@
           </svg>
         </div>
         <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
-          <g-link to="/"
+          <g-link to="/blog"
                   class="text-sm border text-gray-900 border-gray-400 opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity duration-300">
-            &larr; Home
+            &larr; Blog
           </g-link>
         </nav>
       </header>
@@ -24,7 +24,7 @@
       </section>
       <pagination :base="`${$page.tag.path}`" :info="$page.tag.belongsTo.pageInfo"
                   v-if="$page.tag.belongsTo.pageInfo.totalPages > 1"/>
-      <site-footer class="py-8 sm:py-16"/>
+      <site-footer/>
     </main>
   </Layout>
 </template>
@@ -85,36 +85,36 @@
 
 <page-query>
   query Tag ($path: String!, $page: Int) {
-  tag (path: $path) {
-  id
-  title
-  path
-  belongsTo (page: $page, perPage: 6) @paginate {
-  totalCount
-  pageInfo {
-  totalPages
-  currentPage
-  }
-  edges {
-  node {
-  ...on Post {
-  id
-  title
-  datetime: date (format: "YYYY-MM-DD HH:mm:ss")
-  path
-  content
-  excerpt
-  description
-  timeToRead
-  author {
-  id
-  title
-  path
-  }
-  }
-  }
-  }
-  }
-  }
+    tag (path: $path) {
+      id
+      title
+      path
+      belongsTo (page: $page, perPage: 6) @paginate {
+        totalCount
+        pageInfo {
+          totalPages
+          currentPage
+        }
+        edges {
+          node {
+            ...on Post {
+              id
+              title
+              datetime: date (format: "YYYY-MM-DD HH:mm:ss")
+              path
+              content
+              excerpt
+              description
+              timeToRead
+              author {
+                id
+                title
+                path
+              }
+            }
+          }
+        }
+      }
+    }
   }
 </page-query>

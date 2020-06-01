@@ -31,17 +31,19 @@
           </div>
         </div>
         <div class="flex-1 flex px-2 py-4 lg:ml-6 lg:justify-end">
-          <Search />
+          <Search/>
         </div>
         <div class="flex items-center lg:hidden">
           <!-- Mobile menu button -->
           <button @click="navOpen = !navOpen"
-            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-600 transition duration-150 ease-in-out rounded-lg"
-            aria-label="Main menu" aria-expanded="false">
-            <svg :class="navOpen ? 'hidden' : 'block'" class="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                  class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-600 transition duration-150 ease-in-out rounded-lg"
+                  aria-label="Main menu" aria-expanded="false">
+            <svg :class="navOpen ? 'hidden' : 'block'" class="block h-6 w-6" stroke="currentColor" fill="none"
+                 viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
             </svg>
-            <svg :class="navOpen ? 'block' : 'hidden'" class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <svg :class="navOpen ? 'block' : 'hidden'" class="h-6 w-6" stroke="currentColor" fill="none"
+                 viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
             </svg>
           </button>
@@ -64,7 +66,7 @@
           Uses
         </g-link>
         <a href="/files/Bryan-Dugan_Resume.pdf" target="_blank"
-                class="mt-1 block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out">
+           class="mt-1 block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out">
           Resume
         </a>
       </div>

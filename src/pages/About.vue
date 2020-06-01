@@ -37,7 +37,8 @@
             traveling, collecting vinyl records, couch co-op video games, board games, ice hockey, hiking and camping.
           </p>
 
-          <g-image src="/images/bryan-dugan-and-kelly-halloran.jpg" class="w-auto rounded-lg mt-8" alt="Bryan Dugan & Kelly Halloran"/>
+          <g-image src="/images/bryan-dugan-and-kelly-halloran.jpg" class="w-auto rounded-lg mt-8"
+                   alt="Bryan Dugan & Kelly Halloran"/>
         </div>
       </div>
     </main>
@@ -95,47 +96,13 @@
 
 </style>
 
-<page-query>
-  query Home ($page: Int) {
-  posts: allPost (page: $page, perPage: 6) @paginate {
-  totalCount
-  pageInfo {
-  totalPages
-  currentPage
-  }
-  edges {
-  node {
-  id
-  title
-  timeToRead
-  datetime: date (format: "YYYY-MM-DD HH:mm:ss")
-  content
-  excerpt
-  description
-  path
-  cover
-  tags {
-  id
-  title
-  path
-  }
-  author {
-  id
-  title
-  path
-  }
-  }
-  }
-  }
-  }
-</page-query>
 
 <static-query>
   query {
-  metadata {
-  siteName
-  siteUrl
-  siteDescription
-  }
+    metadata {
+      siteName
+      siteUrl
+      siteDescription
+    }
   }
 </static-query>

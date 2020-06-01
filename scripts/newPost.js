@@ -18,7 +18,7 @@ title: "${title}"
 slug:
 description: ""
 date: ${postDate}
-author: bleda-gridsome
+author: bryan-dugan
 tags:
 cover:
 fullscreen: false
