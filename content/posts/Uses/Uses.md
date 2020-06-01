@@ -6,7 +6,6 @@ cover: ''
 date: 2020-05-12
 author: bryan-dugan
 tags: ['gear', 'misc']
-fullscreen: false
 ---
 
 Hello! I'm Bryan Dugan, a UI designer and front-end web developer based out of Rochester Hills, Michigan.

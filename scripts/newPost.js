@@ -21,7 +21,6 @@ date: ${postDate}
 author: bryan-dugan
 tags:
 cover:
-fullscreen: false
 ---
 `
 
