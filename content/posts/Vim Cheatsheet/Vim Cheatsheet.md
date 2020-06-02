@@ -4,6 +4,7 @@ description: "A list of common Vim Shortcuts that you will be using while gettin
 slug: vim-cheatsheet
 date: 2016-11-19
 author: bryan-dugan
+cover: ./vim-cheatsheet.png
 tags: ['development', 'vim']
 ---
 

@@ -4,6 +4,7 @@ description: "If you're setting up a Craft CMS website on a RunCloud server for 
 slug: runcloud-config-craft-cms
 date: 2020-05-03
 author: bryan-dugan
+cover: ./runcloud-config-craft-cms.png
 tags: ['hosting','servers','runcloud','craft cms']
 ---
 

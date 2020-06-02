@@ -4,6 +4,7 @@ description: "Moving from Bitbucket to GitHub is a bit of a time-consuming task.
 slug: moving-from-bitbucket-to-github
 date: 2020-05-23
 author: bryan-dugan
+cover: ./bitbucket-to-github.png
 tags: ['development']
 ---
 

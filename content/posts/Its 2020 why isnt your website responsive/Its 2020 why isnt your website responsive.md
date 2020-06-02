@@ -4,6 +4,7 @@ description: "In today's world, more and more people are on the go looking up in
 slug: its-2020-why-isnt-your-website-responsive
 date: 2020-01-22
 author: bryan-dugan
+cover: ./responsive-websites.png
 tags: ['web', 'misc']
 ---
 

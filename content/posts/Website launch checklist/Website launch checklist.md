@@ -4,6 +4,7 @@ description: "The checklist that I personally use each time I launch a new websi
 slug: website-launch-checklist
 date: 2018-05-18
 author: bryan-dugan
+cover: ./website-launch-checklist.png
 tags: ['business', 'development']
 ---
 

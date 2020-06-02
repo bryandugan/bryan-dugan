@@ -4,6 +4,7 @@ description: "This is the Homebrew Cask setup of my personal development laptop.
 slug: setting-up-a-new-mac-for-development-with-homebrew
 date: 2016-09-14
 author: bryan-dugan
+cover: ./mac-homebrew.png
 tags: ['mac osx']
 ---
 

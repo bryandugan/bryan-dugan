@@ -4,6 +4,7 @@ description: "An example website questionnaire to hand out to potential clients.
 slug: website-questionnaire
 date: 2018-02-22
 author: bryan-dugan
+cover: ./website-questionnaire.png
 tags: ['business', 'development', 'design']
 ---
 

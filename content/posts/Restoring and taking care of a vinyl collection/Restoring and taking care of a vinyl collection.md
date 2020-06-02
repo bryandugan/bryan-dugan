@@ -2,7 +2,7 @@
 title: "Restoring and taking care of a vinyl collection"
 description: "Process to restore and give new life to an inherited vinyl collection."
 slug: restoring-and-taking-care-of-a-vinyl-collection
-cover: ./vinyl-collection.svg
+cover: ./vinyl-collection.png
 date: 2020-05-26
 author: bryan-dugan
 tags: ['vinyl', 'misc']

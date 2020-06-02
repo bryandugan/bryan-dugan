@@ -4,6 +4,7 @@ description: "A list of books I love and keep a copy of on my bookshelf at all
 slug: books-i-love-on-design-development-and-bettering-yourself
 date: 2020-05-15
 author: bryan-dugan
+cover: ./books-on-design-development-and-bettering-yourself.png
 tags: ['books', 'self help', 'design', 'development']
 ---
 

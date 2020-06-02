@@ -4,6 +4,7 @@ description: "The ability to work from home is a trained skill that takes time t
 slug: staying-productive-working-from-home
 date: 2020-04-22
 author: bryan-dugan
+cover: ./work-from-home.png
 tags: ['self help', 'productivity', 'misc']
 ---
 

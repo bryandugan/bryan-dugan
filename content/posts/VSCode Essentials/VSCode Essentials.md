@@ -4,6 +4,7 @@ description: "This article is a collection of everything you need to get started
 slug: vscode-essentials
 date: 2019-11-05
 author: bryan-dugan
+cover: ./vscode-essentials
 tags: ['development', 'apps', 'vscode']
 ---
 

@@ -57,8 +57,8 @@ This is where I will keep my most up to date setup for anyone curious or just ge
 
 ## Other Gear
 
-- The desk that I currently use is the [Autonomous SmartDesk 2, Business Edition](https://www.autonomous.ai/standing-desks/smartdesk-2-business?option1=1&option2=5&option16=37&option17=41) with the Walnut Top 53"x29" Classic, Black Platform, and cable tray. It's a good desk for its price point, though the top is starting to scuff just after a year of usage. I might look into making a custom top for it in the future.
-- My office chair is an [Autonomous Ergochair](https://www.autonomous.ai/office-chairs/ergonomic-chair). It's a decent chair for its price point, although I'd love to upgrade to a Herman Miller Aeron in the future.
+- The desk that I currently use is the [Autonomous SmartDesk 2, Business Edition](https://bit.ly/3eGgNTu) with the Walnut Top 53"x29" Classic, Black Platform, and cable tray. It's a good desk for its price point, though the top is starting to scuff just after a year of usage. I might look into making a custom top for it in the future.
+- My office chair is an [Autonomous Ergochair](https://bit.ly/3eGgNTu). It's a decent chair for its price point, although I'd love to upgrade to a Herman Miller Aeron in the future.
 - The [Canon T5i](https://amzn.to/2Xrgcy8) is the perfect mix of price to performance. The camera is an older model, but perfect for doing any general product photography.
 - The backpack I use is the [OGIO Renegade 17″ Backpack](https://amzn.to/3eeEdiv). Every pocket of the backpack is extremely well thought out. I'm a huge fan of OGIO products and I also use their gym bag, and a golf bag from them as well.
 - I currently use the iPhone XS. I only update my phone if it's completely necessary. Usually, a phone will last me 4-5 years before it's time for it to be replaced.
