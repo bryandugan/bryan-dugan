@@ -146,7 +146,7 @@
       ogImageUrl() {
         let coverObj =  this.$page.post.cover
         if (coverObj) {
-           return `${this.config.siteUrl}${coverObj.src}`
+           return `${this.config.siteUrl + coverObj.src}`
         } else {
           return `${this.config.siteUrl}/static/images/sharing-card.png`
         }
