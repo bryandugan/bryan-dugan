@@ -83,6 +83,18 @@ module.exports = {
         },
       },
     },
+    // {
+    //   use: 'gridsome-plugin-blog-cover',
+    //   options: {
+    //     typeName: 'Post',
+    //     outputDir: './content/images',
+    //     domain: 'https://bryandugan.com',
+    //     coverField: 'cover',
+    //     cloud_name: 'bryan-dugan',
+    //     api_key: '326459642982776',
+    //     api_secret: 'EGe4HVJr4tL3Un_K27WKXfeGX44'
+    //   }
+    // },
   ],
 
   templates: {

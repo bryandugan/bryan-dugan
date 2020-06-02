@@ -1,8 +1,8 @@
 <template>
   <header>
-    <div class="pt-24">
-      <div v-if="post.cover">
-        <g-image :src="post.cover" :alt="post.title"/>
+    <div class="pt-16">
+      <div v-if="post.cover" class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12">
+        <g-image class="mb-16 rounded-lg w-full" :src="post.cover" :alt="post.title"/>
       </div>
       <div class="max-w-xl md:max-w-3xl xl:max-w-4xl mx-auto px-6">
         <h1 class="text-3xl sm:text-5xl leading-tight font-sans font-bold mb-2 text-black">{{ post.title }}</h1>
