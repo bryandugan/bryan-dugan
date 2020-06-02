@@ -1,10 +1,10 @@
 ---
 title: "Uses"
 description: "The tools that Bryan Dugan uses"
-slug: uses
-cover: ''
+slug: uses 
 date: 2020-05-12
 author: bryan-dugan
+cover: ./bryan-dugan-uses.jpg
 tags: ['gear', 'misc']
 ---
 
