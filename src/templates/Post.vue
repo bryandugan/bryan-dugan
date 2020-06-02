@@ -144,8 +144,12 @@
         return postPath ? `${siteUrl}${postPath}` : `${siteUrl}/${slugify(this.$page.post.title)}/`
       },
       ogImageUrl() {
-        let coverUrl =  this.$page.post.cover
-        return `${this.config.siteUrl}` + coverUrl.src || `${this.config.siteUrl}/static/images/sharing-card.png`
+        let coverObj =  this.$page.post.cover
+        if (coverObj) {
+           return `${this.config.siteUrl}${coverObj.src}`
+        } else {
+          return `${this.config.siteUrl}/static/images/sharing-card.png`
+        }
       }
     },
   }
