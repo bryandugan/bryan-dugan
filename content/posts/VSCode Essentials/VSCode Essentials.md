@@ -55,15 +55,13 @@ Learning shortcuts on any new program takes a while, but it's worth it in the lo
 | Extract code from function | `cmd` + `ctrl` + `.` |
 | Launch Debugger | `f5` |
 
-
----
-
+## Additional Resources
+If you want to be able to launch VSCode from command line using `code` you can set it up here. [https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac)                                                    
 ## Troubleshooting
 This is a list of common issues I have come across along with the fixes for them.
 
 - Use Prettier through ESLint in Javascript and not Prettier plugin settings
 
----
 
 ## Themes
 
