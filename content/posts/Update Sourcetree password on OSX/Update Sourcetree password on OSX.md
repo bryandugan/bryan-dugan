@@ -4,7 +4,7 @@ description: "If you've reset your password in Bitbucket or another Git client, 
 slug: update-sourcetree-password-osx
 date: 2019-03-14
 author: bryan-dugan
-tags: ['development']
+tags: ['sourcetree', 'development']
 ---
 
 I use Bitbucket and Sourcetree for versioning my code. If you've reset your password in Bitbucket or another Git client, you'll get an error or a prompt for your password every single time you try to connect to a project.

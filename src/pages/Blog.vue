@@ -32,16 +32,21 @@
     },
     metaInfo() {
       return {
-        title: this.$static.metadata.siteName,
+        title: this.title,
         meta: [
+          {
+            key: 'description',
+            name: 'description',
+            content: this.description
+          },
           {property: "og:type", content: 'website'},
-          {property: "og:title", content: this.$static.metadata.siteName},
-          {property: "og:description", content: this.$static.metadata.siteDescription},
+          {property: "og:title", content: this.title },
+          {property: "og:description", content: this.description},
           {property: "og:url", content: this.$static.metadata.siteUrl},
           {property: "og:image", content: this.ogImageUrl},
           {name: "twitter:card", content: "summary_large_image"},
           {name: "twitter:title", content: this.$static.metadata.siteName},
-          {name: "twitter:description", content: this.$static.metadata.siteDescription},
+          {name: "twitter:description", content: this.description},
           {name: "twitter:site", content: "@bryandugan"},
           {name: "twitter:creator", content: "@bryandugan"},
           {name: "twitter:image", content: this.ogImageUrl},
@@ -51,6 +56,12 @@
     computed: {
       config() {
         return config
+      },
+      title() {
+        return "Blog"
+      },
+      description() {
+        return "A collection of articles on design, development, and bettering yourself."
       },
       ogImageUrl() {
         return `${this.config.siteUrl}/images/sharing-card.png`
@@ -99,7 +110,6 @@
     metadata {
       siteName
       siteUrl
-      siteDescription
     }
   }
 </static-query>

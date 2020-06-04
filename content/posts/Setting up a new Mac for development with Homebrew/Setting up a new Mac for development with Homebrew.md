@@ -5,7 +5,7 @@ slug: setting-up-a-new-mac-for-development-with-homebrew
 date: 2016-09-14
 author: bryan-dugan
 cover: ./mac-homebrew.png
-tags: ['mac osx']
+tags: ['getting started', 'homebrew','mac osx']
 ---
 
 This is the Homebrew Cask setup of my personal development laptop. Feel free to use this as a starting point for a fresh install of any new OSX machine.

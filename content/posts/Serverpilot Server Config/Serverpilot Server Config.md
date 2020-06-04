@@ -4,7 +4,7 @@ description: "A list of all the configuration changes I made to my Digital Ocean
 slug: serverpilot-server-configuration
 date: 2019-10-02
 author: bryan-dugan
-tags: ['hosting', 'servers', 'serverpilot']
+tags: ['serverpilot', 'hosting', 'servers']
 ---
 
 This is a list of all the configuration changes I made to my Digital Ocean/ServerPilot server.

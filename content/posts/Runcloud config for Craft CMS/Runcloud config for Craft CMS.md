@@ -5,7 +5,7 @@ slug: runcloud-config-craft-cms
 date: 2020-05-03
 author: bryan-dugan
 cover: ./runcloud-config-craft-cms.png
-tags: ['hosting','servers','runcloud','craft cms']
+tags: ['runcloud','craft cms', 'hosting','servers']
 ---
 
 If you're setting up a Craft CMS website on a [RunCloud](https://runcloud.io/r/ZMrWgZNDeyRw) server for your first time, here is everything you need to get setup.

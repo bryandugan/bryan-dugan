@@ -4,7 +4,7 @@ description: "Need to update PHP for use with your local development stack? This
 slug: upgrade-php-with-homebrew
 date: 2019-08-12
 author: bryan-dugan
-tags: ['development']
+tags: ['homebrew', 'php', 'development']
 ---
 
 Need to update PHP for use with your local development stack? This short guide will run you through how to do just that, as well as upgrading your PHP version in Laravel Valet.

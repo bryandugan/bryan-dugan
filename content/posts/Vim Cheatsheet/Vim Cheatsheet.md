@@ -5,7 +5,7 @@ slug: vim-cheatsheet
 date: 2016-11-19
 author: bryan-dugan
 cover: ./vim-cheatsheet.png
-tags: ['development', 'vim']
+tags: ['vim', 'development']
 ---
 
 A list of common Vim Shortcuts that you will be using while getting started with Vim.

@@ -15,9 +15,9 @@
             passionate about designing and building digital experiences since 2003 while doing it professionally since
             2010.</p>
 
-          <p>I enjoy designing and building interfaces with Sketch, HTML, CSS and JavaScript. My main focuses right now
+          <p>I enjoy designing and building interfaces with Sketch, HTML, CSS, and JavaScript. My main focuses right now
             are designing a base set of custom components, creating a custom icon set, Vue.js, working with APIs,
-            Tailwind CSS, Gridsome and Craft CMS.</p>
+            Tailwind CSS, Gridsome, and Craft CMS.</p>
 
           <p>I'm always learning about new technologies and trying out new applications or frameworks for each
             individual project's needs.</p>
@@ -60,16 +60,21 @@
     },
     metaInfo() {
       return {
-        title: this.$static.metadata.siteName,
+        title: this.title,
         meta: [
+          {
+            key: 'description',
+            name: 'description',
+            content: this.description
+          },
           {property: "og:type", content: 'website'},
-          {property: "og:title", content: this.$static.metadata.siteName},
-          {property: "og:description", content: this.$static.metadata.siteDescription},
+          {property: "og:title", content: this.title},
+          {property: "og:description", content: this.description},
           {property: "og:url", content: this.$static.metadata.siteUrl},
           {property: "og:image", content: this.ogImageUrl},
           {name: "twitter:card", content: "summary_large_image"},
           {name: "twitter:title", content: this.$static.metadata.siteName},
-          {name: "twitter:description", content: this.$static.metadata.siteDescription},
+          {name: "twitter:description", content: this.description},
           {name: "twitter:site", content: "@bryandugan"},
           {name: "twitter:creator", content: "@bryandugan"},
           {name: "twitter:image", content: this.ogImageUrl},
@@ -85,8 +90,14 @@
       config() {
         return config
       },
+      title() {
+        return "About"
+      },
+      description() {
+        return "I'm Bryan Dugan, an interface designer and front-end developer based out of Rochester Hills, Michigan."
+      },
       ogImageUrl() {
-        return `${this.config.siteUrl}/images/bryan-dugan-and-kelly-halloran.jpg`
+        return `${this.config.siteUrl}/images/bryan-dugan.jpg`
       }
     },
   }
@@ -102,7 +113,6 @@
     metadata {
       siteName
       siteUrl
-      siteDescription
     }
   }
 </static-query>
