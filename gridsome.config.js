@@ -37,6 +37,13 @@ module.exports = {
       },
     },
     {
+      use: '@zefman/gridsome-source-instagram',
+      options: {
+        username: 'bryan.dugan', // Instagram username
+        typeName: 'InstagramPhoto' // The GraphQL type you want the photos to be added under. Defaults to InstagramPhoto
+      }
+    },
+    {
       use: 'gridsome-plugin-flexsearch',
       options: {
         collections: [
