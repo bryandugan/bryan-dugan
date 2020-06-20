@@ -6,7 +6,7 @@
       >
         <span
           class="absolute -mt-10 text-5xl inset-x-0 text-center pointer-events-none"
-          >🧐</span
+        >🧐</span
         >
         <section
           class="bg-gray-100 mx-auto px-8 py-6 rounded shadow-xl relative"
@@ -19,7 +19,8 @@
           <g-link
             to="/"
             class="text-sm text-green-500 hover:text-green-600 font-sans transition-color duration-300"
-            >&larr; Back to Home</g-link
+          >&larr; Back to Home
+          </g-link
           >
         </section>
       </div>
@@ -28,11 +29,11 @@
 </template>
 
 <script>
-export default {
-  metaInfo() {
-    return {
-      title: `Page Not Found (404)`
-    };
-  }
-};
+  export default {
+    metaInfo() {
+      return {
+        title: `Page Not Found (404)`
+      };
+    }
+  };
 </script>

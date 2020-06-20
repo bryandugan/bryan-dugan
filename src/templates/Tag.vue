@@ -18,7 +18,6 @@
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             role="img"
-            aria-labelledby="tagIcon"
           >
             <title id="tagIcon">Posts tagged</title>
             <path
@@ -30,7 +29,8 @@
           <g-link
             to="/blog"
             class="text-sm border text-gray-900 border-gray-400 opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity duration-300"
-            >&larr; Blog</g-link
+          >&larr; Blog
+          </g-link
           >
         </nav>
       </header>
@@ -46,88 +46,88 @@
         :info="$page.tag.belongsTo.pageInfo"
         v-if="$page.tag.belongsTo.pageInfo.totalPages > 1"
       />
-      <site-footer />
+      <site-footer/>
     </main>
   </Layout>
 </template>
 
 <script>
-import moment from "moment";
-import config from "~/.temp/config.js";
-import PostItem from "@/components/PostItem";
-import SiteFooter from "@/components/Footer";
-import Pagination from "@/components/Pagination";
+  import moment from "moment";
+  import config from "~/.temp/config.js";
+  import PostItem from "@/components/PostItem";
+  import SiteFooter from "@/components/Footer";
+  import Pagination from "@/components/Pagination";
 
-export default {
-  components: {
-    PostItem,
-    Pagination,
-    SiteFooter
-  },
-  metaInfo() {
-    return {
-      title: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`,
-      meta: [
-        {
-          key: "description",
-          name: "description",
-          content: `Browse posts tagged "${this.titleCase(
-            this.$page.tag.title
-          )}"`
-        },
-
-        { property: "og:type", content: "website" },
-        {
-          property: "og:title",
-          content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`
-        },
-        {
-          property: "og:description",
-          content: `Browse posts tagged "${this.titleCase(
-            this.$page.tag.title
-          )}"`
-        },
-        {
-          property: "og:url",
-          content: `${this.config.siteUrl}${this.$page.tag.path}`
-        },
-        { property: "og:image", content: this.ogImageUrl },
-
-        { name: "twitter:card", content: "summary_large_image" },
-        {
-          name: "twitter:title",
-          content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`
-        },
-        {
-          name: "twitter:description",
-          content: `Browse posts tagged "${this.titleCase(
-            this.$page.tag.title
-          )}"`
-        },
-        { name: "twitter:site", content: "@bryandugan" },
-        { name: "twitter:creator", content: "@bryandugan" },
-        { name: "twitter:image", content: this.ogImageUrl }
-      ]
-    };
-  },
-  methods: {
-    titleCase(str) {
-      return str
-        .replace("-", " ")
-        .split(" ")
-        .map(s => s.charAt(0).toUpperCase() + s.substring(1))
-        .join(" ");
-    }
-  },
-  computed: {
-    config() {
-      return config;
+  export default {
+    components: {
+      PostItem,
+      Pagination,
+      SiteFooter
     },
-    ogImageUrl() {
-      return `${this.config.siteUrl}/images/sharing-card.png`;
+    metaInfo() {
+      return {
+        title: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`,
+        meta: [
+          {
+            key: "description",
+            name: "description",
+            content: `Browse posts tagged "${this.titleCase(
+              this.$page.tag.title
+            )}"`
+          },
+
+          {property: "og:type", content: "website"},
+          {
+            property: "og:title",
+            content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`
+          },
+          {
+            property: "og:description",
+            content: `Browse posts tagged "${this.titleCase(
+              this.$page.tag.title
+            )}"`
+          },
+          {
+            property: "og:url",
+            content: `${this.config.siteUrl}${this.$page.tag.path}`
+          },
+          {property: "og:image", content: this.ogImageUrl},
+
+          {name: "twitter:card", content: "summary_large_image"},
+          {
+            name: "twitter:title",
+            content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`
+          },
+          {
+            name: "twitter:description",
+            content: `Browse posts tagged "${this.titleCase(
+              this.$page.tag.title
+            )}"`
+          },
+          {name: "twitter:site", content: "@bryandugan"},
+          {name: "twitter:creator", content: "@bryandugan"},
+          {name: "twitter:image", content: this.ogImageUrl}
+        ]
+      };
+    },
+    methods: {
+      titleCase(str) {
+        return str
+          .replace("-", " ")
+          .split(" ")
+          .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+          .join(" ");
+      }
+    },
+    computed: {
+      config() {
+        return config;
+      },
+      ogImageUrl() {
+        return `${this.config.siteUrl}/images/sharing-card.png`;
+      }
     }
-  }
-};
+  };
 </script>
 
 <page-query>

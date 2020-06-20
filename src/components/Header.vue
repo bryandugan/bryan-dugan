@@ -22,31 +22,34 @@
               to="/blog/"
               active-class="border-green-500 hover:border-green-500 text-gray-900 hover:text-gray-900"
               class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-600 hover:text-gray-700 hover:border-gray-300 focus:outline-none hover:border-gray-300 transition duration-150 ease-in-out"
-              >Blog</g-link
+            >Blog
+            </g-link
             >
             <g-link
               to="/about/"
               exact-active-class="border-green-500 hover:border-green-500 text-gray-900 hover:text-gray-900"
               class="ml-8 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-600 hover:text-gray-700 hover:border-gray-300 focus:outline-none hover:border-gray-300 transition duration-150 ease-in-out"
-              >About</g-link
+            >About
+            </g-link
             >
             <g-link
               to="/uses/"
               active-class="border-green-500 hover:border-green-500 text-gray-900 hover:text-gray-900"
               class="ml-8 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-600 hover:text-gray-700 hover:border-gray-300 focus:outline-none hover:border-gray-300 transition duration-150 ease-in-out"
-              >Uses</g-link
+            >Uses
+            </g-link
             >
             <a
               href="/files/Bryan-Dugan_Resume.pdf"
               target="_blank"
               active-class="border-green-500 hover:border-green-500 text-gray-900 hover:text-gray-900"
               class="ml-8 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-600 hover:text-gray-700 hover:border-gray-300 focus:outline-none hover:border-gray-300 transition duration-150 ease-in-out"
-              >Resume</a
+            >Resume</a
             >
           </div>
         </div>
         <div class="flex-1 flex px-2 py-4 lg:ml-6 lg:justify-end">
-          <Search />
+          <Search/>
         </div>
         <div class="flex items-center lg:hidden">
           <!-- Mobile menu button -->
@@ -98,25 +101,28 @@
           to="/blog/"
           active-class="border-green-500 hover:border-green-500 text-gray-900 hover:text-gray-900"
           class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out"
-          >Blog</g-link
+        >Blog
+        </g-link
         >
         <g-link
           to="/about/"
           active-class="border-green-500 hover:border-green-500 text-gray-900 hover:text-gray-900"
           class="mt-1 block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out"
-          >About</g-link
+        >About
+        </g-link
         >
         <g-link
           to="/uses/"
           active-class="border-green-500 hover:border-green-500 text-gray-900 hover:text-gray-900"
           class="mt-1 block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out"
-          >Uses</g-link
+        >Uses
+        </g-link
         >
         <a
           href="/files/Bryan-Dugan_Resume.pdf"
           target="_blank"
           class="mt-1 block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-700 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out"
-          >Resume</a
+        >Resume</a
         >
       </div>
     </div>
@@ -124,16 +130,16 @@
 </template>
 
 <script>
-import Search from "@/components/Search";
+  import Search from "@/components/Search";
 
-export default {
-  components: {
-    Search
-  },
-  data: () => ({
-    navOpen: false
-  })
-};
+  export default {
+    components: {
+      Search
+    },
+    data: () => ({
+      navOpen: false
+    })
+  };
 </script>
 
 <style scoped></style>

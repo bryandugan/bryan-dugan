@@ -44,7 +44,8 @@
           :key="result.id"
           :to="result.path"
           class="block px-4 py-2 text-gray-700 hover:bg-green-800 hover:text-white"
-          >{{ result.title }}</g-link
+        >{{ result.title }}
+        </g-link
         >
       </li>
     </ul>
@@ -52,34 +53,34 @@
 </template>
 
 <script>
-export default {
-  name: "Search",
-  data: () => ({
-    searchTerm: "",
-    searchOpen: false
-  }),
-  mounted() {
-    // Add event to close window with escape key
-    const handleEscape = e => {
-      if (e.key === "Esc" || e.key === "Escape") {
-        this.searchOpen = false;
-      }
-    };
-    document.addEventListener("keydown", handleEscape);
+  export default {
+    name: "Search",
+    data: () => ({
+      searchTerm: "",
+      searchOpen: false
+    }),
+    mounted() {
+      // Add event to close window with escape key
+      const handleEscape = e => {
+        if (e.key === "Esc" || e.key === "Escape") {
+          this.searchOpen = false;
+        }
+      };
+      document.addEventListener("keydown", handleEscape);
 
-    // remove event listener
-    this.$once("hook:beforeDestory", () => {
-      document.removeEventListener("keydown", handleEscape);
-    });
-  },
-  computed: {
-    searchResults() {
-      const searchTerm = this.searchTerm;
-      if (searchTerm.length < 3) return [];
-      return this.$search.search({ query: searchTerm, limit: 5 });
+      // remove event listener
+      this.$once("hook:beforeDestory", () => {
+        document.removeEventListener("keydown", handleEscape);
+      });
+    },
+    computed: {
+      searchResults() {
+        const searchTerm = this.searchTerm;
+        if (searchTerm.length < 3) return [];
+        return this.$search.search({query: searchTerm, limit: 5});
+      }
     }
-  }
-};
+  };
 </script>
 
 <style scoped></style>

@@ -22,12 +22,13 @@
             <g-link
               :to="`${post.author.path}/`"
               class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-colors duration-300"
-              >{{ titleCase(post.author.title) }}</g-link
+            >{{ titleCase(post.author.title) }}</g-link
             >&bull;
           </span>
           <time :datetime="post.datetime" class="text-gray-700 capitalize">{{
             formattedPublishDate
-          }}</time>
+            }}
+          </time>
           &bull;
           <span>{{ post.timeToRead }} min read</span>
         </p>
@@ -37,24 +38,24 @@
 </template>
 
 <script>
-import moment from "moment";
+  import moment from "moment";
 
-export default {
-  props: ["post"],
-  components: {},
-  methods: {
-    titleCase(str) {
-      return str
-        .replace("-", " ")
-        .split(" ")
-        .map(s => s.charAt(0).toUpperCase() + s.substring(1))
-        .join(" ");
+  export default {
+    props: ["post"],
+    components: {},
+    methods: {
+      titleCase(str) {
+        return str
+          .replace("-", " ")
+          .split(" ")
+          .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+          .join(" ");
+      }
+    },
+    computed: {
+      formattedPublishDate() {
+        return moment(this.post.datetime).format("DD MMMM, YYYY");
+      }
     }
-  },
-  computed: {
-    formattedPublishDate() {
-      return moment(this.post.datetime).format("DD MMMM, YYYY");
-    }
-  }
-};
+  };
 </script>

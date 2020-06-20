@@ -75,7 +75,8 @@
         <div class="mt-8 md:mt-0 md:order-1">
           <p class="text-center text-base leading-6 text-gray-100">
             &copy;{{ new Date().getFullYear() }}
-            <g-link to="/">Bryan Dugan</g-link>. All rights reserved.
+            <g-link to="/">Bryan Dugan</g-link>
+            . All rights reserved.
           </p>
         </div>
       </div>
@@ -84,7 +85,7 @@
 </template>
 
 <script>
-export default {
-  name: "Footer"
-};
+  export default {
+    name: "Footer"
+  };
 </script>

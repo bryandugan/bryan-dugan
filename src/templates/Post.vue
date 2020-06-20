@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <Header />
+    <Header/>
     <main>
-      <post-header :post="$page.post" />
+      <post-header :post="$page.post"/>
 
       <article
         class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16"
@@ -77,7 +77,8 @@
                 <g-link
                   :to="`${$page.post.author.path}/`"
                   class="text-black hover:text-gray-700 capitalize border-b-2 border-transparent transition-colors duration-300"
-                  >{{ titleCase($page.post.author.title) }}</g-link
+                >{{ titleCase($page.post.author.title) }}
+                </g-link
                 >
               </h4>
               <p class="leading-normal">
@@ -94,118 +95,118 @@
         </footer>
       </article>
 
-      <Footer />
+      <Footer/>
     </main>
   </Layout>
 </template>
 
 <script>
-import moment from "moment";
-import config from "~/.temp/config.js";
-import Alert from "@/components/Alert";
-import slugify from "@sindresorhus/slugify";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import PostHeader from "~/components/PostHeader";
+  import moment from "moment";
+  import config from "~/.temp/config.js";
+  import Alert from "@/components/Alert";
+  import slugify from "@sindresorhus/slugify";
+  import Header from "@/components/Header";
+  import Footer from "@/components/Footer";
+  import PostHeader from "~/components/PostHeader";
 
-export default {
-  components: {
-    Alert,
-    PostHeader,
-    Header,
-    Footer
-  },
-  metaInfo() {
-    return {
-      title: `${this.$page.post.title} ${
-        this.$page.post.tag ? "- " + this.$page.post.tag.name : ""
-      }`,
-      meta: [
-        {
-          key: "description",
-          name: "description",
-          content: this.description(this.$page.post)
-        },
-        { property: "og:type", content: "article" },
-        { property: "og:title", content: this.$page.post.title },
-        {
-          property: "og:description",
-          content: this.description(this.$page.post)
-        },
-        { property: "og:url", content: this.postUrl },
-        {
-          property: "article:published_time",
-          content: moment(this.$page.post.date).format("YYYY-MM-DD")
-        },
-        { property: "og:image", content: this.ogImageUrl },
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: this.$page.post.title },
-        {
-          name: "twitter:description",
-          content: this.description(this.$page.post)
-        },
-        { name: "twitter:site", content: "@bryandugan" },
-        { name: "twitter:creator", content: "@bryandugan" },
-        { name: "twitter:image", content: this.ogImageUrl }
-      ]
-    };
-  },
-  mounted() {
-    import("medium-zoom").then(mediumZoom => {
-      this.zoom = mediumZoom.default(".markdown p > img");
-    });
-  },
-  methods: {
-    imageLoadError(e) {
-      e.target.src = `/images/authors/default.png`;
+  export default {
+    components: {
+      Alert,
+      PostHeader,
+      Header,
+      Footer
     },
-    description(post, length, clamp) {
-      if (post.description) {
-        return post.description;
+    metaInfo() {
+      return {
+        title: `${this.$page.post.title} ${
+          this.$page.post.tag ? "- " + this.$page.post.tag.name : ""
+        }`,
+        meta: [
+          {
+            key: "description",
+            name: "description",
+            content: this.description(this.$page.post)
+          },
+          {property: "og:type", content: "article"},
+          {property: "og:title", content: this.$page.post.title},
+          {
+            property: "og:description",
+            content: this.description(this.$page.post)
+          },
+          {property: "og:url", content: this.postUrl},
+          {
+            property: "article:published_time",
+            content: moment(this.$page.post.date).format("YYYY-MM-DD")
+          },
+          {property: "og:image", content: this.ogImageUrl},
+          {name: "twitter:card", content: "summary_large_image"},
+          {name: "twitter:title", content: this.$page.post.title},
+          {
+            name: "twitter:description",
+            content: this.description(this.$page.post)
+          },
+          {name: "twitter:site", content: "@bryandugan"},
+          {name: "twitter:creator", content: "@bryandugan"},
+          {name: "twitter:image", content: this.ogImageUrl}
+        ]
+      };
+    },
+    mounted() {
+      import("medium-zoom").then(mediumZoom => {
+        this.zoom = mediumZoom.default(".markdown p > img");
+      });
+    },
+    methods: {
+      imageLoadError(e) {
+        e.target.src = `/images/authors/default.png`;
+      },
+      description(post, length, clamp) {
+        if (post.description) {
+          return post.description;
+        }
+        length = length || 280;
+        clamp = clamp || " ...";
+        let text = post.content
+          .replace(/<pre(.|\n)*?<\/pre>/gm, "")
+          .replace(/<[^>]+>/gm, "");
+        return text.length > length ? `${text.slice(0, length)}${clamp}` : text;
+      },
+      titleCase(str) {
+        return str
+          .replace("-", " ")
+          .split(" ")
+          .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+          .join(" ");
       }
-      length = length || 280;
-      clamp = clamp || " ...";
-      let text = post.content
-        .replace(/<pre(.|\n)*?<\/pre>/gm, "")
-        .replace(/<[^>]+>/gm, "");
-      return text.length > length ? `${text.slice(0, length)}${clamp}` : text;
     },
-    titleCase(str) {
-      return str
-        .replace("-", " ")
-        .split(" ")
-        .map(s => s.charAt(0).toUpperCase() + s.substring(1))
-        .join(" ");
-    }
-  },
-  computed: {
-    config() {
-      return config;
-    },
-    avatar() {
-      return `/images/authors/${this.$page.post.author.id}.png`;
-    },
-    postIsOlderThanOneYear() {
-      let postDate = moment(this.$page.post.datetime);
-      return moment().diff(postDate, "years") > 0 ? true : false;
-    },
-    postUrl() {
-      let siteUrl = this.config.siteUrl;
-      let postPath = this.$page.post.path;
-      return postPath
-        ? `${siteUrl}${postPath}`
-        : `${siteUrl}/${slugify(this.$page.post.title)}/`;
-    },
-    ogImageUrl() {
-      let coverObj = this.$page.post.cover;
-      if (coverObj) {
-        return `${this.config.siteUrl + coverObj.src}`;
-      } else {
-        return `${this.config.siteUrl}/static/images/sharing-card.png`;
+    computed: {
+      config() {
+        return config;
+      },
+      avatar() {
+        return `/images/authors/${this.$page.post.author.id}.png`;
+      },
+      postIsOlderThanOneYear() {
+        let postDate = moment(this.$page.post.datetime);
+        return moment().diff(postDate, "years") > 0 ? true : false;
+      },
+      postUrl() {
+        let siteUrl = this.config.siteUrl;
+        let postPath = this.$page.post.path;
+        return postPath
+          ? `${siteUrl}${postPath}`
+          : `${siteUrl}/${slugify(this.$page.post.title)}/`;
+      },
+      ogImageUrl() {
+        let coverObj = this.$page.post.cover;
+        if (coverObj) {
+          return `${this.config.siteUrl + coverObj.src}`;
+        } else {
+          return `${this.config.siteUrl}/static/images/sharing-card.png`;
+        }
       }
     }
-  }
-};
+  };
 </script>
 
 <page-query>
