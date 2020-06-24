@@ -35,9 +35,10 @@ Casks are graphical user interface(GUI) applications that will be installed to y
 Here is a list of all the design applications that I use.
 
 ```bash
+brew cask install adobe-creative-cloud
+brew cask install figma
 brew cask install sketch
 brew cask install sketch-toolbox
-brew cask install adobe-creative-cloud
 brew cask install zeplin
 ```
 
@@ -49,6 +50,7 @@ These are all the development related applications that I use.
 brew cask install google-chrome
 brew cask install firefox
 brew cask install iterm2
+brew cask install jetbrains-toolbox
 brew cask install visual-studio-code
 brew cask install postman
 brew cask install sequel-pro
@@ -61,9 +63,9 @@ brew cask install sourcetree
 Here are some other handy applications that I use on a regular basis.
 
 ```bash
-brew cask install vlc
 brew cask install google-backup-and-sync
 brew cask install spotify
+brew cask install discord
 brew cask install slack
 brew cask install notion
 brew cask install 1password
