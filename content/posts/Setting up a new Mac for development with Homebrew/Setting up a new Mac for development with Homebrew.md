@@ -12,10 +12,14 @@ This is the Homebrew Cask setup of my personal development laptop. Feel free to 
 
 ## Installing Homebrew
 
-Homebrew is a command-line interface(CLI) package manager for OSX. In order to install Homebrew. Copy and paste the below command into your terminal to get started. If the below command doesn't work, take a look at the [Homebrew documentation](https://brew.sh).
+Homebrew is a command-line interface(CLI) package manager for OSX. 
+
+To get started, install Apple's xcode command line tools. To do this, you first need to install xcode from the App Store. Once xcode is installed, open it and click `xcode > Preferences > Locations > Command Line Tools`.
+
+To install Homebrew, copy and paste the below command into your terminal to get started. If the below command doesn't work, take a look at the [Homebrew documentation](https://brew.sh).
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 ### Add Homebrew to your $PATH
@@ -73,7 +77,9 @@ brew cask install 1password
 
 ## Installing Homebrew Applications
 
-These are the most common development CLI applications that you'll be using with whatever development server you'll choose to use. **Note:** These are brew formulae, NOT casks, so be sure to not use cask when installing the applications.
+These are the most common development CLI applications that you'll be using with whatever development server you'll choose to use.
+
+**Note:** These are brew formulae, NOT casks, so be sure not to use cask when installing the applications.
 
 ```bash
 brew install php
@@ -81,6 +87,10 @@ brew install composer
 brew install mysql
 brew install yarn
 ```
+
+## Add oh-my-zsh
+
+https://ohmyz.sh/
 
 ## Laravel Valet as a Local Development Server
 
