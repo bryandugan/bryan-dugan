@@ -14,7 +14,7 @@ This is where I will keep my most up to date setup for anyone curious or just ge
 
 ## Design/Development Applications
 
-- I design almost entirely in [Sketch](http://sketch.com/).
+- I design almost entirely in [Sketch](http://sketch.com/), but recently started using [Figma](https://figma.com).
 - I use [Invision](https://www.invisionapp.com/) to prototype all my web applications and give design feedback.
 - [Zeplin](https://zeplin.io/) to keep track of UI development tasks.
 - I use [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) for branding related projects.
@@ -46,7 +46,7 @@ This is where I will keep my most up to date setup for anyone curious or just ge
 
 ## Hardware
 
-- I currently use a 15-inch late-2013 Macbook Pro.
+- I currently use a 16-inch late-2019 Macbook Pro in Space Gray.
 - I use the [Samsung U32J590UQN 32″ 4k Monitor](https://amzn.to/3ghi98Q) as my primary monitor. It's a wonderful large budget 4k monitor for basic design work and web development.
 - To the right of the primary monitor, I keep my Macbook Display opened and use it as a secondary display. I use the [Rain mStand](https://amzn.to/2XpXfMb) in space gray to prop up the laptop.
 - After using the external Apple Trackpad for about the last five years, I recently switched back to using a mouse. I have the [Logitech g502](https://amzn.to/2LXgZ4C) along with the [Steelseries QcK Medium](https://www.amazon.com/SteelSeries-QcK-Cloth-Gaming-Mouse/dp/B000UEZ36W/ref=sr_1_2?crid=1IN3O6QU2K3JH&keywords=steelseries%2Bqck&qid=1571695695&sprefix=steelseries%2B%2Caps%2C162&sr=8-2&th=1) which is one of my favorite simplistic mousepads of all time.
