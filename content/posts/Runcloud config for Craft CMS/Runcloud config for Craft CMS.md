@@ -52,11 +52,12 @@ Default: /home/undefined/webapps/undefined:/var/lib/php/session:/tmp
 
 ### disable_functions
 
-Remove the following functions from the list as they are needed for the Craft Plugin Store and sending Emails.
+Remove the following functions from the list as they are needed for Craft CMS to run properly.
 
 - `proc_open`
 - `proc_close`
 - `proc_terminate`
+- `ignore_user_abort`
 
 ### max_execution_time
 

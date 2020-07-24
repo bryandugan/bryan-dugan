@@ -4,6 +4,11 @@
 
 The Blog portion of this website is built off of the [Bleda](https://github.com/cossssmin/gridsome-starter-bleda) theme for Gridsome.
 
+As of right now, this build requires node 8.x.
+```
+nvm use 8
+```
+
 ## Getting Started
 
 Install Dependencies
