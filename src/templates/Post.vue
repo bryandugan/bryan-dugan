@@ -155,6 +155,7 @@
       import("medium-zoom").then(mediumZoom => {
         this.zoom = mediumZoom.default(".markdown p > img");
       });
+
     },
     methods: {
       imageLoadError(e) {
@@ -192,10 +193,10 @@
       },
       postUrl() {
         let siteUrl = this.config.siteUrl;
-        let postPath = this.$page.post.path;
+        let postPath = this.$page.post.slug;
         return postPath
-          ? `${siteUrl}${postPath}`
-          : `${siteUrl}/${slugify(this.$page.post.title)}/`;
+          ? `${siteUrl}/${postPath}/`
+          : `${siteUrl}/${slugify(this.$page.post.path)}/`;
       },
       ogImageUrl() {
         let coverObj = this.$page.post.cover;

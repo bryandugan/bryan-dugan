@@ -10,6 +10,10 @@ if (!title) {
   console.log('❌  Please specify a post title.')
   return
 }
+if (!slug) {
+  console.log('❌  Please specify a post slug.')
+  return
+}
 
 const basename = `${moment().format('YYYY-MM-DD')}-${slugify(title)}`
 

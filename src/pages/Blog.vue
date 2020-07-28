@@ -86,6 +86,7 @@
           content
           excerpt
           description
+          slug
           path
           cover
           tags {

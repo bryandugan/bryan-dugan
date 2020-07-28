@@ -6,7 +6,7 @@
           <h2
             class="text-3xl sm:text-4xl leading-tight font-sans mb-1 sm:mb-2 px-2 sm:px-4 md:px-10"
           >
-            <g-link :to="`${post.path}/`" class="text-black font-bold">{{ post.title }}</g-link>
+            <g-link :to="`${post.slug}/`" class="text-black font-bold">{{ post.title }}</g-link>
           </h2>
           <p
             class="text-gray-700 leading-normal text-sm sm:text-base px-2 sm:px-4 md:px-10"

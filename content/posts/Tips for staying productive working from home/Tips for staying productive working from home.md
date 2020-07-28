@@ -1,7 +1,7 @@
 ---
 title: "Tips for staying productive working from home"
 description: "The ability to work from home is a trained skill that takes time to master just like anything else. Some tips from a remote employee."
-slug: staying-productive-working-from-home
+slug: tips-for-staying-productive-working-from-home
 date: 2020-04-22
 author: bryan-dugan
 cover: ./work-from-home.png

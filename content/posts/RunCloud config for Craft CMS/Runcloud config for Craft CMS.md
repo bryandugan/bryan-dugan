@@ -1,7 +1,7 @@
 ---
 title: "RunCloud configuration for Craft CMS"
 description: "If you're setting up a Craft CMS website on a RunCloud server for your first time, here is everything you need to get setup."
-slug: runcloud-config-craft-cms
+slug: runcloud-config-for-craft-cms
 date: 2020-05-03
 author: bryan-dugan
 cover: ./runcloud-config-craft-cms.png
