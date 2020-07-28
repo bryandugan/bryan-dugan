@@ -5,7 +5,7 @@
       <post-header :post="$page.post"/>
 
       <article
-        class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16"
+        class="max-w-xl md:max-w-2xl xl:max-w-4xl mx-auto px-6 sm:px-12 pt-16"
         :class="{
           'border-b border-grey-lighter pb-10 mb-16': !$page.post.author
         }"

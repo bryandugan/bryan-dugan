@@ -1,6 +1,6 @@
 <template>
   <article>
-    <div class="mx-auto max-w-3xl px-6">
+    <div class="mx-auto max-w-4xl px-6">
       <div class="py-8 sm:py-20 border-b border-gray-300">
         <header class="mb-8">
           <h2
@@ -40,7 +40,7 @@
           </p>
         </header>
         <p
-          class="leading-normal text-gray-700 text-lg px-2 sm:px-4 md:px-10"
+          class="leading-loose text-gray-700 text-xl px-2 sm:px-4 md:px-10"
           v-html="excerpt(post, 280, ' ...')"
         ></p>
       </div>
