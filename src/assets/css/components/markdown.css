@@ -20,7 +20,7 @@
   }
 
   h2, h3, h4, h5, h6 {
-    @apply font-sans font-bold text-black my-6;
+    @apply font-sans font-bold text-black my-6 leading-tight;
   }
 
   h5, h6 {
@@ -82,7 +82,6 @@
   }
 
   dl {
-
     dt {
       @apply text-black text-sm font-sans font-bold uppercase mb-2;
 

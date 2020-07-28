@@ -48,7 +48,7 @@ In Vim there are two main modes. Command mode, and insert mode. Command mode let
 | Go to the end of a file | `G` |
 | Go to line number | `#gg` |
 | Search | `/` |
-| Search next | `n` |
+| Search next | `N` |
 | Search previous | `n` |
 | Insert new line after | `o` |
 | Insert new line before |`O` |

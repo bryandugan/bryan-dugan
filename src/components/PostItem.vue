@@ -29,14 +29,14 @@
               <g-link
                 :to="`${post.tags[0].path}/`"
                 class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-colors duration-300"
-              >{{ titleCase(post.tags[0].title) }}</g-link
+              > {{ titleCase(post.tags[0].title) }} </g-link
               >
             </span>
 
             <span v-if="post.author || (post.tags && post.tags.length > 0)"
             >·</span
             >
-            <span>{{ post.timeToRead }} min read</span>
+            <span> {{ post.timeToRead }} min read</span>
           </p>
         </header>
         <p
