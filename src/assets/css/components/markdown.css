@@ -3,7 +3,7 @@
     @apply rounded-lg;
   }
   p, ul, ol {
-    @apply text-xl leading-loose mb-4;
+    @apply text-lg leading-loose mb-4;
   }
 
   ul li, ol li {
@@ -129,9 +129,19 @@
   }
 }
 
-@screen sm {
-  .markdown {
+@screen md {
+  .markdown, .about {
 
+
+  }
+}
+
+
+@screen lg {
+  .markdown, .about {
+    p, ul, ol {
+      @apply text-xl;
+    }
     blockquote {
       @apply mx-10;
     }
