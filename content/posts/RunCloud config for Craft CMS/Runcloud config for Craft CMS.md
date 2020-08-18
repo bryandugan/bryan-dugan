@@ -8,7 +8,7 @@ cover: ./runcloud-config-craft-cms.png
 tags: ['runcloud','craft cms', 'hosting','servers']
 ---
 
-If you're setting up a Craft CMS website on [RunCloud](https://runcloud.io/r/ZMrWgZNDeyRw), here is everything you need to get started. For this setup, I am using a Digital Ocean server with Ubuntu 18.04.
+If you're setting up a Craft CMS website on [RunCloud](https://runcloud.io/r/ZMrWgZNDeyRw), here is everything you need to get started. For this setup, I am using a Digital Ocean server with Ubuntu 18.04.
 
 ## **Install packages/extensions**
 
@@ -42,7 +42,7 @@ To get the changes to take place, restart PHP by running the following
 systemctl restart php74rc-fpm
 ```
 
-### **Imagick (Preferred)**
+### Imagick (Preferred)
 
 This is the preferred image rendering library for Craft CMS. It handles transforming images much better than the pre-installed module, GD, and is highly recommended for not only Craft but also WordPress and other popular CMS's. 
 
@@ -67,7 +67,7 @@ apt-get install ffmpeg
 
 Now that we have the two required extensions, let's move on to configuring your application's PHP settings.
 
-## **Configure PHP Settings within the RunCloud Dashboard**
+## Configure PHP Settings within the RunCloud Dashboard
 
 For each web application you create that uses Craft; Here are the settings I have applied to each application, based upon Craft's PHP system requirements.  At this time, RunCloud doesn't have a way to create a template to quickly duplicate preferred PHP settings for each application, but I did put in a [feature request](https://features.runcloud.io/suggestions/93236/ability-to-create-php-settings-templates-in-admin-dashboard) so you don't have to go through these steps for each application.
 
@@ -81,9 +81,9 @@ Remove the text in this field:
 Default: /home/undefined/webapps/undefined:/var/lib/php/session:/tmp
 ```
 
-**Note:** Keeping the default field info will fail Craft CMS updates on the production site.
+**Note:** Keeping the default field info will fail Craft CMS updates on the production site.
 
-### **disable_functions**
+### disable_functions
 
 Remove the following functions from the list to enable them, as they are needed for Craft CMS to run properly. If your Craft site is having any issues with running or are getting multiple server errors while navigating the Admin panel, be sure to check these settings.
 
@@ -92,22 +92,43 @@ Remove the following functions from the list to enable them, as they are needed 
 - `proc_terminate` — Plugin Store operations and sending Emails
 - `ignore_user_abort` — Native web-based queue runner.
 
-### **max_execution_time**
+### max_execution_time
 
 Change `default max_execution_time` to 300.
 
-**Note:** Craft requires a minimum PHP max execution of 120s.
+**Note:** Craft requires a minimum PHP max execution of 120s.
 
 ![RunCloud Craft CMS PHP Settings](./runcloud-php-settings.png)
 
-## **Rebuild the Application to apply changes**
+## Edit NGINX config to redirect www to non-www
+
+When it comes to adding www or no www to a website, it all comes down to a matter of preference. I like all my traffic to go to the non-www version since it just feels like a cleaner URL. Either way, you'll want to set up all traffic to go to one version of the site, or else you may run into CORS, or SEO related issues while trying to serve up content.
+
+To begin, go to your web application in the RunCloud dashboard and click on the NGINX Config tab on the left-hand navigation. Then click on Create Config to get started with creating your config file. From there, give the config any name that you would like, paste the rewrite you want to use, and save the config.
+
+Redirect non-www to www
+```bash
+if ($host !~ ^www\.) {
+  rewrite ^ $scheme://www.$host$request_uri permanent;
+}
+```
+
+Redirect www to non-www
+```bash
+if ($host ~* ^www\.(.*)) {
+	set $host_without_www $1;
+  rewrite ^(.*) $scheme://$host_without_www$1 permanent;
+}
+```
+
+![RunCloud NGINX Config](./nginx-config.png)
+
+## Rebuild the Application to apply changes
 
 After adjusting anything in the settings panel, RunCloud recommends you to rebuild the application. To do this, click on the "More" button on the top right portion of the screen and select "Rebuild web application".
-
-Repeat the Configure PHP Settings process for each application that you want to set up on the server.
 
 ![Rebuild RunCloud Web Application](./rebuild-web-application.png)
 
 ---
 
-Your RunCloud server is now properly configured for Craft CMS! If you have any issues or additional input, feel free to get a hold of me on Twitter [@bryandugan](https://twitter.com/bryandugan)
+Your RunCloud server is now properly configured for Craft CMS! If you have any issues or additional input, feel free to get a hold of me on Twitter [@bryandugan](https://twitter.com/bryandugan)
