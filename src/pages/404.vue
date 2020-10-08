@@ -4,7 +4,6 @@
       <div
         class="relative w-full max-w-xs px-6 mx-auto sm:w-3/4 md:w-3/5 lg:w-2/5 md:px-0"
       >
-        >
         <section
           class="relative px-8 py-6 mx-auto bg-white rounded shadow-xl"
         >

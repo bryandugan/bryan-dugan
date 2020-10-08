@@ -4525,6 +4525,11 @@ gridsome-plugin-flexsearch@^0.1.20:
     lodash.chunk "^4.2.0"
     uuid "^8.0.0"
 
+gridsome-plugin-htaccess@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-htaccess/-/gridsome-plugin-htaccess-0.2.1.tgz#88900bdc2be831f2a752d2b78abfc6b01d4306d9"
+  integrity sha512-EiltAiteabahilz2jhPKeawXKgKYPbqptVD0n7tnl2Vt5oOK0LjyFX/HjuiEEx/fY2RVhx1YuYb1koxN7I13Iw==
+
 gridsome-plugin-remark-shiki@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-shiki/-/gridsome-plugin-remark-shiki-0.3.1.tgz#0f6a576f50f9f162825fcbdb04d7fbbfd0aca4c1"
