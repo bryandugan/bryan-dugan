@@ -1,24 +1,24 @@
 <template>
-  <Layout class="bg-green-500">
+  <Layout class="bg-gray-100">
     <main class="flex items-center h-screen">
       <div
-        class="w-full sm:w-3/4 md:w-3/5 lg:w-2/5 max-w-xs mx-auto px-6 md:px-0 relative"
+        class="relative w-full max-w-xs px-6 mx-auto sm:w-3/4 md:w-3/5 lg:w-2/5 md:px-0"
       >
         <span
-          class="absolute -mt-10 text-5xl inset-x-0 text-center pointer-events-none"
+          class="absolute inset-x-0 -mt-10 text-5xl text-center pointer-events-none"
         >🧐</span
         >
         <section
-          class="bg-gray-100 mx-auto px-8 py-6 rounded shadow-xl relative"
+          class="relative px-8 py-6 mx-auto bg-white rounded shadow-xl"
         >
-          <h1 class="text-2xl font-sans font-bold mb-4">Page Not Found</h1>
-          <p class="font-sans mb-4 leading-normal text-gray-700">
+          <h1 class="mb-4 font-sans text-2xl font-bold">Page Not Found</h1>
+          <p class="mb-4 font-sans leading-normal text-gray-700">
             The page you are looking for has either been moved, or doesn't
             exist.
           </p>
           <g-link
             to="/"
-            class="text-sm text-green-500 hover:text-green-600 font-sans transition-color duration-300"
+            class="font-sans text-sm text-green-500 duration-300 hover:text-green-600 transition-color"
           >&larr; Back to Home
           </g-link
           >
@@ -29,11 +29,11 @@
 </template>
 
 <script>
-  export default {
-    metaInfo() {
-      return {
-        title: `Page Not Found (404)`
-      };
-    }
-  };
+export default {
+  metaInfo() {
+    return {
+      title: `Page Not Found (404)`
+    };
+  }
+};
 </script>

@@ -3,7 +3,7 @@
     @apply rounded-lg;
   }
   p, ul, ol {
-    @apply text-lg leading-loose mb-4;
+    @apply text-lg leading-normal mb-4;
   }
 
   ul li, ol li {
@@ -19,7 +19,7 @@
   }
 
   h2, h3, h4, h5, h6 {
-    @apply font-sans font-bold text-black my-6 leading-tight;
+    @apply font-sans font-bold text-black my-6;
   }
 
   h5, h6 {
@@ -53,10 +53,10 @@
   }
 
   a {
-    @apply text-green-500;
+    @apply text-green-800 underline;
 
     &:hover {
-      @apply underline;
+      @apply text-green-500 underline;
     }
 
   }

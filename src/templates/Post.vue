@@ -5,23 +5,22 @@
       <post-header :post="$page.post"/>
 
       <article
-        class="max-w-xl md:max-w-2xl xl:max-w-4xl mx-auto px-6 sm:px-12 pt-16"
+        class="max-w-xl px-6 pt-16 mx-auto md:max-w-2xl xl:max-w-4xl sm:px-12"
         :class="{
           'border-b border-grey-lighter pb-10 mb-16': !$page.post.author
         }"
       >
-        <!--        <alert v-if="postIsOlderThanOneYear" class="bg-orange-100 border-l-4 border-orange-500 text-orange-900">-->
+        <!--        <alert v-if="postIsOlderThanOneYear" class="text-orange-900 bg-orange-100 border-l-4 border-orange-500">-->
         <!--          This post is over a year old, some of this information may be out of date.-->
         <!--        </alert>-->
 
         <div
-          class="markdown text-lg leading-normal text-gray-700"
+          class="leading-normal text-gray-700 markdown"
           v-html="$page.post.content"
         />
 
         <div
-          :class="{ 'pb-10': $page.post.author || $page.post.tags }"
-          class="text-sm text-gray-700 font-sm leading-normal"
+          class="pt-12 pb-12 text-sm leading-normal text-gray-700 font-sm"
         >
           <strong>Note:</strong> Any links leading you to products or services
           are most likely affiliate links that I will receive compensation from.
@@ -40,10 +39,10 @@
               v-for="tag in $page.post.tags"
               :key="tag.id"
               :to="`${tag.path}/`"
-              class="inline-block text-green-500 hover:text-white hover:bg-green-500 border border-green-500 font-sans font-bold text-xs sm:text-sm px-4 py-2 mr-4 mb-2 rounded-full transition-colors duration-300"
+              class="inline-block px-4 py-2 mb-2 mr-4 font-sans text-xs font-bold text-green-800 transition-colors duration-300 border border-green-800 rounded-full hover:text-white hover:bg-green-800 sm:text-sm"
             >
               <svg
-                class="inline w-3 fill-current align-middle mr-1"
+                class="inline w-3 mr-1 align-middle fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 role="img"
@@ -57,10 +56,10 @@
           </div>
           <div
             v-if="$page.post.author"
-            class="flex flex-wrap items-center justify-center sm:justify-left border-t border-b border-gray-300 w-full mt-10 py-10 sm:px-16"
+            class="flex flex-wrap items-center justify-center w-full py-10 mt-10 border-t border-b border-gray-300 sm:justify-left sm:px-16"
           >
             <figure
-              class="px-2 mb-1 sm:mb-0 w-full h-full sm:w-1/5 flex justify-center"
+              class="flex justify-center w-full h-full px-2 mb-1 sm:mb-0 sm:w-1/5"
             >
               <g-link :to="`${$page.post.author.path}/`">
                 <img
@@ -68,15 +67,15 @@
                   :alt="$page.post.author.title"
                   @error="imageLoadError"
                   width="100"
-                  class="rounded-full mx-auto p-4 sm:p-0 h-1/3 w-1/3 md:w-full md:w-full object-cover"
+                  class="object-cover w-1/3 p-4 mx-auto rounded-full sm:p-0 h-1/3 md:w-full"
                 />
               </g-link>
             </figure>
-            <div class="px-4 sm:w-4/5 text-center sm:text-left">
-              <h4 class="font-sans font-bold text-lg sm:text-xl mb-2 sm:mb-4">
+            <div class="px-4 text-center sm:w-4/5 sm:text-left">
+              <h4 class="mb-2 font-sans text-lg font-bold sm:text-xl sm:mb-4">
                 <g-link
                   :to="`${$page.post.author.path}/`"
-                  class="text-black hover:text-gray-700 capitalize border-b-2 border-transparent transition-colors duration-300"
+                  class="text-black capitalize transition-colors duration-300 border-b-2 border-transparent hover:text-gray-700"
                 >{{ titleCase($page.post.author.title) }}
                 </g-link
                 >
@@ -84,7 +83,7 @@
               <p class="leading-normal">
                 <g-link
                   :to="`${$page.post.author.path}/`"
-                  class="text-green-500 hover:text-green-400 transition-colors duration-300"
+                  class="text-green-800 transition-colors duration-300 hover:text-green-500 hover:underline"
                 >
                   See all posts by
                   {{ titleCase($page.post.author.title) }} &rarr;

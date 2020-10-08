@@ -4,7 +4,7 @@ export default function (Vue, {head}) {
   Vue.component('Layout', DefaultLayout)
 
   head.htmlAttrs = {lang: 'en', class: 'h-full'}
-  head.bodyAttrs = {class: 'antialiased font-sans'}
+  head.bodyAttrs = {class: 'antialiased font-sans bg-gray-100'}
 
   head.link.push({
     rel: 'stylesheet',
