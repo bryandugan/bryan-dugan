@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-screen-xl px-4 mx-auto layout sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
-    <div class="md:flex pt-24 pb-32 border-t">
+    <div class="md:flex pt-16 md:pt-24 pb-32 border-t">
       <div class="w-full mb-12 md:w-1/3 lg:w-1/3 lg:mb-0 md:mr-12">
         <h3 class="mb-4 text-3xl font-bold text-gray-900">
           Follow me on Instagram

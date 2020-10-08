@@ -7,7 +7,7 @@
       <div
         class="max-w-screen-xl px-4 mx-auto layout sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
       >
-        <div class="pt-16 pb-24 md:flex">
+        <div class="pt-16 pb-16 md:pb-24 md:flex">
           <div class="w-full mb-12 md:w-1/3 md:mb-0 md:mr-12">
             <h2 class="text-3xl font-bold text-gray-900">Introduction</h2>
             <div class="text-gray-600">A little about who I am and what I do.</div>
@@ -48,7 +48,7 @@
       <div
         class="max-w-screen-xl px-4 mx-auto layout sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
       >
-        <div class="pt-24 pb-24 border-t md:flex">
+        <div class="pt-16 pb-16 border-t md:pt-24 md:pb-24 md:flex">
           <div class="w-full mb-12 md:w-1/3 md:mb-0 md:mr-12">
             <h2 class="text-3xl font-bold text-gray-900">A little more...</h2>
             <div class="text-gray-600">My passion for computers, design and development.</div>
@@ -97,7 +97,7 @@
       <div
         class="max-w-screen-xl px-4 mx-auto layout sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
       >
-        <div class="pt-24 pb-24 border-t md:flex">
+        <div class="border-t pt:16 md:pt-24 md:pb-16 md:pb-24 md:flex">
           <div class="w-full mb-12 md:w-1/3 md:mb-0 md:mr-12">
             <h2 class="text-3xl font-bold text-gray-900">Fun tidbits...</h2>
             <div class="text-gray-600">What I like to do on the side and some other interesting facts.</div>
