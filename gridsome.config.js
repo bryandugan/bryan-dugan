@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: 'Interface designer & front-end developer',
-  siteDescription: "Interface designer & front-end web developer that builds professional websites and applications that are both elegant and functional.",
+  siteName: 'UI designer & developer',
+  siteDescription: "UX/UI design director creating user-centric digital experiences with a background in front-end development.",
   siteUrl: 'https://bryandugan.com',
   titleTemplate: `%s | Bryan Dugan`,
   icon: 'src/favicon.png',

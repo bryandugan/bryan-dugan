@@ -170,7 +170,7 @@ export default {
       return "About";
     },
     description() {
-      return "I'm Bryan Dugan, an interface designer and front-end developer based out of Rochester Hills, Michigan.";
+      return "I'm Bryan Dugan, a UX/UI design director creating user-centric digital experiences with a background in front-end development.";
     },
     ogImageUrl() {
       return `${this.config.siteUrl}/images/bryan-dugan.jpg`;

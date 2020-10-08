@@ -4,9 +4,6 @@
       <div
         class="relative w-full max-w-xs px-6 mx-auto sm:w-3/4 md:w-3/5 lg:w-2/5 md:px-0"
       >
-        <span
-          class="absolute inset-x-0 -mt-10 text-5xl text-center pointer-events-none"
-        >🧐</span
         >
         <section
           class="relative px-8 py-6 mx-auto bg-white rounded shadow-xl"
@@ -18,7 +15,7 @@
           </p>
           <g-link
             to="/"
-            class="font-sans text-sm text-green-500 duration-300 hover:text-green-600 transition-color"
+            class="font-sans text-sm text-green-800 duration-300 hover:text-green-500 transition-color"
           >&larr; Back to Home
           </g-link
           >
