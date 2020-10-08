@@ -123,7 +123,7 @@
 
           <div class="w-1/2 md:1/2 lg:w-1/4">
 
-            <ul class="leading-loose text-gray-700 md:mr-8">
+            <ul class="pr-4 leading-loose text-gray-700 list-disc list-inside md:mr-8 sm:list-none">
               <li>Interface Design</li>
               <li>User Experience (UX)</li>
               <li>Conceptual Design</li>
@@ -134,7 +134,7 @@
             </ul>
           </div>
           <div class="w-1/2 md:1/2 lg:w-1/4">
-            <ul class="leading-loose text-gray-700 md:mr-8">
+            <ul class="pr-4 leading-loose text-gray-700 list-disc list-inside md:mr-8 sm:list-none md:list-inside">
               <li>Information Architecture</li>
               <li>Responsive Design</li>
               <li>Creative Direction</li>
