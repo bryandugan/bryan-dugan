@@ -33,6 +33,7 @@
           <a
             href="https://www.linkedin.com/in/bryandugan"
             target="_blank"
+            rel="noopener"
             class="ml-6 text-gray-100 hover:text-green-400"
           >
             <span class="sr-only">LinkedIn</span>
@@ -46,6 +47,7 @@
           <a
             href="https://instagram.com/bryan.dugan"
             target="_blank"
+            rel="noopener"
             class="ml-6 text-gray-100 hover:text-green-400"
           >
             <span class="sr-only">Instagram</span>
@@ -59,6 +61,7 @@
           </a>
           <a
             href="https://github.com/bryandugan"
+            rel="noopener"
             target="_blank"
             class="ml-6 text-gray-100 hover:text-green-400"
           >

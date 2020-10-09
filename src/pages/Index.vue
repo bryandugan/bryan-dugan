@@ -34,6 +34,7 @@
             <a
               href="https://spaceraycreative.com/work"
               target="_blank"
+              rel="noopener"
               class="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-lg font-medium leading-6 text-white transition duration-150 ease-in-out bg-green-600 border border-transparent rounded-lg sm:text-base md:text-lg sm:mr-4 sm:w-auto md:mb-0 hover:bg-green-500 focus:outline-none focus:border-green-800 focus:shadow-outline-green active:bg-green-700"
             >
               Spaceray Creative Work
