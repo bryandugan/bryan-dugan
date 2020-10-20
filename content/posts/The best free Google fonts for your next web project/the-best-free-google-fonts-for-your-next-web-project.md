@@ -14,73 +14,59 @@ If you're looking for free commercial fonts for a web project, [Google Fonts](h
 
 These headings, or otherwise known as display fonts, are great to use for headlines that will stand out at large sizes.
 
-![Playfair-Display](./Playfair-Display.png)
+**Playfair Display**
+[![Playfair Display](./Playfair-Display.png)](https://fonts.google.com/specimen/Playfair+Display)
 
-Playfair Display — [https://fonts.google.com/specimen/Playfair+Display](https://fonts.google.com/specimen/Playfair+Display)
 
-![Exo-2](./Exo-2.png)
+**Exo 2**
+[![Exo-2](./Exo-2.png)](https://fonts.google.com/specimen/Exo+2)
 
-Exo 2 — [https://fonts.google.com/specimen/Exo+2](https://fonts.google.com/specimen/Exo+2)
-
-![Rubik.png](./Rubik.png)
-
-Rubik — [https://fonts.google.com/specimen/Rubik](https://fonts.google.com/specimen/Rubik)
+**Rubik**
+[![Rubik.png](./Rubik.png)](https://fonts.google.com/specimen/Rubik)
 
 ## Body copy
 
 Body copy should be legible while reading large blocks of text. Some of the fonts listed in this section could also work as a headline but may not be as effective.
 
-![Merriweather-Sans.png](./Merriweather-Sans.png)
+**Merriweather Sans**
+[![Merriweather-Sans.png](./Merriweather-Sans.png)](https://fonts.google.com/specimen/Merriweather+Sans)
 
-Merriweather Sans — [https://fonts.google.com/specimen/Merriweather+Sans](https://fonts.google.com/specimen/Merriweather+Sans)
+**Merriweather**
+[![Merriweather.png](./Merriweather.png)](https://fonts.google.com/specimen/Merriweather)
 
-![Merriweather.png](./Merriweather.png)
+**PT Sans**
+[![PT-Sans.png](./PT-Sans.png)](https://fonts.google.com/specimen/PT+Sans)
 
-Merriweather — [https://fonts.google.com/specimen/Merriweather](https://fonts.google.com/specimen/Merriweather)
+**PT Serif**
+[![PT-Serif.png](./PT-Serif.png)](https://fonts.google.com/specimen/PT+Serif)
 
-![PT-Sans.png](./PT-Sans.png)
+**Libre Baskerville**
+[![Libre-Baskerville.png](./Libre-Baskerville.png)](https://fonts.google.com/specimen/Libre+Baskerville)
 
-PT Sans — [https://fonts.google.com/specimen/PT+Sans](https://fonts.google.com/specimen/PT+Sans)
+**Lora**
+[![Lora.png](./Lora.png)](https://fonts.google.com/specimen/Lora)
 
-![PT-Serif.png](./PT-Serif.png)
-
-PT Serif — [https://fonts.google.com/specimen/PT+Serif](https://fonts.google.com/specimen/PT+Serif)
-
-![Libre-Baskerville.png](./Libre-Baskerville.png)
-
-Libre Baskerville — [https://fonts.google.com/specimen/Libre+Baskerville](https://fonts.google.com/specimen/Libre+Baskerville)
-
-![Lora.png](./Lora.png)
-
-Lora — [https://fonts.google.com/specimen/Lora](https://fonts.google.com/specimen/Lora)
-
-![Lato.png](./Lato.png)
-
-Lato — [https://fonts.google.com/specimen/Lato](https://fonts.google.com/specimen/Lato)
+**Lato**
+[![Lato.png](./Lato.png)](https://fonts.google.com/specimen/Lato)
 
 ## Multipurpose
 
 These fonts are usually my go-to fonts as they not only look great at multiple sizes and weights but also complement each other perfectly. When in doubt, choosing one of these fonts is always a safe bet.
 
-![Inter.png](./Inter.png)
+**Inter**
+[![Inter.png](./Inter.png)](https://fonts.google.com/specimen/Inter)
 
-Inter — [https://fonts.google.com/specimen/Inter](https://fonts.google.com/specimen/Inter)
+**Montserrat**
+[![Montserrat.png](./Montserrat.png)](https://fonts.google.com/specimen/Montserrat)
 
-![Montserrat.png](./Montserrat.png)
+**Libre Franklin**
+[![Libre-Franklin.png](./Libre-Franklin.png)](https://fonts.google.com/specimen/Libre+Franklin)
 
-Montserrat — [https://fonts.google.com/specimen/Montserrat](https://fonts.google.com/specimen/Montserrat)
+**Work Sans**
+[![Work-Sans.png](./Work-Sans.png)](https://fonts.google.com/specimen/Work+Sans)
 
-![Libre-Franklin.png](./Libre-Franklin.png)
-
-Libre Franklin — [https://fonts.google.com/specimen/Libre+Franklin](https://fonts.google.com/specimen/Libre+Franklin)
-
-![Work-Sans.png](./Work-Sans.png)
-
-Work Sans — [https://fonts.google.com/specimen/Work+Sans](https://fonts.google.com/specimen/Work+Sans)
-
-![Poppins.png](./Poppins.png)
-
-Poppins — [https://fonts.google.com/specimen/Poppins](https://fonts.google.com/specimen/Poppins)
+**Poppins**
+[![Poppins.png](./Poppins.png)](https://fonts.google.com/specimen/Poppins)
 
 ## Selecting fonts yourself
 
