@@ -4525,11 +4525,6 @@ gridsome-plugin-flexsearch@^0.1.20:
     lodash.chunk "^4.2.0"
     uuid "^8.0.0"
 
-gridsome-plugin-htaccess@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-htaccess/-/gridsome-plugin-htaccess-0.2.1.tgz#88900bdc2be831f2a752d2b78abfc6b01d4306d9"
-  integrity sha512-EiltAiteabahilz2jhPKeawXKgKYPbqptVD0n7tnl2Vt5oOK0LjyFX/HjuiEEx/fY2RVhx1YuYb1koxN7I13Iw==
-
 gridsome-plugin-remark-shiki@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-shiki/-/gridsome-plugin-remark-shiki-0.3.1.tgz#0f6a576f50f9f162825fcbdb04d7fbbfd0aca4c1"
@@ -6617,9 +6612,9 @@ object-keys@^1.0.12, object-keys@^1.1.1:
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
 object-path@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
-  integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.5.tgz#d4e3cf19601a5140a55a16ad712019a9c50b577a"
+  integrity sha512-jgSbThcoR/s+XumvGMTMf81QVBmah+/Q7K7YduKeKVWL7N111unR2d6pZZarSk6kY/caeNxUDyxOvMWyzoU2eg==
 
 object-visit@^1.0.0:
   version "1.0.1"
