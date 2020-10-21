@@ -14,59 +14,43 @@ If you're looking for free commercial fonts for a web project, [Google Fonts](h
 
 These headings, or otherwise known as display fonts, are great to use for headlines that will stand out at large sizes.
 
-**Playfair Display**
 [![Playfair Display](./Playfair-Display.png)](https://fonts.google.com/specimen/Playfair+Display)
 
+[![Exo 2](./Exo-2.png)](https://fonts.google.com/specimen/Exo+2)
 
-**Exo 2**
-[![Exo-2](./Exo-2.png)](https://fonts.google.com/specimen/Exo+2)
-
-**Rubik**
-[![Rubik.png](./Rubik.png)](https://fonts.google.com/specimen/Rubik)
+[![Rubik](./Rubik.png)](https://fonts.google.com/specimen/Rubik)
 
 ## Body copy
 
 Body copy should be legible while reading large blocks of text. Some of the fonts listed in this section could also work as a headline but may not be as effective.
 
-**Merriweather Sans**
-[![Merriweather-Sans.png](./Merriweather-Sans.png)](https://fonts.google.com/specimen/Merriweather+Sans)
+[![Merriweather Sans](./Merriweather-Sans.png)](https://fonts.google.com/specimen/Merriweather+Sans)
 
-**Merriweather**
-[![Merriweather.png](./Merriweather.png)](https://fonts.google.com/specimen/Merriweather)
+[![Merriweather](./Merriweather.png)](https://fonts.google.com/specimen/Merriweather)
 
-**PT Sans**
-[![PT-Sans.png](./PT-Sans.png)](https://fonts.google.com/specimen/PT+Sans)
+[![PT Sans](./PT-Sans.png)](https://fonts.google.com/specimen/PT+Sans)
 
-**PT Serif**
-[![PT-Serif.png](./PT-Serif.png)](https://fonts.google.com/specimen/PT+Serif)
+[![PT Serif](./PT-Serif.png)](https://fonts.google.com/specimen/PT+Serif)
 
-**Libre Baskerville**
-[![Libre-Baskerville.png](./Libre-Baskerville.png)](https://fonts.google.com/specimen/Libre+Baskerville)
+[![Libre Baskerville](./Libre-Baskerville.png)](https://fonts.google.com/specimen/Libre+Baskerville)
 
-**Lora**
-[![Lora.png](./Lora.png)](https://fonts.google.com/specimen/Lora)
+[![Lora](./Lora.png)](https://fonts.google.com/specimen/Lora)
 
-**Lato**
-[![Lato.png](./Lato.png)](https://fonts.google.com/specimen/Lato)
+[![Lato](./Lato.png)](https://fonts.google.com/specimen/Lato)
 
 ## Multipurpose
 
 These fonts are usually my go-to fonts as they not only look great at multiple sizes and weights but also complement each other perfectly. When in doubt, choosing one of these fonts is always a safe bet.
 
-**Inter**
-[![Inter.png](./Inter.png)](https://fonts.google.com/specimen/Inter)
+[![Inter](./Inter.png)](https://fonts.google.com/specimen/Inter)
 
-**Montserrat**
-[![Montserrat.png](./Montserrat.png)](https://fonts.google.com/specimen/Montserrat)
+[![Montserrat](./Montserrat.png)](https://fonts.google.com/specimen/Montserrat)
 
-**Libre Franklin**
-[![Libre-Franklin.png](./Libre-Franklin.png)](https://fonts.google.com/specimen/Libre+Franklin)
+[![Libre Franklin](./Libre-Franklin.png)](https://fonts.google.com/specimen/Libre+Franklin)
 
-**Work Sans**
-[![Work-Sans.png](./Work-Sans.png)](https://fonts.google.com/specimen/Work+Sans)
+[![Work Sans](./Work-Sans.png)](https://fonts.google.com/specimen/Work+Sans)
 
-**Poppins**
-[![Poppins.png](./Poppins.png)](https://fonts.google.com/specimen/Poppins)
+[![Poppins](./Poppins.png)](https://fonts.google.com/specimen/Poppins)
 
 ## Selecting fonts yourself
 
