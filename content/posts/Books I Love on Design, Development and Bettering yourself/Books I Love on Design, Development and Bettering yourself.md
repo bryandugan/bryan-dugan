@@ -51,9 +51,11 @@ House Industries — [Hardcover](https://amzn.to/2LY4x4x)
 
 ## Development Books
 
-**[JavaScript & jQuery](https://amzn.to/2TAogLO)  — Jon Duckett**
+### JavaScript & jQuery
 
 Even though the jQuery library is rarely used nowadays in web projects, it's a wonderful easy to read primer about the fundamentals of JavaScript. It's one of the most popular JavaScript reference books and with good reason.
+
+Jon Duckett — [Paperback](https://amzn.to/2TAogLO)
 
 
 ### CSS Secrets
@@ -87,7 +89,7 @@ Greg McKeown — [Hardcover](https://amzn.to/2XpHu87)
 
 The Miracle Morning isn't just a quick self-help book, it's an entire lifestyle change. It involves waking up an hour earlier than you normally do to make time for yourself doing a set of tasks that help out every aspect of your life. If you're overwhelmed that you don't have any time to spend on yourself or are waking up in the morning to answer to other people, other than yourself; this book is for you. I've practiced this method off and on for the past few years and always feel better when I do the Miracle Morning routine.
 
-Hal Elrod — [Paperback](https://amzn.to/2XpT9nf)
+Hal Elrod — [Paperback](https://amzn.to/2XpT9nf)
 
 
 ### How to Win Friends & Influence People
