@@ -14,7 +14,7 @@ Homebrew is a command-line interface(CLI) package manager for OSX.
 
 To get started, you'll first need to install Apple's Xcode command-line tools. To do this, you first need to install Xcode from the Apple App Store. Once Xcode is installed, open it and select `Xcode > Preferences > Locations > Command Line` Tools to install the required command-line tools to use Homebrew.
 
-Now that the xcode CLI is installed, we can now install Homebrew. To install Homebrew, copy, and paste the below command into your terminal to get started. If the below command doesn't work, take a look at the [Homebrew documentation](https://brew.sh/).
+Now that the xcode CLI is installed, we can now install Homebrew. To install Homebrew, copy, and paste the below command into your terminal to get started. If the below command doesn't work, take a look at the [Homebrew documentation](https://brew.sh/).
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
