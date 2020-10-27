@@ -1,12 +1,11 @@
 <template>
   <article>
     <div class="max-w-4xl px-6 mx-auto">
-      <div class="py-8 border-b border-gray-300 sm:py-24">
-        <header class="mb-8">
+      <div class="py-8 border-b border-gray-300 sm:py-16">
           <h2
-            class="px-2 mb-1 font-sans text-3xl leading-tight sm:text-4xl sm:mb-2 sm:px-4 md:px-10 hover:text-gray-700 hover:underline"
+            class="px-2 mb-1 font-sans text-2xl leading-tight sm:mb-2 sm:px-4 md:px-10"
           >
-            <g-link :to="`${post.slug}/`" class="font-bold text-black">{{ post.title }}</g-link>
+            <g-link :to="`${post.slug}/`" class="font-bold text-black hover:text-gray-700 hover:underline">{{ post.title }}  ⟶</g-link>
           </h2>
           <p
             class="px-2 text-sm leading-normal text-gray-700 sm:text-base sm:px-4 md:px-10"
@@ -38,11 +37,6 @@
             >
             <span> {{ post.timeToRead }} min read</span>
           </p>
-        </header>
-        <p
-          class="px-2 text-xl leading-normal text-gray-700 sm:px-4 md:px-10"
-          v-html="excerpt(post, 280, ' ...')"
-        ></p>
       </div>
     </div>
   </article>
