@@ -16,7 +16,7 @@ While building a website for clients, it's a good idea to get a better understan
 
 Client Name:
 
-Client Date:
+Date:
 
 ## About the business
 

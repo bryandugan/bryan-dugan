@@ -108,9 +108,15 @@
               <li>I have realized that I have never been to any U.S. National Parks and have made it a goal to try and
                 visit as many as possible.
               </li>
-              <li>My first ever hiking trip, I climbed Mt. Washington in New Hampshire.</li>
+              <li>For my first ever hiking trip, I summited Mt. Washington in New Hampshire.</li>
               <li>The longest bike ride I’ve ever been on was about 70 miles round trip.</li>
             </ul>
+            <g-image
+              src="/images/bryan-dugan-iceland.jpg"
+              class="w-auto mt-8 rounded-lg"
+              alt="Bryan Dugan in Iceland"
+            />
+
           </div>
         </div>
       </div>
