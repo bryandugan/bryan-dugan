@@ -1,7 +1,7 @@
 ---
 title: "Setting up a new Mac for Development"
 description: "This is the Homebrew Cask setup of my personal development laptop. Feel free to use this as a starting point for a fresh install of any new OSX machine."
-slug: setting-up-a-new-mac-for-development-with-homebrew
+slug: setting-up-a-new-mac-for-development
 date: 2020-10-26
 author: bryan-dugan
 cover: ./mac-homebrew.png
