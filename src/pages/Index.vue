@@ -127,8 +127,8 @@
             <ul class="pr-4 leading-loose text-gray-700 list-disc list-inside md:mr-8 sm:list-none">
               <li>Interface Design</li>
               <li>User Experience (UX)</li>
-              <li>Conceptual Design</li>
               <li>Front-End Development</li>
+              <li>Low Code Environments</li>
               <li>Consulting</li>
               <li>Prototyping</li>
               <li>Presentations</li>
