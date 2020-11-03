@@ -42,6 +42,7 @@ This is where I will keep my most up to date setup for anyone curious or just ge
 - Managing a lot of user accounts, I use [1password](https://1password.com/) to store all my passwords.
 - [Harvest](http://try.hrv.st/1-683890) for Time Tracking and Invoices.
 - [Contrast](https://usecontrast.com/) for quickly checking color accessibility.
+- [CleanShot](https://cleanshot.com/) for taking better screenshots that don't need to be edited.
 
 
 ## Hardware
