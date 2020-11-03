@@ -12,7 +12,7 @@ Being a user interface designer, living in Michigan with cold winters, I tend to
 
 A leader of mine had told me, “No ones going to take care of you, but yourself.” This message has stuck with me, and I use it as a daily reminder to do something to take care of myself. Some days I focus more on exercise, or other days I learn something new.
 
-# Avoiding burnout and staying productive
+## Avoiding burnout and staying productive
 
 Working on a computer all day leaves a lot of strain on your eyes. It drains your focus, leaving you to feel tired, unmotivated, and feeling burned out in some cases. Once you start feeling overworked and burned out, it can take a long time to recover.
 
