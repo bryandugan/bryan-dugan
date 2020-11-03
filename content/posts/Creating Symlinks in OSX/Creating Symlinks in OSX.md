@@ -4,6 +4,7 @@ description: "It is possible in OSX to create a Symlink (symbolic link) or short
 slug: creating-symlinks-in-osx
 date: 2015-11-12
 author: bryan-dugan
+cover: ./creating-symlinks-in-osx.png
 tags: ['terminal', 'mac osx']
 ---
 
