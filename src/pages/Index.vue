@@ -24,10 +24,7 @@
             </p>
 
             <p class="mb-5">
-              I help design and build compelling websites and applications that are both elegant and functional for
-              enterprise businesses. I have two years of experience in managing design and development teams, with ten
-              years of industry experience. I have worked primarily in the automotive sector, designing and building
-              proof of concepts as well as production IoT/IDM dashboards and applications.
+              I help design and build compelling websites and applications that are both elegant and functional for enterprise businesses. I have two years of experience managing design and development teams, with ten years of industry experience. I have worked primarily in the automotive sector, designing and building proof of concepts and production IoT/IDM dashboards and applications.
             </p>
           </div>
           <div class="sm:flex">

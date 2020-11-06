@@ -29,12 +29,11 @@
 
             <p>
               I enjoy designing and building interfaces with Sketch/Figma and managing design/development teams using
-              tools such as Invision and Zeplin. I am passionate about designing practical, easy to use, and accessible
-              digital experiences that make clients and their customers happy. When a client says, “wow this site is
-              extremely easy to navigate” or hearing that I went “above & beyond expectations”, is what keeps me loving
-              what I do. I’ve worked with clients ranging from small to enterprise businesses. I’ve also regularly
-              collaborated with both, small and enterprise UI and UX teams.
-
+              Invision and Zeplin. I am passionate about creating practical, easy to use, and accessible digital
+              experiences that make clients and their customers happy. When a client says, “wow, this site is simple to
+              navigate,” or hearing that I went “above & beyond expectations,” is what keeps me loving what I do. I’ve
+              worked with clients ranging from small to enterprise businesses. I’ve also regularly collaborated with
+              both small and enterprise UI and UX teams.
             </p>
 
 
@@ -55,29 +54,27 @@
           <div class="w-full text-lg leading-normal text-gray-700 md:w-2/3 about">
             <p>
               Before working primarily with enterprise businesses, I have worked for smaller local agencies where I
-              designed and developed numerous marketing websites for small and medium-sized businesses. On the side, I
+              designed and developed numerous marketing websites for small and medium-sized companies. On the side, I
               also am a co-founder of a small creative consulting agency that helps out small businesses. This allows me
               to keep up with the latest web-trends and keep my mind fresh.
             </p>
 
-            <p>My background in front-end development has allowed me to design practical solutions and bridge the gap
-              between design and development. When it comes to development, the main development stack I work with is
-              Tailwind CSS, Craft CMS, and some Vue.js. As of right now, I am currently working on improving my
-              knowledge
-              of working with APIs using GraphQL, and Apollo. I also enjoy building user interfaces using HTML/CSS. I
-              feel
-              it’s important as an interface designer to know how complex building certain components can be and I like
-              to
-              think about the project as if I were to have to code it myself.
+            <p>
+              My front-end development background has allowed me to design practical solutions and bridge the gap
+              between design and development. The main development stack I work with is Tailwind CSS, Craft CMS, and
+              some Vue.js. As of right now, I am currently working on improving my knowledge of working with APIs using
+              GraphQL and Apollo. I also enjoy building user interfaces using HTML/CSS. I feel it’s important as an
+              interface designer to know how complex building specific components can be. I like to think about a
+              project as if I were to have to code it myself.
             </p>
 
 
             <p>
               I make it a point to try and learn something new every day. If I’m not in front of a computer pushing
-              pixels, I am usually out mountain biking, or learning how to play golf (I just started playing during the
-              pandemic). I also enjoy traveling, board games, reading, hiking, and camping. During the cold Michigan
-              winters, I’m usually playing ice hockey, painting Dungeon’s & Dragon’s Miniatures, watching 80’s and 90’s
-              movies, or playing couch co-op video games.
+              pixels, I am usually out mountain biking or learning how to play golf (I just started playing during the
+              pandemic). I also enjoy traveling, board games, reading, hiking, and camping. During winter months, I’m
+              usually playing ice hockey, painting Dungeon’s & Dragon’s Miniatures, watching 80’s and 90’s movies, or
+              playing couch co-op video games.
             </p>
 
             <p>
@@ -103,20 +100,28 @@
           </div>
           <div class="w-full text-lg leading-normal text-gray-700 md:w-2/3 about">
             <ul>
-              <li>When traveling to a new city, I try and check out their local arcade/bar and local bookstores.</li>
-              <li>I enjoy collecting and listening to vinyl records.</li>
-              <li>I have realized that I have never been to any U.S. National Parks and have made it a goal to try and
-                visit as many as possible.
+              <li>
+                When traveling to a new city, I like to check out their local arcade and local bookstores.
               </li>
-              <li>For my first ever hiking trip, I summited Mt. Washington in New Hampshire.</li>
-              <li>The longest bike ride I’ve ever been on was about 70 miles round trip.</li>
+              <li>
+                I enjoy collecting and listening to vinyl records.
+              </li>
+              <li>
+                I have realized that I have never been to any U.S. National Parks and have made it a goal to visit as
+                many as possible.
+              </li>
+              <li>
+                For my first ever hiking trip, I summited Mt. Washington in New Hampshire.
+              </li>
+              <li>
+                The longest bike ride I’ve ever been on was about 70 miles round trip.
+              </li>
             </ul>
             <g-image
               src="/images/bryan-dugan-iceland.jpg"
               class="w-auto mt-8 rounded-lg"
               alt="Bryan Dugan in Iceland"
             />
-
           </div>
         </div>
       </div>
