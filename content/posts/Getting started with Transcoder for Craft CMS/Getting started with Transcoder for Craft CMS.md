@@ -20,13 +20,13 @@ Throughout this tutorial, I will be working with a Craft field called `featuredV
 
 Transcoder utilizes the popular open-source FFmpeg library to directly do all of its transcodings on your development or server. If the server is a budget server or runs multiple web apps, I'd recommend placing a max upload size cap on the Craft field not to bog down the server. On my servers, I allow a max file size of 100MB, and if the video is larger, I link the client to my article "[Using HandBrake to optimize videos for the web.](https://bryandugan.com/using-handbrake-to-optimize-videos-for-the-web/)"
 
-Install FFmpeg locally
+**Install FFmpeg locally**
 
 ```bash
 brew install ffmpeg
 ```
 
-Install brew on Ubuntu server
+**Install brew on Ubuntu server**
 
 ```bash
 sudo apt-get update
@@ -37,19 +37,19 @@ sudo apt-get install ffmpeg
 
 For Transcoder to work, you will need to copy the `config.php` file that is located in `vendor > nystudio107 > craft-transcoder > src` and paste it to the `craft/config` folder as `transcoder.php`
 
-Now we need to get the path for FFmpeg on the device that will be running Transcoder. You can get that by using:
+**Now we need to get the path for FFmpeg on the device that will be running Transcoder. You can get that by using:**
 
 ```bash
 which ffmpeg
 ```
 
-You'll also need the path for FFprobe.
+**You'll also need the path for FFprobe.**
 
 ```bash
 which ffprobe
 ```
 
-Now replace the following lines in your transcoder.php file with the following paths.
+**Now replace the following lines in your transcoder.php file with the following paths.**
 
 ```php
 // The path to the ffmpeg binary
@@ -69,7 +69,7 @@ In this section, we are going to call the Transcoder plugin and set options to t
 
 To get the video to appear on your page, enter the following HTML, which uses the HTML 5 video element.For a complete list of all the parameters, you can view them in the [Transcoder documentation](https://nystudio107.com/docs/transcoder/Using.html#generating-a-transcoded-video).
 
-```twig
+```html
 {# Create a shorthand version of calling the featuredVideo field from the entry #}
 {% set featuredVideo = entry.featuredVideo.one() %}
 
@@ -160,7 +160,7 @@ This SCSS is geared toward creating a hero video. The code snippet fills the rel
 
 Here is a little snippet that will help you better understand what's happening with the video file and troubleshoot if something goes wrong.
 
-```twig
+```html
 {# Video Debugging Info #}
 {% set progressUrl = craft.transcoder.getVideoProgressUrl(featuredVideo, videoOptionsMp4) %}
 {% set fileInfo = craft.transcoder.getFileInfo(transVideoUrlMp4, true) %}
