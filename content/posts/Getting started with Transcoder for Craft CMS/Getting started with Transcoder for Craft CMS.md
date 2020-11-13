@@ -5,7 +5,7 @@ slug: getting-started-with-transcoder-for-craft-cms
 date: 2020-11-13
 author: bryan-dugan
 cover: ./getting-started-with-transcoder-for-craft-cms.png
-tags: ['web', 'misc']
+tags: ['development', 'craft cms', 'plugins']
 ---
 
 # Getting started with Transcoder for Craft CMS
