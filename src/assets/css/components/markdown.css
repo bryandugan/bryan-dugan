@@ -67,12 +67,12 @@
   }
 
   code.shiki {
-    @apply bg-gray-100 text-gray-700 !important;
+    @apply bg-white text-gray-700 !important;
     @apply border border-gray-300 p-4 block mb-4 font-mono text-sm leading-code overflow-x-auto scrolling-touch;
   }
 
   .shiki-inline {
-    @apply bg-gray-100 text-gray-700 !important;
+    @apply bg-white text-gray-700 !important;
     @apply border border-gray-300 text-xs px-2 py-1 rounded;
   }
 

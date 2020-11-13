@@ -10,7 +10,7 @@ tags: ['web', 'misc']
 
 # Getting started with Transcoder for Craft CMS
 
-The [Transcoder](https://plugins.craftcms.com/transcoder) plugin made by [nystudio107](https://nystudio107.com/) is a handy plugin that allows you to transcode videos, audio, and create image thumbnails from videos in Craft CMS onto your production environment utilizing the video transcoder library FFmpeg. The plugin is perfect for quickly creating hero video backgrounds on a home page or landing pages on a website. It's also great for spotlight sections such as services or portfolio pages.
+The [Transcoder](https://plugins.craftcms.com/transcoder) plugin made by [nystudio107](https://nystudio107.com/) is a handy plugin that allows you to transcode videos, audio, and create image thumbnails from videos in Craft CMS onto your production environment utilizing the video transcoder library FFmpeg. The plugin is perfect for quickly creating hero video backgrounds on a home page or landing pages on a website. It's also great for spotlight sections such as services or portfolio pages.
 
 This tutorial will focus on transcoding a video to the two main video formats on the web (mp4 and webm) and creating a video thumbnail to use while the video is loading or in case the browser doesn't support video.
 
@@ -69,7 +69,7 @@ In this section, we are going to call the Transcoder plugin and set options to t
 
 To get the video to appear on your page, enter the following HTML, which uses the HTML 5 video element.For a complete list of all the parameters, you can view them in the [Transcoder documentation](https://nystudio107.com/docs/transcoder/Using.html#generating-a-transcoded-video).
 
-```html
+```twig
 {# Create a shorthand version of calling the featuredVideo field from the entry #}
 {% set featuredVideo = entry.featuredVideo.one() %}
 
@@ -160,7 +160,7 @@ This SCSS is geared toward creating a hero video. The code snippet fills the rel
 
 Here is a little snippet that will help you better understand what's happening with the video file and troubleshoot if something goes wrong.
 
-```html
+```twig
 {# Video Debugging Info #}
 {% set progressUrl = craft.transcoder.getVideoProgressUrl(featuredVideo, videoOptionsMp4) %}
 {% set fileInfo = craft.transcoder.getFileInfo(transVideoUrlMp4, true) %}
@@ -174,8 +174,8 @@ Here is a little snippet that will help you better understand what's happening w
 
 The Twig snippet will give you the following information:
 
-1. **Original Video URL** — Outputs the URL of the original uploaded video file.
-2. **Transformed Video URL** — Outputs the URL of the transformed video.
-3. **Progress URL** — Outputs an array of the filename, duration, time, and progress of rendering out the video.
-4. **File Info** — Outputs the available audio/video file information in an array.
-5. **Thumbnail URL** — Outputs the URL for the generated thumbnail image.
+1. **Original Video URL** — Outputs the URL of the original uploaded video file.
+2. **Transformed Video URL** — Outputs the URL of the transformed video.
+3. **Progress URL** — Outputs an array of the filename, duration, time, and progress of rendering out the video.
+4. **File Info** — Outputs the available audio/video file information in an array.
+5. **Thumbnail URL** — Outputs the URL for the generated thumbnail image.
