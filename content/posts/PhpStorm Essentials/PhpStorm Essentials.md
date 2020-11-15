@@ -1,5 +1,5 @@
 ---
-title: "Phpstorm essentials"
+title: "PhpStorm essentials"
 description: "This article will go over the essentials for getting started, including PhpStorm vs. WebStorm, common keyboard shortcuts, language injection themes, and plugins."
 slug: phpstorm-essentials
 date: 2020-11-14
