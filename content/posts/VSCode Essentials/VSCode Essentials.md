@@ -81,6 +81,7 @@ A Synthwave inspired color theme that lets you live your digital dreams. I have 
 One of my favorite themes of all time ported over to VSCode.
 
 [**Cobalt 2 →**](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+
 A dark blue color theme created by Wes Bos.
 
 [**Night Owl →**](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
