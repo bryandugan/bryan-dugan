@@ -8,19 +8,20 @@ cover: ./vscode-essentials.png
 tags: ['vscode', 'development', 'apps', 'code-editors']
 ---
 
-This article is a collection of everything you need to get started using Microsoft's [Visual Studio Code](https://code.visualstudio.com/) (VSCode). This article also uses all Mac OSX shortcuts and is geared towards a front-end developer's setup.
+
+This article is a collection of everything needed to get started using Microsoft's [Visual Studio Code](https://code.visualstudio.com/) (VSCode). This article also uses all Mac OSX shortcuts and is geared towards a front-end developer's setup.
 
 ## Why use VSCode?
 
-Over the years as a front-end developer, I have tried and used many different code editors, from Notepad++, TextWrangler, Dreamweaver, Sublime Text, Atom, Brackets, back to Sublime Text, PHPStorm and finally to VSCode. I have been using VSCode as my primary code editor for the past 6 months and have really been enjoying how easy and intuitive it is to use.
+As a front-end developer, I have tried and used many different code editors, from Notepad++, TextWrangler, Dreamweaver, Sublime Text, Atom, Brackets, back to Sublime Text, PHPStorm, and finally to VSCode. I have been using VSCode as my primary code editor for the past six months and am enjoying how easy and intuitive it is to use.
 
-VSCode is a free code editor that runs on all major platforms. In that regard, it makes things extremely easy to get started
+VSCode is a free code editor that runs on all major platforms. In that regard, it makes things extremely easy to get started.
 
-> It doesn't matter which code editor you use, as long as you're proficient in it and **YOU** enjoy using it. What works for everyone else might not work for you.
+> It doesn't matter which code editor you use, as long as you're proficient in it, and **YOU** enjoy using it. What works for everyone else might not work for you.
 
 ---
 
-## Commonly Used Shortcuts
+## Commonly used shortcuts
 
 Learning shortcuts on any new program takes a while, but it's worth it in the long run. They help save time while writing code. Here is a list of some of the basics that I find myself using over and over again.
 
@@ -43,7 +44,7 @@ Learning shortcuts on any new program takes a while, but it's worth it in the lo
 | Select all instances of single word | `cmd` + `shift` + `l` |
 | Add cursor | `cmd` + `d` |
 | Find/Replace in Project | `cmd` + `shift` + `f` |
-| Find multiple tags (regex) | `|` | 
+| Find multiple tags (regex) | `|` |
 | Add cursor to each search result | `option` + `enter` |
 | Move cursor to front of word | `option` + `left`/`right` |
 | Find / Replace | `cmd` + `option` + `f` |
@@ -55,322 +56,181 @@ Learning shortcuts on any new program takes a while, but it's worth it in the lo
 | Extract code from function | `cmd` + `ctrl` + `.` |
 | Launch Debugger | `f5` |
 
-## Additional Resources
-If you want to be able to launch VSCode from command line using `code` you can set it up here. [https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac)                                                    
-## Troubleshooting
-This is a list of common issues I have come across along with the fixes for them.
 
-- Use Prettier through ESLint in Javascript and not Prettier plugin settings
+## Troubleshooting
+A list of common issues I have come across along with the fixes for them.
+
+- Use Prettier through ESLint in Javascript and not Prettier plugin settings.
 
 
 ## Themes
 
-VSCode has countless themes to get you the perfect theme for writing code. I personally prefer using dark themes, so this list is made up of all dark themes that I have either used and enjoyed. If you find any light themes that you enjoy, please get in touch and let me know!
+VSCode has countless themes to get you the perfect theme for writing code. I prefer dark themes, so this list comprises all dark themes that I have either used and enjoyed. If you have any light themes that you enjoy using, please contact me on Twitter [@bryandugan](https://twitter.com/bryandugan) and let me know!
 
-### Material Theme
 
-One of the most popular themes based off of Google's Material Design.
+[**Material Theme →**](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 
-Mattia Astorino
+The Material Theme has quickly become extremely popular among popular code editors. Instead of only changing the color scheme, unlike all the other themes in this list, it takes over the full interface and changes icons and the entire application's look and feel to match Google's Material design spec. You may also use the Material theme along with any of the color schemes in this list.
 
-[https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+[**SynthWave '84 →**](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
 
-### Night Owl
+A Synthwave inspired color theme that lets you live your digital dreams. I have recently switched over to this theme and am enjoying it.
 
-An extremely nice looking dark theme for night owls.
+[**Base16 Ocean Dark Extended Theme →**](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended)
 
-sarah.drasner
+One of my favorite themes of all time ported over to VSCode.
 
-[https://marketplace.visualstudio.com/items?itemName=sdras.night-owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+[**Cobalt 2 →**](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+A dark blue color theme created by Wes Bos.
 
-### SynthWave '84
+[**Night Owl →**](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
 
-A Synthwave inspired color theme that lets you live your digital dreams. I have recently switched over to this theme and am really enjoying it.
-
-Robb Owen
-
-[https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
-
-### Base16 Ocean Dark Extended Theme
-
-One of my personal favorite themes of all time ported over to VSCode.
-
-Kleber Silva
-
-[https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended)
+A nice looking dark theme for night owls created by Sarah Drasner.
 
 ---
 
 ## Extensions
 
-One of the things that make Visual Studio Code so powerful is its use of extensions. You can customize your editor to have as many extensions as you need. Below is a list of extensions that I have installed and use on a regular basis.
+One of the things that make Visual Studio Code so powerful is its use of extensions. You can customize your editor to have as many extensions as you need. Below is a list of extensions that I have used at one time or another and that you may find useful. Don't feel obligated to install them all; just the ones you believe could enhance your workflow. It's easy to go overboard installing extensions while learning VSCode, but remember less is always more while learning. Don't let finding extensions get in the way of you doing your work.
 
-### Angular Language Service
+[**Angular Language Service →**](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 
 Gives VSCode a rich editing experience for Angular templates, both inline and external.
 
-Angular
-
-[https://marketplace.visualstudio.com/items?itemName=Angular.ng-template](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
-
-### Auto Rename Tag
+[**Auto Rename Tag →**](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
 Automatically rename paired HTML/XML tags.
 
-Jun Han
+[**Better Comments →**](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
-[https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+Improve your code commenting by annotating with alerts, informational, TODO's, and more! I mainly use this plugin to keep track of all my todos within my code.
 
-### Better Comments
-
-Improve your code commenting by annotating with alert, informational, TODO's and more! I mainly use this plugin to keep track of all my todos within my code for things I took note of and need to refer back to.
-
-Aaron Bond
-
-[https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-
-### Bookmarks
+[**Bookmarks →**](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 
 Mark lines and be able to jump to them.
 
-Alessandro Fragnani
+[**Bracket Pair Colorizer 2 →**](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 
-[https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+Colorize matching brackets.
 
-### Bracket Pair Colorizer 2
-
-Colorize matching brackets
-
-CoenraadS
-
-[https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-
-### Code Spell Checker
+[**Code Spell Checker →**](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 Catch common spelling errors in your source code.
 
-Street Side Software
+[**Colorize →**](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 
-[https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+Visualize CSS colors by highlighting it with a background color.
 
-### Colorize
+[**Debugger for Chrome →**](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
-Visualize css colors by highlighting it with a background color.
+Debug your JavaScript code in the Chrome Browser.
 
-kamikillerto
-
-[https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
-
-### Debugger for Chrome
-
-Debug your JavaScript code in the Chrome Browser
-
-Microsoft
-
-[https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
-
-### DotENV
+[**DotENV →**](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 
 Support for dotenv file syntax.
 
-mikestead
+[**ESLint →**](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-[https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+Integrates ESLint JavaScript into VSCode.
 
-### ESLint
-
-Integrates ESLint JavaScript into VSCode
-
-Dirk Bauemer
-
-[https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-### Formatting Toggle
+[**Formatting Toggle →**](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle)
 
 Allows you to toggle the Prettier formatter on and off with a single click.
 
-tombonnike
+[**Git History →**](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
-[https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle)
+View git log, file history, compare branches, or commits.
 
-### Git History
+[**Highlight Matching Tag →**](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 
-View git log, file history, compare branches or commits.
+Highlight the matching closing or opening tag in your HTML or JSX code.
 
-Don Jayamanne
+[**HTML Snippets →**](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
 
-[https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+HTML Autocomplete snippets.
 
-### Highlight Matching Tag
-
-Highlights the matching closing or opening tag.
-
-vincaslt
-
-[https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
-
-### HTML Snippets
-
-HTML Autocomplete snippets
-
-Mohamed Abusaid
-
-[https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
-
-### Import Costs
-
-Display import/require package size in the editor.
-
-Wix
-
-[https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
-
-### IntelliSense for CSS class names in HTML
+[**IntelliSense for CSS class names in HTML →**](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
 
 CSS class name completion for the HTML class attribute.
 
-Zignd
+[**JavaScript (ES6) code snippets →**](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
-[https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+Code snippets for JavaScript ES6.
 
-### JavaScript (ES6) code snippets
+[**Live Server →**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-Code snippets for JavaScript ES6
+Launch a simple development local server for testing without the need for setting up a development server. I use Laravel Valet for my personal development but have found this plugin extremely useful.
 
-charalampos karypidis
+[**MagicPython →**](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython)
 
-[https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+Syntax Highlighting for Python.
 
-### Live Server
+[**Markdown All in One →**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-Launch a basic development local server for testing without the need of setting up your own development server. I personally use Laravel Valet for my personal development, but have found this plugin to be extremely useful.
+All you need to write Markdown (keyboard shortcuts, table of contents, auto preview, and more.)
 
-Ritwick Dey
+[**Material Icon Theme →**](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-[https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+If you're using the Material Theme, these Material icons are a must-have to modernize your VSCode interface.
 
-### MagicPython
-
-Syntax Highlighting for Python
-
-MagickStack Inc.
-
-[https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython)
-
-### Markdown All in One
-
-All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
-
-Yu Zhang
-
-[https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-
-### Material Icon Theme
-
-If you're using the Material Theme, these Material icons are a must have to modernize your VSCode interface.
-
-Philip Kief
-
-[https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
-### NPM Intellisense
+[**NPM Intellisense →**](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
 Autocomplete npm modules in import statements.
 
-Christian Kohler
+[**Path Intellisense →**](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
-[https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+Autocompletes filenames while typing out a path.
 
-### Path Intellisense
-
-Autocompletes filenames.
-
-Christian Kohler
-
-[https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-
-### PHP Debug
+[**PHP Debug →**](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 
 Debug support for PHP with XDebug.
 
-Felix Becker
+[**Prettier - Code formatter →**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-[https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
+Prettier is an opinionated code formatter that automatically cleans up and formats your code.
 
-### Prettier - Code formatter
+[**Settings Sync →**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-Esben Peterson
+Export your settings to a Github Gist to have backups and quickly import the settings to work off other machines.
 
-[https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[**Tailwind CSS Intellisense →**](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-### Settings Sync
+Intellisense for the CSS framework Tailwind CSS.
 
-Export your settings to a Github Gist to easily be able to work off other machines.
+[**TODO Highlight →**](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 
-Shan Khan
+Highlight TODO's, FIXME's, and other keywords.
 
-[https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-
-### TODO Highlight
-
-Highlight TODO's, FIXME's and other keywords.
-
-Wayou Liu
-
-[https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-
-### Toggle Quotes
+[**Toggle Quotes →**](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
 
 Toggle quotes from double quotes to single quotes.
 
-BriteSnow
+[**Twig Language →**](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language)
 
-[https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
+Twig language support.
 
-### Twig Languag
+[**Vetur →**](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-Twig Language Support
+Vue tooling for VSCode.
 
-mblode
+[**Visual Studio IntelliCode →**](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-[https://marketplace.visualstudio.com/items?itemName=mblode.twig-language](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language)
+AI-assisted development features for Python, TypeScript, JavaScript, and Java.
 
-### Vetur
-
-Vue tooling for VSCode
-
-Pine Wu
-
-[https://marketplace.visualstudio.com/items?itemName=octref.vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-
-### Visual Studio IntelliCode
-
-AI-assisted development features for Python, TypeScript, JavaScript and Java.
-
-Microsoft
-
-[https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
-### Vue VSCode Snippets
+[**Vue VSCode Snippets →**](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 
 Code snippets for Vue projects.
 
-sarah.drasner
-
-[https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
-
-### Wrap Console Log Simple
+[**Wrap Console Log Simple →**](https://marketplace.visualstudio.com/items?itemName=WooodHead.vscode-wrap-console-log-simple)
 
 Wrap to console.log or any other function name or word selection using `alt + L`
 
-WoodHead
+[**YAML →**](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
-[https://marketplace.visualstudio.com/items?itemName=WooodHead.vscode-wrap-console-log-simple](https://marketplace.visualstudio.com/items?itemName=WooodHead.vscode-wrap-console-log-simple)
+YAML language support.
 
-### YAML
+---
 
-YAML Language support.
-
-Red Hat
-
-[https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+## Additional Resources
+- [Launching VSCode from the command line.](https://code.visualstudio.com/docs/setup/mac)
+- [A great video primer course on setting up VSCode by Burke Holland.](https://frontendmasters.com/courses/customize-vs-code/)
