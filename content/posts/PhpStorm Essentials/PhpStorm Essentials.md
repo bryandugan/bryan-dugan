@@ -12,7 +12,7 @@ PHPStorm is an IDE (integrated development environment) code editor. Most everyt
 
 While it lacks a simplistic minimal UI, it makes up for it with its incredible feature set and ability to quickly navigate around your code. Everything you'll need to be successful with development works right out of the box, and you can fine-tune everything to your specific liking.
 
-This article will go over the essentials for getting started, including PhpStorm vs. WebStorm, common keyboard shortcuts, language injection themes, and plugins.
+This article will go over the essentials for getting started, including PhpStorm vs. WebStorm, common keyboard shortcuts, language injection, themes, and plugins.
 
 ### PhpStorm vs. WebStorm
 
