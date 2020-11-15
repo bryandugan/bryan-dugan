@@ -1,14 +1,12 @@
 ---
 title: "Getting started with Transcoder for Craft CMS"
-description: "The Transcoder plugin made by nystudio107 is a handy plugin that allows you to transcode videos, audio, and create image thumbnails from videos in Craft CMS onto your production environment utilizing the video transcoder library FFmpeg."
+description: "The Transcoder plugin made by nystudio107 is a handy plugin that allows you to transcode videos, audio, and create image thumbnails from videos in Craft CMS onto your production environment utilizing the video transcoder library FFmpeg."
 slug: getting-started-with-transcoder-for-craft-cms
 date: 2020-11-13
 author: bryan-dugan
 cover: ./getting-started-with-transcoder-for-craft-cms.png
 tags: ['development', 'craft cms', 'plugins']
 ---
-
-# Getting started with Transcoder for Craft CMS
 
 The [Transcoder](https://plugins.craftcms.com/transcoder) plugin made by [nystudio107](https://nystudio107.com/) is a handy plugin that allows you to transcode videos, audio, and create image thumbnails from videos in Craft CMS onto your production environment utilizing the video transcoder library FFmpeg. The plugin is perfect for quickly creating hero video backgrounds on a home page or landing pages on a website. It's also great for spotlight sections such as services or portfolio pages.
 

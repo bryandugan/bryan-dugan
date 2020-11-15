@@ -42,7 +42,7 @@ Creating a video preset is something you'll only need to do once. Once completed
 
 ![Audio Track None](./04_audio-track-none.png)
 
-6.) Click "Save New Preset..."
+**6.)** Click "Save New Preset..."
 
 ![Save Preset](./05_save-preset.png)
 

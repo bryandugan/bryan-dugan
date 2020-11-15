@@ -5,7 +5,7 @@ slug: vscode-essentials
 date: 2019-11-05
 author: bryan-dugan
 cover: ./vscode-essentials.png
-tags: ['vscode', 'development', 'apps']
+tags: ['vscode', 'development', 'apps', 'code-editors']
 ---
 
 This article is a collection of everything you need to get started using Microsoft's [Visual Studio Code](https://code.visualstudio.com/) (VSCode). This article also uses all Mac OSX shortcuts and is geared towards a front-end developer's setup.
