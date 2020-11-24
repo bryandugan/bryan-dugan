@@ -142,6 +142,10 @@ Allows you to toggle the Prettier formatter on and off with a single click.
 
 View git log, file history, compare branches, or commits.
 
+[**Headwind →**](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)
+
+An opinionated auto formatter for Tailwind CSS classes to organize classes and remove duplicates.
+
 [**Highlight Matching Tag →**](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 
 Highlight the matching closing or opening tag in your HTML or JSX code.
