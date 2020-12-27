@@ -63,7 +63,7 @@
                   :alt="$page.post.author.title"
                   @error="imageLoadError"
                   width="100"
-                  class="object-cover w-1/5 p-4 rounded-full h-1/5 sm:p-0 md:w-full"
+                  class="object-cover w-1/3 p-4 rounded-full h-1/3 sm:p-0 md:w-full"
                 />
               </g-link>
             </figure>
