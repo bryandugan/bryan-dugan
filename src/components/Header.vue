@@ -1,6 +1,5 @@
 <template>
   <nav class="bg-gray-100 border-b">
-
     <div class="max-w-screen-xl mx-auto">
       <div class="flex justify-between px-4 lg:px-8">
         <div class="flex px-2 lg:px-0">
@@ -23,34 +22,31 @@
               to="/blog/"
               active-class="text-gray-900 border-green-500 hover:border-green-500 hover:text-gray-900"
               class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border-b-2 border-transparent hover:text-gray-800 hover:border-gray-300 focus:outline-none"
-            >Blog
-            </g-link
-            >
+              >Blog
+            </g-link>
             <g-link
               to="/about/"
               exact-active-class="text-gray-900 border-green-500 hover:border-green-500 hover:text-gray-900"
               class="inline-flex items-center px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border-b-2 border-transparent hover:text-gray-800 hover:border-gray-300 focus:outline-none"
-            >About
-            </g-link
-            >
+              >About
+            </g-link>
             <g-link
               to="/uses/"
               active-class="text-gray-900 border-green-500 hover:border-green-500 hover:text-gray-900"
               class="inline-flex items-center px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border-b-2 border-transparent hover:text-gray-800 hover:border-gray-300 focus:outline-none"
-            >Uses
-            </g-link
-            >
+              >Uses
+            </g-link>
             <a
               href="/files/Bryan-Dugan_Resume.pdf"
               target="_blank"
               active-class="text-gray-900 border-green-500 hover:border-green-500 hover:text-gray-900"
               class="inline-flex items-center px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border-b-2 border-transparent hover:text-gray-800 hover:border-gray-300 focus:outline-none"
-            >Resume</a
+              >Resume</a
             >
           </div>
         </div>
         <div class="flex flex-1 px-2 py-4 lg:ml-6 lg:justify-end">
-          <Search/>
+          <Search />
         </div>
         <div class="flex items-center lg:hidden">
           <!-- Mobile menu button -->
@@ -90,7 +86,6 @@
             </svg>
           </button>
         </div>
-
       </div>
 
       <div
@@ -102,27 +97,25 @@
             to="/blog/"
             active-class="text-gray-900 border-green-500 hover:border-green-500 hover:text-gray-900"
             class="block py-2 pl-3 pr-4 text-base font-medium text-gray-700 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
-          >Blog
+            >Blog
           </g-link>
           <g-link
             to="/about/"
             active-class="text-gray-900 border-green-500 hover:border-green-500 hover:text-gray-900"
             class="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
-          >About
-          </g-link
-          >
+            >About
+          </g-link>
           <g-link
             to="/uses/"
             active-class="text-gray-900 border-green-500 hover:border-green-500 hover:text-gray-900"
             class="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
-          >Uses
-          </g-link
-          >
+            >Uses
+          </g-link>
           <a
             href="/files/Bryan-Dugan_Resume.pdf"
             target="_blank"
             class="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
-          >Resume</a
+            >Resume</a
           >
         </div>
       </div>

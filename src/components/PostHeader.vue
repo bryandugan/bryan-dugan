@@ -11,7 +11,9 @@
           :alt="post.title"
         />
       </div>
-      <div class="max-w-xl px-6 pt-8 mx-auto md:max-w-2xl xl:max-w-4xl sm:px-12">
+      <div
+        class="max-w-xl px-6 pt-8 mx-auto md:max-w-2xl xl:max-w-4xl sm:px-12"
+      >
         <h1
           class="mb-2 font-sans text-3xl font-bold leading-tight text-black sm:text-5xl"
         >
@@ -22,12 +24,12 @@
             <g-link
               :to="`${post.author.path}/`"
               class="text-gray-700 capitalize transition-colors duration-300 border-b border-transparent hover:border-gray-400"
-            >{{ titleCase(post.author.title) }}</g-link
-            > &bull;
+              >{{ titleCase(post.author.title) }}</g-link
+            >
+            &bull;
           </span>
-          <time :datetime="post.datetime" class="text-gray-700 capitalize">{{
-              formattedPublishDate
-            }}
+          <time :datetime="post.datetime" class="text-gray-700 capitalize"
+            >{{ formattedPublishDate }}
           </time>
           &bull;
           <span>{{ post.timeToRead }} min read</span>

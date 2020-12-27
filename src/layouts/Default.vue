@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="bg-gray-100">
-    <slot/>
+    <slot />
   </div>
 </template>
 

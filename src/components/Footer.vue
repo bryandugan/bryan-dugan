@@ -81,8 +81,10 @@
             <g-link to="/">Bryan Dugan</g-link>. All rights reserved.
           </div>
           <div class="text-sm text-gray-100">
-            Proudly built with <a class="underline" href="https://gridsome.org/">gridsome</a> and <a class="underline"
-                                                                                                     href="https://tailwindcss.com/">tailwindcss</a>.
+            Proudly built with
+            <a class="underline" href="https://gridsome.org/">gridsome</a> and
+            <a class="underline" href="https://tailwindcss.com/">tailwindcss</a
+            >.
           </div>
         </div>
       </div>

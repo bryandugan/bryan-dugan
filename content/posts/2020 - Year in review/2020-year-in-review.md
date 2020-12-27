@@ -5,7 +5,7 @@ slug: 2020-year-in-review
 date: 2020-12-26
 author: bryan-dugan
 cover: ./2020-year-in-review.png
-tags: ['news', 'year-in-review']
+tags: ["news", "year-in-review"]
 ---
 
 2020 was a wild year for all of us. What started with many people's hopes, goals, and ambitions for their best year ever, turned into a global pandemic and a year of uncertainty that feels like one big blur.

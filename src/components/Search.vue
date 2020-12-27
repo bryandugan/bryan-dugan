@@ -2,7 +2,6 @@
   <div class="relative w-full max-w-lg lg:max-w-xs">
     <label for="search" class="sr-only">Search</label>
     <div @click="searchOpen = !searchOpen" class="relative">
-
       <div
         class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
       >
@@ -44,18 +43,20 @@
           :key="result.id"
           :to="result.path"
           class="block px-4 py-2 text-gray-700 hover:bg-green-800 hover:text-white"
-        >{{ result.title }}
-        </g-link
-        >
+          >{{ result.title }}
+        </g-link>
       </li>
     </ul>
     <ul
-      v-else-if="searchOpen && searchResults.length === 0 && searchTerm.length > 3"
+      v-else-if="
+        searchOpen && searchResults.length === 0 && searchTerm.length > 3
+      "
       class="absolute w-full pt-2 pb-4 text-xs bg-white border-0 rounded-lg shadow-md"
     >
       <li>
         <p class="block px-4 py-2 text-gray-900">
-          No results for '<strong>{{ searchTerm }}</strong>'
+          No results for '<strong>{{ searchTerm }}</strong
+          >'
         </p>
       </li>
     </ul>
@@ -87,7 +88,7 @@ export default {
     searchResults() {
       const searchTerm = this.searchTerm;
       if (searchTerm.length < 3) return [];
-      return this.$search.search({query: searchTerm, limit: 5});
+      return this.$search.search({ query: searchTerm, limit: 5 });
     }
   }
 };

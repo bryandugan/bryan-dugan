@@ -29,9 +29,8 @@
           <g-link
             to="/blog"
             class="px-4 py-2 text-sm text-gray-900 transition-opacity duration-300 border border-gray-400 rounded-full opacity-75 hover:opacity-100"
-          >&larr; Blog
-          </g-link
-          >
+            >&larr; Blog
+          </g-link>
         </nav>
       </header>
       <section>
@@ -46,7 +45,7 @@
         :info="$page.tag.belongsTo.pageInfo"
         v-if="$page.tag.belongsTo.pageInfo.totalPages > 1"
       />
-      <site-footer/>
+      <site-footer />
     </main>
   </Layout>
 </template>
@@ -76,7 +75,7 @@ export default {
           )}"`
         },
 
-        {property: "og:type", content: "website"},
+        { property: "og:type", content: "website" },
         {
           property: "og:title",
           content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`
@@ -91,9 +90,9 @@ export default {
           property: "og:url",
           content: `${this.config.siteUrl}${this.$page.tag.path}`
         },
-        {property: "og:image", content: this.ogImageUrl},
+        { property: "og:image", content: this.ogImageUrl },
 
-        {name: "twitter:card", content: "summary_large_image"},
+        { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:title",
           content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`
@@ -104,9 +103,9 @@ export default {
             this.$page.tag.title
           )}"`
         },
-        {name: "twitter:site", content: "@bryandugan"},
-        {name: "twitter:creator", content: "@bryandugan"},
-        {name: "twitter:image", content: this.ogImageUrl}
+        { name: "twitter:site", content: "@bryandugan" },
+        { name: "twitter:creator", content: "@bryandugan" },
+        { name: "twitter:image", content: this.ogImageUrl }
       ]
     };
   },

@@ -10,9 +10,8 @@
             :class="{ 'pointer-events-none opacity-0': info.currentPage == 1 }"
             class="px-4 py-2 text-gray-700 transition-colors duration-300 hover:text-black"
             :rel="info.currentPage == 1 ? 'nofollow' : 'prev'"
-          >&larr; Previous
-          </g-link
-          >
+            >&larr; Previous
+          </g-link>
         </li>
         <li class="hidden w-auto text-base text-center text-gray-700 md:flex">
           Page {{ info.currentPage }} of {{ info.totalPages }}
@@ -26,9 +25,8 @@
             }"
             class="px-4 py-2 text-gray-700 transition-colors duration-300 hover:text-black"
             :rel="info.currentPage == info.totalPages ? 'nofollow' : 'next'"
-          >Next &rarr;
-          </g-link
-          >
+            >Next &rarr;
+          </g-link>
         </li>
       </ul>
     </nav>
