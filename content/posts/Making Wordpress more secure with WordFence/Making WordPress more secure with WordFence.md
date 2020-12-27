@@ -34,7 +34,7 @@ For most of my needs, the free version of WordFence handles everything I need. S
 | Pause live updates when window loses focus | ✅ |
 | Update interval in seconds | 2 |
 | Bypass the LiteSpeed "noabort" check | ❌ |
-| Delete Wordfence tables and data on deactivation | ❌ | 
+| Delete Wordfence tables and data on deactivation | ❌ |
 
 ## Dashboard Notification Options
 |  |  |
@@ -50,7 +50,7 @@ If you manage multiple WordPress installations, you may want to switch up your E
 | Email me when Wordfence is automatically updated | No |
 | Email me if Wordfence is deactivated | ✅ |
 | Email me if the Wordfence Web Application Firewall is turned off| ✅ |
-| Alert me with scan results of this severity level or greater | ✅ |
+| Alert me with scan results of this severity level or greater | ✅ (Critical) |
 | Alert when an IP address is blocked | ❌ |
 | Alert when someone is locked out from login | ❌ |
 | Alert when someone is blocked from logging in for using a password found in a breach | ❌ |
@@ -80,7 +80,7 @@ If you manage multiple WordPress installations, you may want to switch up your E
 | :--- | :--- |
 | Enforce strong passwords | Yes , Force admins and publishers to use strong passwords (recommended) |
 | Don't let WordPress reveal valid users in login errors | ✅ |
-| Prevent users from registering 'admin' username if it doesn't exist | ✅ | 
+| Prevent users from registering 'admin' username if it doesn't exist | ✅ |
 | Prevent discovery of usernames through '/?author=N' scans, the oEmbed API, and the WordPress REST API | ✅ |
 | Block IPs who send POST requests with blank User-Agent and Referer | ❌ |
 | Custom text shown on block pages| |

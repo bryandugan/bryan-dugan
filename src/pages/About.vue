@@ -125,7 +125,7 @@
           </div>
         </div>
       </div>
-      <Instagram/>
+      <!-- <Instagram/> -->
     </main>
     <footer>
       <Footer/>
@@ -137,13 +137,13 @@
 import config from "~/.temp/config.js";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Instagram from "@/components/Instagram";
+// import Instagram from "@/components/Instagram";
 
 export default {
   components: {
     Header,
-    Footer,
-    Instagram
+    Footer
+    // Instagram
   },
   metaInfo() {
     return {
@@ -201,22 +201,22 @@ query {
 </static-query>
 
 <page-query>
-query {
-  photos: allInstagramPhoto {
-    edges {
-      node {
-        id
-        shortcode
-        display_url
-        edge_media_to_caption {
-          edges {
-            node {
-              text
-            }
-          }
-        }
-      }
-    }
-  }
-}
+// query {
+//   photos: allInstagramPhoto {
+//     edges {
+//       node {
+//         id
+//         shortcode
+//         display_url
+//         edge_media_to_caption {
+//           edges {
+//             node {
+//               text
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 </page-query>

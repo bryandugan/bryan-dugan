@@ -43,7 +43,7 @@ An easy to use book to get inspiration for creating different logotypes. The boo
 Michael Evamy — [Paperback](https://amzn.to/3c1Dqjq)
 
 
-### The Process in the Inspiration
+### The Process is the Inspiration
 
 House Industries is one of those companies that I have always admired when I first got started with design. When I heard they were coming out with a book, I just had to get my hands on it! If you're into great design, typography, and a bunch of great stories about how House Industries got started, this is the book for you. It's one of those great books to keep by your coffee table as a great conversation piece.
 
@@ -62,7 +62,7 @@ Jon Duckett — [Paperback](https://amzn.to/2TAogLO)
 
 A really fun book on building different CSS components. The book is dated, but it includes a lot of advanced CSS techniques to really make you stand out as a UI developer. It makes you think outside the box (pun intended) to solve complex UI problems.
 
-Lea Verou — [Paperback](https://amzn.to/2zi5q5l) 
+Lea Verou — [Paperback](https://amzn.to/2zi5q5l)
 
 ### Eloquent JavaScript
 
