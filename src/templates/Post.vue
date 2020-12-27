@@ -54,22 +54,20 @@
           </div>
           <div
             v-if="$page.post.author"
-            class="flex flex-wrap items-center justify-center w-full py-10 mt-10 border-t border-b border-gray-300 sm:justify-left sm:px-16"
+            class="flex flex-wrap items-center w-full py-10 mt-10 border-t border-b border-gray-300 sm:justify-left sm:px-16"
           >
-            <figure
-              class="flex justify-center w-full h-full px-2 mb-1 sm:mb-0 sm:w-1/5"
-            >
+            <figure class="flex px-2 mb-1 sm:mb-0 sm:w-1/5">
               <g-link :to="`${$page.post.author.path}/`">
                 <img
                   :src="avatar"
                   :alt="$page.post.author.title"
                   @error="imageLoadError"
                   width="100"
-                  class="object-cover w-1/3 p-4 mx-auto rounded-full sm:p-0 h-1/3 md:w-full"
+                  class="object-cover w-1/5 p-4 rounded-full h-1/5 sm:p-0 md:w-full"
                 />
               </g-link>
             </figure>
-            <div class="px-4 text-center sm:w-4/5 sm:text-left">
+            <div class="px-4 text-left sm:w-4/5">
               <h4 class="mb-2 font-sans text-lg font-bold sm:text-xl sm:mb-4">
                 <g-link
                   :to="`${$page.post.author.path}/`"
