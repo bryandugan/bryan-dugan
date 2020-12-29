@@ -15,7 +15,7 @@
         <!--        </alert>-->
 
         <div
-          class="leading-normal text-gray-700 markdown"
+          class="inline-block leading-normal text-gray-700 markdown"
           v-html="$page.post.content"
         />
 
