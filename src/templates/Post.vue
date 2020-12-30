@@ -21,8 +21,8 @@
           <strong>Note:</strong> Any links leading you to products or services
           are most likely affiliate links that I will receive compensation from.
           I only promote products or services that I own/use myself and truly
-          feel will deliver value to you. By purchasing products or service
-          through these links, you will help support me to keep creating awesome
+          feel will deliver value to you. By purchasing products or services
+          through these links, you will help support me in creating awesome
           ad-free content.
         </div>
 
