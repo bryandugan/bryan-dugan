@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'UI designer & developer',
+  siteName: 'UI/UX designer & developer',
   siteDescription: "UX/UI design director creating user-centric digital experiences with a background in front-end development.",
   siteUrl: 'https://bryandugan.com',
   titleTemplate: `%s | Bryan Dugan`,
@@ -9,11 +9,9 @@ module.exports = {
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      plugins: [
-        ['gridsome-plugin-remark-shiki', {
-          theme: 'Material-Theme-Ocean'
-        }]
-      ]
+        plugins: [
+          '@gridsome/remark-prismjs'
+        ]
     }
   },
 

@@ -5,7 +5,7 @@ slug: getting-started-with-transcoder-for-craft-cms
 date: 2020-11-13
 author: bryan-dugan
 cover: ./getting-started-with-transcoder-for-craft-cms.png
-tags: ['development', 'craft cms', 'plugins']
+tags: ["development", "craft cms", "plugins"]
 ---
 
 The [Transcoder](https://plugins.craftcms.com/transcoder) plugin made by [nystudio107](https://nystudio107.com/) is a handy plugin that allows you to transcode videos, audio, and create image thumbnails from videos in Craft CMS onto your production environment utilizing the video transcoder library FFmpeg. The plugin is perfect for quickly creating hero video backgrounds on a home page or landing pages on a website. It's also great for spotlight sections such as services or portfolio pages.
@@ -61,13 +61,13 @@ which ffprobe
 
 In this section, we are going to call the Transcoder plugin and set options to take the original video file and compress it to create the following:
 
-- mp4 video
-- webm video
-- fallback image thumbnail
+-   mp4 video
+-   webm video
+-   fallback image thumbnail
 
 To get the video to appear on your page, enter the following HTML, which uses the HTML 5 video element.For a complete list of all the parameters, you can view them in the [Transcoder documentation](https://nystudio107.com/docs/transcoder/Using.html#generating-a-transcoded-video).
 
-```html
+```twig
 {# Create a shorthand version of calling the featuredVideo field from the entry #}
 {% set featuredVideo = entry.featuredVideo.one() %}
 
@@ -104,13 +104,11 @@ To get the video to appear on your page, enter the following HTML, which uses th
 
 To get the video to appear on your page, enter the following HTML, which uses the HTML 5 [video element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video).
 
-```html
+```twig
 <div class="video-container">
     <video loop muted autoplay poster="{{ transThumbnailUrl }}">
-        <source src="{{ transVideoUrlWebm }}"
-                type="video/webm">
-        <source src="{{ transVideoUrlMp4 }}"
-                type="video/mp4">
+        <source src="{{ transVideoUrlWebm }}" type="video/webm" />
+        <source src="{{ transVideoUrlMp4 }}" type="video/mp4" />
         Your browser doesn't support embedded videos.
     </video>
 </div>
@@ -122,11 +120,11 @@ This SCSS is geared toward creating a hero video. The code snippet fills the rel
 
 ```scss
 .hero-content {
-		position: relative;
-	  height: 60vh;
-	  display: flex;
-	  align-items: center;
-	  overflow: hidden;
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .video-container {
@@ -138,30 +136,30 @@ This SCSS is geared toward creating a hero video. The code snippet fills the rel
     overflow: hidden;
 
     video {
-      min-width: 100%;
-      min-height: 100%;
-      
-      // Stop the browser from squishing the video
-      width: auto;
-      height: auto;
+        min-width: 100%;
+        min-height: 100%;
 
-      // Keep video centered
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+        // Stop the browser from squishing the video
+        width: auto;
+        height: auto;
+
+        // Keep video centered
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-  }
+}
 ```
 
 ## Debugging the video
 
 Here is a little snippet that will help you better understand what's happening with the video file and troubleshoot if something goes wrong.
 
-```html
+```twig
 {# Video Debugging Info #}
-{% set progressUrl = craft.transcoder.getVideoProgressUrl(featuredVideo, videoOptionsMp4) %}
-{% set fileInfo = craft.transcoder.getFileInfo(transVideoUrlMp4, true) %}
+{% set progressUrl =craft.transcoder.getVideoProgressUrl(featuredVideo, videoOptionsMp4) %}
+{% setfileInfo = craft.transcoder.getFileInfo(transVideoUrlMp4, true) %}
 
 <div>Original Video Url: {{ featuredVideo.getUrl() }}</div>
 <div>Transformed Video Url: {{ transVideoUrlMp4 }}</div>

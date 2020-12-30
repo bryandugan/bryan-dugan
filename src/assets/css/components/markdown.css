@@ -27,7 +27,7 @@
   h4,
   h5,
   h6 {
-    @apply my-6 font-sans font-bold text-black;
+    @apply mt-12 mb-4 font-sans font-bold text-black;
   }
 
   h5,
@@ -62,26 +62,18 @@
   }
 
   a {
-    @apply text-green-800 underline break-words;
+    @apply text-green-800 underline break-words font-bold;
 
     &:hover {
       @apply text-green-500 underline;
     }
   }
-
-  pre.shiki {
-    @apply bg-gray-codeblock !important;
-    @apply p-6 mb-4 -mx-6 overflow-x-auto scrolling-touch font-mono text-sm border border-gray-300 leading-code;
+  pre[class*="language-"] {
+    @apply mb-4 mt-0;
   }
-
-  code.shiki {
-    @apply bg-white text-gray-700 !important;
-    @apply block p-4 mb-4 overflow-x-auto scrolling-touch font-mono text-sm border border-gray-300 leading-code;
-  }
-
-  .shiki-inline {
-    @apply bg-white text-gray-700 !important;
-    @apply px-2 py-1 text-xs border border-gray-300 rounded;
+  p > code {
+    @apply font-mono bg-white text-gray-700;
+    @apply py-1 px-2 overflow-x-auto font-mono text-sm border border-gray-300 rounded-lg;
   }
 
   mark {
@@ -146,26 +138,26 @@
     p,
     ul,
     ol {
-      @apply text-xl;
+      @apply text-xl leading-normal;
     }
     blockquote {
       @apply mx-10;
     }
 
     h2 {
-      @apply text-4xl;
-    }
-
-    h3 {
       @apply text-3xl;
     }
 
-    h4 {
+    h3 {
       @apply text-2xl;
     }
 
-    h5 {
+    h4 {
       @apply text-xl;
+    }
+
+    h5 {
+      @apply text-lg;
     }
 
     h6 {

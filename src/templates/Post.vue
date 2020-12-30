@@ -4,22 +4,20 @@
     <main>
       <post-header :post="$page.post" />
 
+      <!--        <alert v-if="postIsOlderThanOneYear" class="text-orange-900 bg-orange-100 border-l-4 border-orange-500">-->
+      <!--          This post is over a year old, some of this information may be out of date.-->
+      <!--        </alert>-->
+
       <article
-        class="max-w-xl px-6 pt-16 mx-auto md:max-w-2xl xl:max-w-4xl sm:px-12"
+        class="flex flex-col max-w-xl px-6 pt-16 mx-auto leading-normal text-gray-700 md:max-w-2xl xl:max-w-4xl sm:px-12"
         :class="{
           'border-b border-grey-lighter pb-10 mb-16': !$page.post.author
         }"
       >
-        <!--        <alert v-if="postIsOlderThanOneYear" class="text-orange-900 bg-orange-100 border-l-4 border-orange-500">-->
-        <!--          This post is over a year old, some of this information may be out of date.-->
-        <!--        </alert>-->
-
+        <div class="pb-12 markdown" v-html="$page.post.content"></div>
         <div
-          class="inline-block leading-normal text-gray-700 markdown"
-          v-html="$page.post.content"
-        />
-
-        <div class="pt-12 pb-12 text-sm leading-normal text-gray-700 font-sm">
+          class="flex flex-col pt-12 pb-12 text-sm leading-normal text-gray-700 border-t border-gray-300 font-sm"
+        >
           <strong>Note:</strong> Any links leading you to products or services
           are most likely affiliate links that I will receive compensation from.
           I only promote products or services that I own/use myself and truly
@@ -28,42 +26,19 @@
           ad-free content.
         </div>
 
-        <footer
-          v-if="$page.post.author || $page.post.tags"
-          class="flex flex-wrap pb-10 sm:pb-16"
-        >
-          <div>
-            <g-link
-              v-for="tag in $page.post.tags"
-              :key="tag.id"
-              :to="`${tag.path}/`"
-              class="inline-block px-4 py-2 mb-2 mr-4 font-sans text-xs font-bold text-green-800 transition-colors duration-300 border border-green-800 rounded-full hover:text-white hover:bg-green-800 sm:text-sm"
-            >
-              <svg
-                class="inline w-3 mr-1 align-middle fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                role="img"
-              >
-                <path
-                  d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"
-                />
-              </svg>
-              {{ tag.title }}
-            </g-link>
-          </div>
+        <footer v-if="$page.post.author" class="pb-10 sm:pb-16">
           <div
             v-if="$page.post.author"
-            class="flex flex-wrap items-center w-full py-10 mt-10 border-t border-b border-gray-300 sm:justify-left sm:px-16"
+            class="flex items-center justify-center py-10 border-t border-gray-300 justify-left"
           >
-            <figure class="flex px-2 mb-1 sm:mb-0 sm:w-1/5">
+            <figure class="w-full h-auto px-2 sm:mb-0 sm:w-1/5">
               <g-link :to="`${$page.post.author.path}/`">
                 <img
                   :src="avatar"
                   :alt="$page.post.author.title"
                   @error="imageLoadError"
                   width="100"
-                  class="object-cover w-1/3 p-4 rounded-full h-1/3 sm:p-0 md:w-full"
+                  class="object-cover p-4 rounded-full sm:p-0 md:w-full"
                 />
               </g-link>
             </figure>
@@ -88,7 +63,6 @@
           </div>
         </footer>
       </article>
-
       <Footer />
     </main>
   </Layout>
