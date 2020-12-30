@@ -1,7 +1,13 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-    purge: [],
+    purge: {
+        content: [
+          './src/assets/**/*.css',
+          './src/**/*.vue',
+          './src/**/*.js'
+        ],
+    },
     theme: {
         extend: {
             // When customizing the font family, if the font name has a space or invalid characters, add an extra set of quotation marks to escape it.
