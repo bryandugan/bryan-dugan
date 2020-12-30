@@ -52,7 +52,7 @@
           <!-- Mobile menu button -->
           <button
             @click="navOpen = !navOpen"
-            class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md rounded-lg hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-600"
+            class="inline-flex items-center justify-center p-2 text-gray-700 transition duration-150 ease-in-out rounded-md rounded-lg hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-600"
             aria-label="Main menu"
             aria-expanded="false"
           >

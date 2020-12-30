@@ -1,35 +1,28 @@
 <template>
-  <Layout>
+  <layout class="flex flex-col h-screen">
+    <header>
+      <Header />
+    </header>
     <main>
-      <header>
-        <div
-          class="flex flex-col-reverse max-w-xl px-6 pt-24 pb-10 mx-auto text-center border-b border-gray-300 md:max-w-3xl xl:max-w-4xl md:py-32"
+      <div
+        class="flex flex-col max-w-xl px-6 pt-24 pb-10 mx-auto text-center border-b border-gray-300 md:max-w-3xl xl:max-w-4xl md:py-32"
+      >
+        <figure class="w-full h-auto px-2 mx-auto sm:mb-0 sm:w-1/5">
+          <img
+            :src="avatar"
+            :alt="$page.author.title"
+            @error="imageLoadError"
+            width="100"
+            class="object-cover p-4 rounded-full sm:p-0 md:w-full"
+          />
+        </figure>
+        <p class="mb-4 text-base text-gray-700 uppercase">Posts by</p>
+        <h1
+          class="mb-5 text-3xl font-bold leading-none text-gray-900 lg:text-4xl md:text-4xl"
         >
-          <h1
-            class="mb-2 font-sans text-4xl font-bold capitalize sm:text-5xl md:text-6xl"
-          >
-            {{ titleCase($page.author.title) }}
-          </h1>
-          <svg
-            class="w-5 mx-auto mb-1 text-gray-600 fill-current sm:w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            role="img"
-          >
-            <title id="authorIcon">Author posts</title>
-            <path
-              d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"
-            />
-          </svg>
-        </div>
-        <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
-          <g-link
-            to="/"
-            class="px-4 py-2 text-sm text-gray-900 transition-opacity duration-300 border border-gray-400 rounded-full opacity-75 hover:opacity-100"
-            >&larr; Home
-          </g-link>
-        </nav>
-      </header>
+          {{ titleCase($page.author.title) }}
+        </h1>
+      </div>
       <section>
         <post-item
           v-for="edge in $page.author.belongsTo.edges"
@@ -42,23 +35,25 @@
         :info="$page.author.belongsTo.pageInfo"
         v-if="$page.author.belongsTo.pageInfo.totalPages > 1"
       />
-      <site-footer />
+      <Footer />
     </main>
-  </Layout>
+  </layout>
 </template>
 
 <script>
 import moment from "moment";
 import config from "~/.temp/config.js";
 import PostItem from "@/components/PostItem";
-import SiteFooter from "@/components/Footer";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import Pagination from "@/components/Pagination";
 
 export default {
   components: {
     PostItem,
     Pagination,
-    SiteFooter
+    Header,
+    Footer
   },
   metaInfo() {
     return {
@@ -118,6 +113,9 @@ export default {
   computed: {
     config() {
       return config;
+    },
+    avatar() {
+      return `/images/authors/${this.$page.author.id}.png`;
     },
     ogImageUrl() {
       return `${this.config.siteUrl}/images/sharing-card.png`;

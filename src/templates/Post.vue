@@ -50,6 +50,10 @@
                   >{{ titleCase($page.post.author.title) }}
                 </g-link>
               </h4>
+              <p class="mb-4">
+                I'm a UX/UI design director with a background in front-end
+                development.
+              </p>
               <p class="leading-normal">
                 <g-link
                   :to="`${$page.post.author.path}/`"
