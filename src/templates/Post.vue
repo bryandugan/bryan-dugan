@@ -16,7 +16,7 @@
       >
         <div class="pb-12 markdown" v-html="$page.post.content"></div>
         <div
-          class="flex flex-col pt-12 pb-12 text-sm leading-normal text-gray-700 border-t border-gray-300 font-sm"
+          class="flex flex-col pt-12 pb-12 text-sm leading-normal text-gray-700 border-t border-gray-300"
         >
           <strong>Note:</strong> Any links leading you to products or services
           are most likely affiliate links that I will receive compensation from.
@@ -31,33 +31,32 @@
             v-if="$page.post.author"
             class="flex items-center justify-center py-10 border-t border-gray-300 justify-left"
           >
-            <figure class="w-full h-auto px-2 sm:mb-0 sm:w-1/5">
+            <figure class="w-1/3 h-auto mx-8 sm:mx-4 sm:mb-0 sm:w-1/5">
               <g-link :to="`${$page.post.author.path}/`">
                 <img
                   :src="avatar"
                   :alt="$page.post.author.title"
                   @error="imageLoadError"
-                  width="100"
-                  class="object-cover p-4 rounded-full sm:p-0 md:w-full"
+                  class="object-cover m-4 border border-gray-300 rounded-full sm:m-0 md:w-full"
                 />
               </g-link>
             </figure>
             <div class="px-4 text-left sm:w-4/5">
-              <h4 class="mb-2 font-sans text-lg font-bold sm:text-xl sm:mb-4">
+              <h4 class="mb-2 font-sans text-lg font-bold sm:mb-4">
                 <g-link
                   :to="`${$page.post.author.path}/`"
                   class="text-black capitalize transition-colors duration-300 border-b-2 border-transparent hover:text-gray-700"
                   >{{ titleCase($page.post.author.title) }}
                 </g-link>
               </h4>
-              <p class="mb-4">
-                I'm a UX/UI design director with a background in front-end
+              <p class="mb-4 text-sm leading-normal md:text-base">
+                UX/UI design director with a background in front-end
                 development.
               </p>
               <p class="leading-normal">
                 <g-link
                   :to="`${$page.post.author.path}/`"
-                  class="text-green-800 transition-colors duration-300 hover:text-green-500 hover:underline"
+                  class="text-sm text-green-800 transition-colors duration-300 md:text-base hover:text-green-500 hover:underline"
                 >
                   See all posts by
                   {{ titleCase($page.post.author.title) }} &rarr;
