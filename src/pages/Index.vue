@@ -8,9 +8,9 @@
         class="container max-w-screen-xl px-4 pt-16 pb-16 mx-auto md:pb-24 md:px-8 md:flex md:items-center md:justify-between"
       >
         <div class="w-full content md:w-11/12 lg:w-2/3">
-          <p class="mb-4 text-base text-gray-700 uppercase">
+          <!-- <p class="mb-4 text-base text-gray-700 uppercase">
             Currently seeking full-time employment
-          </p>
+          </p> -->
           <h1
             class="mb-5 text-3xl font-bold leading-none text-gray-900 lg:text-4xl md:text-4xl"
           >
@@ -18,6 +18,15 @@
             front-end development
           </h1>
           <div class="mb-10 text-gray-700">
+            <p class="text-xl">
+              UX Designer at
+              <a
+                class="text-green-800 underline hover:underline hover:text-green-500"
+                href="https://clearfirestudios.com/"
+                target="_blank"
+                >Clearfire.
+              </a>
+            </p>
             <p class="mb-5 text-xl">
               Co-founder of a small web consulting and branding agency,
               <a
