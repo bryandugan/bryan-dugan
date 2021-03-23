@@ -228,9 +228,9 @@ Google Maps is a powerful plugin that allows you to handle complex visualization
 
 [Matt Everson](https://twitter.com/matt_everson/status/1369294123052765193) mentioned another great use for the Google Maps plugin:
 
-"Even when you don't need visual maps outright, it's the best way to manage address data for any larger swath of locations because of both search and parsability."
-
-"As an example, trade show events. Admin can search for the venue and easily save full address information, while dev has a nice set of structured data to expand functionality or sort as needed in the future."
+> "Even when you don't need visual maps outright, it's the best way to manage address data for any larger swath of locations because of both search and parsability."
+>
+> "As an example, trade show events. Admin can search for the venue and easily save full address information, while dev has a nice set of structured data to expand functionality or sort as needed in the future."
 
 **Resources for Google Maps**
 

@@ -98,6 +98,9 @@
     @apply p-4 mx-4 mb-4 italic border-l-4 border-gray-300;
 
     p {
+      @apply mb-4;
+    }
+    p:last-child {
       @apply mb-0;
     }
   }
