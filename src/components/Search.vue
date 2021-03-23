@@ -35,6 +35,9 @@
     ></button>
     <ul
       v-if="searchOpen && searchResults.length"
+      @keydown.up.exact="focusPrevious"
+      @keydown.down.exact="focusNext"
+      @keydown.esc.exact="hideDropdown"
       class="absolute w-full pt-2 pb-4 text-xs bg-white border-0 rounded-lg shadow-md"
     >
       <li>

@@ -41,6 +41,7 @@ Learning shortcuts on any new program takes a while, but it's worth it in the lo
 | Toggle Emmet if not selected | `ctrl` + `spacebar` |
 | Fold Code (Collapse) | `cmd` + `opt` + `[`/`]` |
 | Comment Code | `cmd` + `/` |
+| Format Code | `shift` + `option` + `f` |
 | Select all instances of single word | `cmd` + `shift` + `l` |
 | Add cursor | `cmd` + `d` |
 | Find/Replace in Project | `cmd` + `shift` + `f` |
@@ -210,7 +211,7 @@ Highlight TODO's, FIXME's, and other keywords.
 
 Toggle quotes from double quotes to single quotes.
 
-[**Twig Language →**](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language)
+[**Twig Language 2 →**](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
 
 Twig language support.
 
