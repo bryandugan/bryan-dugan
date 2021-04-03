@@ -4,14 +4,15 @@ description: "Need to update PHP for use with your local development stack? This
 slug: upgrade-php-with-homebrew
 date: 2019-08-12
 author: bryan-dugan
-tags: ['homebrew', 'php', 'development']
+cover: ./upgrade-php-with-homebrew.png
+tags: ["homebrew", "php", "development"]
 ---
 
 Need to update PHP for use with your local development stack? This short guide will run you through how to do just that, as well as upgrading your PHP version in Laravel Valet.
 
 ## Upgrading PHP with Homebrew
 
-Assuming you already have Homebrew installed 
+Assuming you already have Homebrew installed
 
 Update Brew.
 
@@ -60,7 +61,7 @@ brew link php@7.3
 
 ---
 
-## Updating Your $PATH
+## Updating Your \$PATH
 
 Now that your PHP is updated and linked, make sure your `$PATH` is properly setup.
 
@@ -132,9 +133,13 @@ post_max_size = 128M
 
 ## Upgrading Valet
 
+**Update:** There's also a handy utility called PHP Monitor that allows you to see PHP information, switch between versions and allows you to quickly modify your php.ini files.
+
+![PHP Monitor](./php-monitor.png)
+
 If you use Laravel Valet for all your local development, here are the steps to finish upgrading PHP. Run the following commands to update Valet in your terminal:
 
-Update all composer files. 
+Update all composer files.
 
 ```bash
 composer global update

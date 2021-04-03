@@ -5,7 +5,7 @@ slug: setting-up-a-new-mac-for-development
 date: 2020-10-26
 author: bryan-dugan
 cover: ./mac-homebrew.png
-tags: ['getting started', 'homebrew','mac osx']
+tags: ["getting started", "homebrew", "mac osx"]
 ---
 
 ## Installing Homebrew
@@ -20,7 +20,7 @@ Now that the xcode CLI is installed, we can now install Homebrew. To install Hom
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-### Add Homebrew to your $PATH
+### Add Homebrew to your \$PATH
 
 For Homebrew to work properly, your `bin` directory must first be added to your `$PATH`.
 
@@ -30,7 +30,7 @@ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
 ## Installing Casks
 
-Casks are graphical user interface(GUI) applications that will be installed in your Mac's Applications folder. For a master list of all available Cask formulae, there is one available on the [official Brew website](https://formulae.brew.sh/cask/). 
+Casks are graphical user interface(GUI) applications that will be installed in your Mac's Applications folder. For a master list of all available Cask formulae, there is one available on the [official Brew website](https://formulae.brew.sh/cask/).
 
 Use the lists I created as a starting point for installing your applications and feel free to modify them to your liking. Also, be sure to hold onto your list in a Github Gist or some form of cloud storage for safekeeping in case you need to set up another new computer in the future.
 
@@ -91,7 +91,7 @@ brew install yarn
 
 Node Version Manager (nvm) is a manager that allows you to install and use multiple versions of node. This is great when you need to quickly switch back and forth between new and old versions of node.
 
-If you're like me, and mainly use node to install packages and run Webpack scripts, I'd recommend installing the Long Term Support(LTS) version. That way, your setup will be stable and supported for much longer before you need to upgrade. 
+If you're like me, and mainly use node to install packages and run Webpack scripts, I'd recommend installing the Long Term Support(LTS) version. That way, your setup will be stable and supported for much longer before you need to upgrade.
 
 Install nvm via Homebrew
 
@@ -119,7 +119,7 @@ I would also recommend setting a default node version. A majority of the project
 nvm alias default 12
 ```
 
-If you need to use a specific version number for a project, open up a terminal window and type the command below to use that version. Once you close that terminal window, it will default back to the default node you have just setup. 
+If you need to use a specific version number for a project, open up a terminal window and type the command below to use that version. Once you close that terminal window, it will default back to the default node you have just setup.
 
 ```bash
 nvm use 8
@@ -128,7 +128,7 @@ nvm use 8
 Use this command to allow write access to the global `node_modules` folder. Otherwise, you will have to run `sudo` every time you need to install or modify anything inside it.
 
 ```bash
-sudo chown -R $USER /usr/local/lib/node_modules 
+sudo chown -R $USER /usr/local/lib/node_modules
 ```
 
 ## Configure your Terminal
@@ -149,11 +149,11 @@ To install Oh My Zsh, go to their website and run the Install oh-my-zsh via curl
 
 [https://ohmyz.sh/#install](https://ohmyz.sh/#install)
 
-Once installed, it's time to configure your $PATH and defaults, including the theme. To do this, you're going to have to modify a file in your `Home` or `~` Directory. That file is `.zshrc`. For an example file of all the changes I made to get it working with PHP, bin files, composer as well as setting themes and configuring Z you can see my config here. [https://gist.github.com/bryandugan/4a02c9fab3c75eb9112e3c436fed4235](https://gist.github.com/bryandugan/4a02c9fab3c75eb9112e3c436fed4235)
+Once installed, it's time to configure your \$PATH and defaults, including the theme. To do this, you're going to have to modify a file in your `Home` or `~` Directory. That file is `.zshrc`. For an example file of all the changes I made to get it working with PHP, bin files, composer as well as setting themes and configuring Z you can see my config here. [https://gist.github.com/bryandugan/4a02c9fab3c75eb9112e3c436fed4235](https://gist.github.com/bryandugan/4a02c9fab3c75eb9112e3c436fed4235)
 
 ### Quickly find recent files with Z
 
-Z is a handy terminal utility that allows you to quickly go to any recent folder. 
+Z is a handy terminal utility that allows you to quickly go to any recent folder.
 
 ```bash
 brew install z
@@ -170,6 +170,8 @@ Add to .zshrc
 Laravel Valet is what I use as my local development server. I use it because it's easy to set up and doesn't require running a Vagrant box or anything else that is too complicated. It turns your Mac into a development server by running Nginx in the background as you start your computer. My favorite feature is that you can run `valet park` in your local development directory, and any folder in that directory becomes a `.test` domain. So if you have a folder called `my-website`, open your favorite browser and type in `my-website.test` and you'll be directed to your index file in the `my-website` folder.
 
 To set up Valet, I recommend [Jalen Davenport's awesome guide](https://medium.com/@jalendport/running-craft-cms-3-on-laravel-valet-6df61e5193fd) on how to set up Valet. It's geared towards Craft CMS development, but the basic install is all the same for whatever type of web development you'll be doing.
+
+There's also a handy utility called [PHP Monitor](https://github.com/nicoverbruggen/phpmon) that allows you to see PHP information, switch between versions, and will enable you to modify your `php.ini` files quickly.
 
 ## PHP Extensions
 
@@ -257,7 +259,7 @@ Install mysql
 brew install mysql
 ```
 
-**Troubleshooting:** 
+**Troubleshooting:**
 
 In case you keep running into connection failed issues, look at the solution by Maciej Kwas to reset your password: [https://stackoverflow.com/questions/51179516/sequel-pro-and-mysql-connection-failed?rq=1](https://stackoverflow.com/questions/51179516/sequel-pro-and-mysql-connection-failed?rq=1)
 

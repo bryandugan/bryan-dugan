@@ -5,9 +5,8 @@ slug: vscode-essentials
 date: 2019-11-05
 author: bryan-dugan
 cover: ./vscode-essentials.png
-tags: ['vscode', 'development', 'apps', 'code-editors']
+tags: ["vscode", "development", "apps", "code-editors"]
 ---
-
 
 This article is a collection of everything needed to get started using Microsoft's [Visual Studio Code](https://code.visualstudio.com/) (VSCode). This article also uses all Mac OSX shortcuts and is geared towards a front-end developer's setup.
 
@@ -25,49 +24,65 @@ VSCode is a free code editor that runs on all major platforms. In that regard, i
 
 Learning shortcuts on any new program takes a while, but it's worth it in the long run. They help save time while writing code. Here is a list of some of the basics that I find myself using over and over again.
 
-| Action | Shortcut |
-| :--- | :--- |
-| Duplicate Line | `opt` + `shift` + `up`/`down` |
-| Move Line up/down | `opt` + `up`/`down` |
-| Copy Line up/down | `cmd` + `opt` + `up`/`down` |
-| Cut Line | `cmd` + `x` |
-| Delete Line | `cmd + shift + k` |
-| Show/Hide Sidebar | `cmd ` + `b` |
-| File Switcher | `cmd` + `p` |
-| Shortcuts | `cmd` + `shift` + `p` then type `shortcuts` |
-| Open Terminal | `ctrl` + `` ` `` |
-| Open / hide explorer | `cmd` + `shift` + `e`
-| Command Palette | `cmd` + `shift` + `p` |
-| Toggle Emmet if not selected | `ctrl` + `spacebar` |
-| Fold Code (Collapse) | `cmd` + `opt` + `[`/`]` |
-| Comment Code | `cmd` + `/` |
-| Format Code | `shift` + `option` + `f` |
-| Select all instances of single word | `cmd` + `shift` + `l` |
-| Add cursor | `cmd` + `d` |
-| Find/Replace in Project | `cmd` + `shift` + `f` |
-| Find multiple tags (regex) | `|` |
-| Add cursor to each search result | `option` + `enter` |
-| Move cursor to front of word | `option` + `left`/`right` |
-| Find / Replace | `cmd` + `option` + `f` |
-| Go to last file you were in | `cmd` + `p` + `p`|
-| Sidebar Focus | `cmd` + `0` |
-| Code Editor Focus | `cmd` + `1` |
-| Open File on sidebar | `cmd` + `down` |
-| Rename/Refactor | `f2` |
-| Extract code from function | `cmd` + `ctrl` + `.` |
-| Launch Debugger | `f5` |
+| Action                              | Shortcut                                    |
+| :---------------------------------- | :------------------------------------------ |
+| Duplicate Line                      | `opt` + `shift` + `up`/`down`               |
+| Move Line up/down                   | `opt` + `up`/`down`                         |
+| Copy Line up/down                   | `cmd` + `opt` + `up`/`down`                 |
+| Cut Line                            | `cmd` + `x`                                 |
+| Delete Line                         | `cmd + shift + k`                           |
+| Show/Hide Sidebar                   | `cmd` + `b`                                 |
+| File Switcher                       | `cmd` + `p`                                 |
+| Shortcuts                           | `cmd` + `shift` + `p` then type `shortcuts` |
+| Open Terminal                       | `ctrl` + `` ` ``                            |
+| Open / hide explorer                | `cmd` + `shift` + `e`                       |
+| Command Palette                     | `cmd` + `shift` + `p`                       |
+| Toggle Emmet if not selected        | `ctrl` + `spacebar`                         |
+| Fold Code (Collapse)                | `cmd` + `opt` + `[`/`]`                     |
+| Comment Code                        | `cmd` + `/`                                 |
+| Format Code                         | `shift` + `option` + `f`                    |
+| Select all instances of single word | `cmd` + `shift` + `l`                       |
+| Add cursor                          | `cmd` + `d`                                 |
+| Find/Replace in Project             | `cmd` + `shift` + `f`                       |
+| Find multiple tags (regex)          | `|`                                         |
+| Add cursor to each search result    | `option` + `enter`                          |
+| Move cursor to front of word        | `option` + `left`/`right`                   |
+| Find / Replace                      | `cmd` + `option` + `f`                      |
+| Go to last file you were in         | `cmd` + `p` + `p`                           |
+| Sidebar Focus                       | `cmd` + `0`                                 |
+| Code Editor Focus                   | `cmd` + `1`                                 |
+| Open File on sidebar                | `cmd` + `down`                              |
+| Rename/Refactor                     | `f2`                                        |
+| Extract code from function          | `cmd` + `ctrl` + `.`                        |
+| Launch Debugger                     | `f5`                                        |
+| Collapse all open folders           | `cmd` + `shift` + `p`                       |
 
+## Setting up Vue
+
+in `settings.json` add the following to allow custom blocks with the Vetur extension:
+
+```json
+"vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json",
+    "page-query": "graphql",
+    "static-query": "graphql"
+  }
+```
+
+In command pallette `cmd` + `shift` + `p`
+
+Type `Vetur: Generate Grammar` to apply settings.
 
 ## Troubleshooting
+
 A list of common issues I have come across along with the fixes for them.
 
-- Use Prettier through ESLint in Javascript and not Prettier plugin settings.
-
+-   Use Prettier through ESLint in Javascript and not Prettier plugin settings.
 
 ## Themes
 
 VSCode has countless themes to get you the perfect theme for writing code. I prefer dark themes, so this list comprises all dark themes that I have either used and enjoyed. If you have any light themes that you enjoy using, please contact me on Twitter [@bryandugan](https://twitter.com/bryandugan) and let me know!
-
 
 [**Material Theme →**](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 
@@ -238,5 +253,6 @@ YAML language support.
 ---
 
 ## Additional Resources
-- [Launching VSCode from the command line.](https://code.visualstudio.com/docs/setup/mac)
-- [A great video primer course on setting up VSCode by Burke Holland.](https://frontendmasters.com/courses/customize-vs-code/)
+
+-   [Launching VSCode from the command line.](https://code.visualstudio.com/docs/setup/mac)
+-   [A great video primer course on setting up VSCode by Burke Holland.](https://frontendmasters.com/courses/customize-vs-code/)

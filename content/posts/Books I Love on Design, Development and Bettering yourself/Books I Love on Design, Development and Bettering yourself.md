@@ -5,7 +5,7 @@ slug: books-i-love-on-design-development-and-bettering-yourself
 date: 2020-05-15
 author: bryan-dugan
 cover: ./books-on-design-development-and-bettering-yourself.png
-tags: ['books', 'self help', 'design', 'development']
+tags: ["books", "self help", "design", "development"]
 ---
 
 I enjoy reading a wide variety of books to better myself. Below is a list of books I love and keep a copy of on my bookshelf at all times to go back and reference.
@@ -42,12 +42,19 @@ An easy to use book to get inspiration for creating different logotypes. The boo
 
 Michael Evamy — [Paperback](https://amzn.to/3c1Dqjq)
 
-
 ### The Process is the Inspiration
 
 House Industries is one of those companies that I have always admired when I first got started with design. When I heard they were coming out with a book, I just had to get my hands on it! If you're into great design, typography, and a bunch of great stories about how House Industries got started, this is the book for you. It's one of those great books to keep by your coffee table as a great conversation piece.
 
 House Industries — [Hardcover](https://amzn.to/2LY4x4x)
+
+### The Design of Everyday Things (Revised and Expanded Edition)
+
+The Design of Everyday Things is an excellent primer on User Experience written by Don Norman. If you're planning on getting into the field of UI/UX design, this is a must-read.
+
+Don Norman - [Paperback](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
+
+---
 
 ## Development Books
 
@@ -56,7 +63,6 @@ House Industries — [Hardcover](https://amzn.to/2LY4x4x)
 Even though the jQuery library is rarely used nowadays in web projects, it's a wonderful easy to read primer about the fundamentals of JavaScript. It's one of the most popular JavaScript reference books and with good reason.
 
 Jon Duckett — [Paperback](https://amzn.to/2TAogLO)
-
 
 ### CSS Secrets
 
@@ -70,8 +76,9 @@ A modern book that's regularly updated on everything you need to know to learn t
 
 Marijn Haverbeke — [Paperback](https://amzn.to/2zgIxzb)
 
-## Books to Better Yourself
+---
 
+## Books to Better Yourself
 
 ### The Business Side of Creativity
 
@@ -90,7 +97,6 @@ Greg McKeown — [Hardcover](https://amzn.to/2XpHu87)
 The Miracle Morning isn't just a quick self-help book, it's an entire lifestyle change. It involves waking up an hour earlier than you normally do to make time for yourself doing a set of tasks that help out every aspect of your life. If you're overwhelmed that you don't have any time to spend on yourself or are waking up in the morning to answer to other people, other than yourself; this book is for you. I've practiced this method off and on for the past few years and always feel better when I do the Miracle Morning routine.
 
 Hal Elrod — [Paperback](https://amzn.to/2XpT9nf)
-
 
 ### How to Win Friends & Influence People
 
