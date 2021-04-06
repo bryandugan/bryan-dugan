@@ -10,31 +10,33 @@ tags: ["gear", "misc"]
 
 Hello! I'm Bryan Dugan, a UX/UI designer, and developer based out of Rochester Hills, Michigan.
 
-This page is where I will keep my most up-to-date setup for anyone curious or just getting started in UI Design or Web Development and would like to see what tools other designers/developers use.
+This page is where I will keep my most up-to-date setup for anyone curious or just getting started in UX/UI Design or Web Development and would like to see what tools other designers/developers use.
 
 ## Design/Development Applications
 
--   I design and prototype entirely in [Figma](https://figma.com/).
--   I use [Whimsical](https://whimsical.com/) for site mapping and information architecture.
--   I use [Zeplin](https://zeplin.io/) to handle padding off application development to dev teams.
--   I use [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) for branding-related projects.
--   I write all my code using [VSCode](https://code.visualstudio.com/).
-    -   I use the [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) color scheme (without the glow effects).
-    -   I've been using Monaco on macOS since my Sublime Text days and have found no reason to switch.
-    -   I use [GitHub](https://github.com/) to manage all my source code.
+-   [Figma](https://figma.com/) for design and prototypes.
+-   [Whimsical](https://whimsical.com/) for site mapping and information architecture.
+-   [Zeplin](https://zeplin.io/) to hand off completed prototype screens to dev teams.
+-   [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) for branding-related projects.
+-   [VSCode](https://code.visualstudio.com/) is my daily code editor along with the [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) color scheme (without the glow effects).
+-   I've been using Monaco on macOS since my Sublime Text days and have found no reason to switch.
+-   [GitHub](https://github.com/) to manage all my source code.
+-   [iTerm2](https://iterm2.com/) for a better Terminal experience along with [Oh My Zsh](https://ohmyz.sh/) and the [Agnoster theme](https://github.com/agnoster/agnoster-zsh-theme).
+-   [Laravel Valet](https://laravel.com/docs/8.x/valet) for my local dev environment along with [PHP Monitor](https://github.com/nicoverbruggen/phpmon) to quickly switch between different versions of PHP and modify config files.
+-   [Sourcetree](https://www.sourcetreeapp.com/) for my Git client.
 
 ## Hosting
 
--   I use [Digital Ocean](https://m.do.co/c/ac1815b98d4c) for creating all of my servers. It's easy to use and manage.
--   I recently switched to [RunCloud](https://runcloud.io/r/ZMrWgZNDeyRw) on top of Digital Ocean to set up the server's LEMP stack and manage applications. It takes most of the pain out of managing a server. As a bonus, it handles deployments and does website backups.
+-   [Digital Ocean](https://m.do.co/c/ac1815b98d4c) for creating all of my servers. It's easy to use and manage.
+-   [RunCloud](https://runcloud.io/r/ZMrWgZNDeyRw) on top of Digital Ocean to set up the server's LEMP stack and manage applications. It takes most of the pain out of managing a server. As a bonus, it handles deployments and does webapp backups.
 
 ## Productivity Applications
 
--   While working, I always have [Spotify](https://www.spotify.com/) going on in the background with ambient, electronic, or chill-hop music.
--   I take all my notes and write blog articles in [Notion](https://www.notion.so/?r=0e97ed20a2904e06a5a22c190f01516a). I then export the completed posts to markdown for my blog. I also use Notion to handle any launch checklists or processes I need to do regularly.
+-   [Spotify](https://www.spotify.com/) is always open in the background with ambient, electronic, or chill-hop music.
+-   [Notion](https://www.notion.so/?r=0e97ed20a2904e06a5a22c190f01516a) for all my notetaking and blog articles. I then export the completed posts to markdown for my blog. I also use Notion to handle any launch checklists or processes I need to do regularly.
 -   For large projects, I use [Basecamp](https://basecamp.com/) or [Asana](https://asana.com/) to manage tasks.
--   I use [Todoist](https://todoist.com/) to create to-do lists quickly or set up quick tasks for the week for personal to-dos.
--   I use [Google Drive](https://www.google.com/drive/) to manage all my active projects.
+-   [Todoist](https://todoist.com/) to create to-do lists quickly or set up quick tasks for the week for personal to-dos.
+-   [Google Drive](https://www.google.com/drive/) to manage all my active projects.
 -   [Google Suite](https://gsuite.google.com/) is what I use for my Email/calendar, and I also take full advantage of docs/sheets to collaborate with teammates.
 -   [Scroll Reverser](https://pilotmoon.com/scrollreverser/) is a simple application that automatically reverses the scroll on different devices. While using a mouse, I like to have normal scrolling, but while using a trackpad, I prefer reverse scrolling.
 -   [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12) for organizing windows.
@@ -42,7 +44,7 @@ This page is where I will keep my most up-to-date setup for anyone curious or ju
 -   Managing a lot of user accounts, I use [1password](https://1password.com/) to store all my passwords.
 -   [Harvest](http://try.hrv.st/1-683890) for time tracking and Invoices.
 -   [Contrast](https://usecontrast.com/) for quickly checking color accessibility.
--   I use [CleanShot](https://cleanshot.com/) for taking better screenshots, and short screen captures.
+-   [CleanShot](https://cleanshot.com/) for taking better screenshots, and short screen captures.
 
 ## Hardware
 
@@ -54,6 +56,7 @@ This page is where I will keep my most up-to-date setup for anyone curious or ju
 -   I use an older [Apple Bluetooth Keyboard](https://amzn.to/36yJtes) from 2013. I'm not a fan of mechanical keyboards.
 -   For file storage and backups, I use a [Synology DS213](https://amzn.to/2XlRrTU) with two [6TB Western Digital Red](https://amzn.to/3ghXIIN) hard drives set up to be mirrored. I have it set up so every night, it backs up whatever new data there is from Google Drive. I also have it set up to do my Time Machine backups.
 -   I love the [Apple Airpods](https://amzn.to/3ghXIIN). I use them throughout the day for listening to music while on conference calls and going to the gym.
+-   [Logitech C910](https://www.amazon.com/Logitech-HD-Pro-Webcam-C910/dp/B00524UKF4/) is my older, yet still good webcam.
 
 ## Other Gear
 

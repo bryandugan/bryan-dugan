@@ -133,7 +133,7 @@ post_max_size = 128M
 
 ## Upgrading Valet
 
-**Update:** There's also a handy utility called PHP Monitor that allows you to see PHP information, switch between versions and allows you to quickly modify your php.ini files.
+**Update:** There's also a handy utility called [PHP Monitor](https://github.com/nicoverbruggen/phpmon) that allows you to see PHP information, switch between versions and allows you to quickly modify your php.ini files.
 
 ![PHP Monitor](./php-monitor.png)
 
