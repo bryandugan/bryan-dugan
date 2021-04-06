@@ -18,8 +18,7 @@ This page is where I will keep my most up-to-date setup for anyone curious or ju
 -   [Whimsical](https://whimsical.com/) for site mapping and information architecture.
 -   [Zeplin](https://zeplin.io/) to hand off completed prototype screens to dev teams.
 -   [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) for branding-related projects.
--   [VSCode](https://code.visualstudio.com/) is my daily code editor along with the [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) color scheme (without the glow effects).
--   I've been using Monaco on macOS since my Sublime Text days and have found no reason to switch.
+-   [VSCode](https://code.visualstudio.com/) is my daily code editor along with the [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) color scheme (without the glow effects) along with the Monaco font on macOS.
 -   [GitHub](https://github.com/) to manage all my source code.
 -   [iTerm2](https://iterm2.com/) for a better Terminal experience along with [Oh My Zsh](https://ohmyz.sh/) and the [Agnoster theme](https://github.com/agnoster/agnoster-zsh-theme).
 -   [Laravel Valet](https://laravel.com/docs/8.x/valet) for my local dev environment along with [PHP Monitor](https://github.com/nicoverbruggen/phpmon) to quickly switch between different versions of PHP and modify config files.
