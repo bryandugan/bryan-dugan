@@ -185,6 +185,19 @@ I currently use a modified version of the [Craft Vue Tailwind](https://github.co
 
 ---
 
+### Typed Link Field
+
+**Free**
+
+Typed Link Field adds a link field type to Craft CMS. Instead of going through the hassle of creating multiple fields . It lets the developer set the parameters of which link types are allowed in the field and enables the author to handle the link all in one field for a better experience.
+
+**Resources for Typed Link Field**
+
+-   [Get Typed Link Field on the Craft Plugin Store](https://plugins.craftcms.com/typedlinkfield)
+-   [Documentation](https://github.com/sebastian-lenz/craft-linkfield)
+
+---
+
 ### Typogrify
 
 Good typography not only makes a website look better, but it makes content easier to digest, leaving the user with a better overall experience. Any text block that I create in Craft uses the Typogrify plugin. There's a configuration file included that allows you to customize how the copy reacts on the page.
