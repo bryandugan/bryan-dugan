@@ -8,7 +8,7 @@ cover: ./bryan-dugan-uses.jpg
 tags: ["gear", "misc"]
 ---
 
-Hello! I'm Bryan Dugan, a UX/UI designer, and developer based out of Rochester Hills, Michigan.
+Hello! I'm Bryan Dugan, a UX designer, and developer based out of Rochester Hills, Michigan.
 
 This page is where I will keep my most up-to-date setup for anyone curious or just getting started in UX/UI Design or Web Development and would like to see what tools other designers/developers use.
 

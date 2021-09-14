@@ -39,7 +39,7 @@
               >
             </p>
 
-            <p class="mb-5">
+            <p class="mb-5 leading-6">
               I help design and build compelling websites and applications that
               are both elegant and functional for enterprise businesses. I have
               two years of experience managing design and development teams,
