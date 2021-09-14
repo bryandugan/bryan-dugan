@@ -6,7 +6,7 @@
   p,
   ul,
   ol {
-    @apply mb-4 text-lg leading-normal;
+    @apply mb-4 text-lg leading-7;
   }
 
   ul li,
@@ -141,7 +141,7 @@
     p,
     ul,
     ol {
-      @apply text-xl leading-normal;
+      @apply text-lg leading-7;
     }
     blockquote {
       @apply mx-10;

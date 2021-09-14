@@ -8,20 +8,17 @@
         class="container max-w-screen-xl px-4 pt-16 pb-16 mx-auto md:pb-24 md:px-8 md:flex md:items-center md:justify-between"
       >
         <div class="w-full content md:w-11/12 lg:w-2/3">
-          <!-- <p class="mb-4 text-base text-gray-700 uppercase">
-            Currently seeking full-time employment
-          </p> -->
           <h1
             class="mb-5 text-3xl font-bold leading-none text-gray-900 lg:text-4xl md:text-4xl"
           >
-            Hello! I'm Bryan Dugan, a UX/UI design director with a background in
+            Hello! I'm Bryan Dugan, a UX design director with a background in
             front-end development
           </h1>
           <div class="mb-10 text-gray-700">
             <p class="text-xl">
               UX Designer at
               <a
-                class="text-green-800 underline hover:underline hover:text-green-500"
+                class="text-green-800 underline hover:underline hover:text-green-600"
                 href="https://clearfirestudios.com/"
                 target="_blank"
                 >Clearfire.
@@ -30,14 +27,14 @@
             <p class="mb-5 text-xl">
               Co-founder of a small web consulting and branding agency,
               <a
-                class="text-green-800 underline hover:underline hover:text-green-500"
+                class="text-green-800 underline hover:underline hover:text-green-600"
                 href="https://spaceraycreative.com/"
                 target="_blank"
                 >Spaceray Creative</a
               >. I also write about my design and development experiences on my
               <g-link
                 to="/blog/"
-                class="text-green-800 underline hover:underline hover:text-green-500"
+                class="text-green-800 underline hover:underline hover:text-green-600"
                 >Blog.</g-link
               >
             </p>
@@ -56,7 +53,7 @@
               href="https://spaceraycreative.com/work"
               target="_blank"
               rel="noopener"
-              class="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-lg font-medium leading-6 text-white transition duration-150 ease-in-out bg-green-600 border border-transparent rounded-lg sm:text-base md:text-lg sm:mr-4 sm:w-auto md:mb-0 hover:bg-green-500 focus:outline-none focus:border-green-800 focus:shadow-outline-green active:bg-green-700"
+              class="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-lg font-medium leading-6 text-white transition duration-150 ease-in-out bg-green-800 border border-transparent rounded-lg sm:text-base md:text-lg sm:mr-4 sm:w-auto md:mb-0 hover:bg-green-600 focus:outline-none focus:border-green-800 focus:shadow-outline-green active:bg-green-700"
             >
               Spaceray Creative Work
               <svg
