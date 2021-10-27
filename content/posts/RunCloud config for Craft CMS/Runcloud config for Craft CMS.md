@@ -5,7 +5,7 @@ slug: runcloud-config-for-craft-cms
 date: 2020-05-03
 author: bryan-dugan
 cover: ./runcloud-config-craft-cms.png
-tags: ['runcloud','craft cms', 'hosting','servers']
+tags: ["runcloud", "craft cms", "hosting", "servers"]
 ---
 
 If you're setting up a Craft CMS website on [RunCloud](https://runcloud.io/r/ZMrWgZNDeyRw), here is everything you need to get started. For this setup, I am using a Digital Ocean server with Ubuntu 18.04.
@@ -44,7 +44,7 @@ systemctl restart php74rc-fpm
 
 ### Imagick (Preferred)
 
-This is the preferred image rendering library for Craft CMS. It handles transforming images much better than the pre-installed module, GD, and is highly recommended for not only Craft but also WordPress and other popular CMS's. 
+This is the preferred image rendering library for Craft CMS. It handles transforming images much better than the pre-installed module, GD, and is highly recommended for not only Craft but also WordPress and other popular CMS's.
 
 ```bash
 apt-get install php74rc-pecl-imagick
@@ -69,7 +69,7 @@ Now that we have the two required extensions, let's move on to configuring your 
 
 ## Configure PHP Settings within the RunCloud Dashboard
 
-For each web application you create that uses Craft; Here are the settings I have applied to each application, based upon Craft's PHP system requirements.  At this time, RunCloud doesn't have a way to create a template to quickly duplicate preferred PHP settings for each application, but I did put in a [feature request](https://features.runcloud.io/suggestions/93236/ability-to-create-php-settings-templates-in-admin-dashboard) so you don't have to go through these steps for each application.
+For each web application you create that uses Craft; Here are the settings I have applied to each application, based upon Craft's PHP system requirements. At this time, RunCloud doesn't have a way to create a template to quickly duplicate preferred PHP settings for each application, but I did put in a [feature request](https://features.runcloud.io/suggestions/93236/ability-to-create-php-settings-templates-in-admin-dashboard) so you don't have to go through these steps for each application.
 
 To get to the PHP application settings in RunCloud, go to *Web Application → [App Name] → Settings*, then scroll down to PHP Settings.
 
@@ -87,10 +87,11 @@ Default: /home/undefined/webapps/undefined:/var/lib/php/session:/tmp
 
 Remove the following functions from the list to enable them, as they are needed for Craft CMS to run properly. If your Craft site is having any issues with running or are getting multiple server errors while navigating the Admin panel, be sure to check these settings.
 
-- `proc_open` — Plugin Store operations and sending Emails
-- `proc_close` — Plugin Store operations and sending Emails
-- `proc_terminate` — Plugin Store operations and sending Emails
-- `ignore_user_abort` — Native web-based queue runner.
+-   `proc_open` — Plugin Store operations and sending Emails.
+-   `proc_close` — Plugin Store operations and sending Emails.
+-   `proc_terminate` — Plugin Store operations and sending Emails.
+-   `ignore_user_abort` — Native web-based queue runner.
+-   `set_time_limit` — Optional function that Craft uses to limit max execution time.
 
 ### max_execution_time
 
@@ -102,11 +103,14 @@ Change `default max_execution_time` to 300.
 
 ## Edit NGINX config to redirect www to non-www
 
+> Update Oct 2021: This step isn’t necessary with the updated Runcloud Dashboard. You can now update the redirects via the web interface under Web Apps > (application name) > Domain Name
+
 When it comes to adding www or no www to a website, it all comes down to a matter of preference. I like all my traffic to go to the non-www version since it just feels like a cleaner URL. Either way, you'll want to set up all traffic to go to one version of the site, or else you may run into CORS, or SEO related issues while trying to serve up content.
 
 To begin, go to your web application in the RunCloud dashboard and click on the NGINX Config tab on the left-hand navigation. Then click on Create Config to get started with creating your config file. From there, give the config any name that you would like, paste the rewrite you want to use, and save the config.
 
 Redirect non-www to www
+
 ```bash
 if ($host !~ ^www\.) {
   rewrite ^ $scheme://www.$host$request_uri permanent;
@@ -114,6 +118,7 @@ if ($host !~ ^www\.) {
 ```
 
 Redirect www to non-www
+
 ```bash
 if ($host ~* ^www\.(.*)) {
 	set $host_without_www $1;
