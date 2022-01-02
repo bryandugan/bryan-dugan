@@ -143,12 +143,12 @@
                 I enjoy collecting and listening to vinyl records.
               </li>
               <li>
-                I have realized that I have never been to any U.S. National
-                Parks and have made it a goal to visit as many as possible.
-              </li>
-              <li>
                 For my first ever hiking trip, I summited Mt. Washington in New
                 Hampshire.
+              </li>
+              <li>
+                The first National Park I visited was Shenandoah National Park
+                in 2021.
               </li>
               <li>
                 The longest bike ride I’ve ever been on was about 70 miles round

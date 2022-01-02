@@ -9,7 +9,7 @@
       <!--        </alert>-->
 
       <article
-        class="flex flex-col max-w-xl px-6 pt-16 mx-auto leading-normal text-gray-700 md:max-w-2xl xl:max-w-4xl sm:px-12"
+        class="flex flex-col max-w-xl px-6 pt-16 mx-auto leading-normal text-gray-700 md:max-w-2xl xl:max-w-3xl sm:px-12"
         :class="{
           'border-b border-grey-lighter pb-10 mb-16': !$page.post.author
         }"
