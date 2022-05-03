@@ -32,18 +32,24 @@ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
 Casks are graphical user interface(GUI) applications that will be installed in your Mac's Applications folder. For a master list of all available Cask formulae, there is one available on the [official Brew website](https://formulae.brew.sh/cask/).
 
-Use the lists I created as a starting point for installing your applications and feel free to modify them to your liking. Also, be sure to hold onto your list in a Github Gist or some form of cloud storage for safekeeping in case you need to set up another new computer in the future.
+Use the lists I created as a starting point for installing your applications and feel free to modify them to your liking. Also, be sure to hold onto your list in a [Github Gist](https://gist.github.com/) or some form of cloud storage for safekeeping in case you need to set up another new computer in the future.
+
+---
+
+💡 **Update**
+
+In 2020, Homebrew changed the cask formula from `brew cask install app-name` to `brew install app-name --cask`
+
+---
 
 ### Design Applications
 
 Here is a list of all the design applications that I use.
 
 ```bash
-brew cask install adobe-creative-cloud
-brew cask install figma
-brew cask install sketch
-brew cask install sketch-toolbox
-brew cask install zeplin
+brew install adobe-creative-cloud --cask
+brew install figma --cask
+brew install zeplin --cask
 ```
 
 ### Development Applications
@@ -51,15 +57,15 @@ brew cask install zeplin
 These are all the development related applications that I use.
 
 ```bash
-brew cask install google-chrome
-brew cask install firefox
-brew cask install iterm2
-brew cask install jetbrains-toolbox
-brew cask install visual-studio-code
-brew cask install postman
-brew cask install sequel-ace
-brew cask install filezilla
-brew cask install sourcetree
+brew install google-chrome --cask
+brew install brave-browser --cask
+brew install iterm2 --cask
+brew install jetbrains-toolbox --cask
+brew install visual-studio-code --cask
+brew install postman --cask
+brew install sequel-ace --cask
+brew install filezilla --cask
+brew install sourcetree --cask
 ```
 
 ### Regular Applications
@@ -67,13 +73,15 @@ brew cask install sourcetree
 Here are some other applications that I use regularly.
 
 ```bash
-brew cask install google-backup-and-sync
-brew cask install spotify
-brew cask install discord
-brew cask install slack
-brew cask install notion
-brew cask install 1password
-brew cask install handbrake
+brew install google-drive --cask
+brew install spotify --cask
+brew install discord --cask
+brew install slack --cask
+brew install notion --cask
+brew install 1password --cask
+brew install handbrake --cask
+brew install bartender --cask
+brew install todoist --cask
 ```
 
 ## Installing Homebrew Applications
